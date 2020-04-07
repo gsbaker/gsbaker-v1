@@ -177,7 +177,9 @@ nav {
   }
 
   .favourite-sports-team {
-    color: navy;
+    a {
+      color: navy;
+    }
   }
 
   .favourite-drink {
@@ -191,6 +193,12 @@ nav {
   width: 50%;
   margin: 100pt auto 0;
   text-align: center;
+
+  .button {
+    width: 210pt;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 #connect {

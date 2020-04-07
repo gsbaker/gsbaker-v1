@@ -115,7 +115,7 @@ nav li {
     color: transparent; }
   #about-me .favourite-color {
     color: #007aff; }
-  #about-me .favourite-sports-team {
+  #about-me .favourite-sports-team a {
     color: navy; }
   #about-me .favourite-drink {
     background-image: linear-gradient(to right, #34c759, #ffcc00);
@@ -126,6 +126,10 @@ nav li {
   width: 50%;
   margin: 100pt auto 0;
   text-align: center; }
+  #music .button {
+    width: 210pt;
+    margin: 0 auto;
+    text-align: center; }
 
 #connect {
   width: 50%;
