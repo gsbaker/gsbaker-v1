@@ -1,0 +1,158 @@
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s linear; }
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.25s, opacity 0.25s linear; }
+
+body {
+  margin: 95px 0 70pt 0;
+  background-color: white;
+  color: black;
+  font-family: "Helvetica Neue", sans-serif; }
+
+h1 {
+  font-size: 30pt; }
+
+h2 {
+  font-size: 18pt; }
+
+h3 {
+  font-size: 16pt; }
+
+a {
+  color: #007aff;
+  text-decoration: none; }
+
+a:visited {
+  color: #007aff; }
+
+.button {
+  background-color: #007aff;
+  color: white;
+  border-radius: 10pt;
+  height: 40pt;
+  line-height: 40pt; }
+  .button a {
+    color: white; }
+  .button a:visited {
+    color: white; }
+
+.coming-soon {
+  margin: 3pt 0 0 0;
+  color: #ff3b30; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+nav li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  line-height: 50pt; }
+
+#navbar-logo {
+  content: url("profile-picture.png");
+  width: 50pt;
+  height: 50pt; }
+
+#navbar-title {
+  font-size: 16pt;
+  font-weight: bold; }
+
+#intro .flex-container {
+  display: flex;
+  justify-content: center; }
+#intro .flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  line-height: 160px; }
+#intro #intro-logo {
+  content: url("profile-picture.png");
+  width: 200px;
+  height: 200px; }
+
+#welcome {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center; }
+  #welcome .button {
+    width: 80pt;
+    margin: 30pt auto 0; }
+
+#about-me {
+  width: 50%;
+  margin: 100pt auto 0;
+  text-align: center; }
+  #about-me h1 {
+    margin: 0; }
+  #about-me .flex-container {
+    display: flex;
+    height: 50px;
+    justify-content: center; }
+  #about-me .flex-container > div {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold; }
+  #about-me .computer-science {
+    color: #5856d6; }
+  #about-me .united-kingdom {
+    background-image: linear-gradient(to right, #007aff, #ff3b30);
+    -webkit-background-clip: text;
+    color: transparent; }
+  #about-me .favourite-color {
+    color: #007aff; }
+  #about-me .favourite-sports-team {
+    color: navy; }
+  #about-me .favourite-drink {
+    background-image: linear-gradient(to right, #34c759, #ffcc00);
+    -webkit-background-clip: text;
+    color: transparent; }
+
+#music {
+  width: 50%;
+  margin: 100pt auto 0;
+  text-align: center; }
+
+#connect {
+  width: 50%;
+  margin: 100pt auto 0;
+  text-align: center; }
+  #connect h1 {
+    margin: 0; }
+  #connect .flex-container {
+    display: flex;
+    height: 50px;
+    justify-content: center; }
+  #connect .flex-container > div {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold; }
+  #connect .twitter {
+    color: #1DA1F2; }
+  #connect .instagram {
+    background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
+    -webkit-background-clip: text;
+    color: transparent; }
+  #connect #email-wrapper {
+    margin: 30pt 0 0 0; }
+  #connect .button {
+    width: 70pt;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */
