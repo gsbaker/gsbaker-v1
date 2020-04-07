@@ -1,0 +1,238 @@
+$blue: rgb(0, 122, 255);
+$green: rgb(52, 199, 89);
+$indigo: rgb(88, 86, 214);
+$orange: rgb(255, 149, 0);
+$pink: rgb(255, 45, 85);
+$purple: rgb(175, 82, 222);
+$red: rgb(255, 59, 48);
+$yellow: rgb(255, 204, 0);
+$grey1: rgb(142, 142, 147);
+$grey2: rgb(174, 174, 178);
+
+$font-stack: "Helvetica Neue", sans-serif;
+$profile-picture: "../assets/profile-picture.png";
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.25s, opacity 0.25s linear;
+}
+
+body {
+  margin: 95px 0 70pt 0;
+  background-color: white;
+  color: black;
+  font-family: $font-stack;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $blue;
+}
+
+.button {
+  background-color: $blue;
+  color: white;
+  border-radius: 10pt;
+  height: 40pt;
+  line-height: 40pt;
+
+  // define width in container
+
+  a {
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+}
+
+.coming-soon {
+  margin: 3pt 0 0 0;
+  color: $red;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+    line-height: 50pt;
+  }
+}
+
+#navbar-logo {
+  content: url($profile-picture);
+  width: 50pt;
+  height: 50pt;
+}
+
+#navbar-title {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+#intro {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 160px;
+  }
+
+  #intro-logo {
+    content: url($profile-picture);
+    width: 200px;
+    height: 200px;
+  }
+}
+
+#welcome {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+  .button {
+    width: 80pt;
+    margin: 30pt auto 0;
+  }
+}
+
+#about-me {
+  width: 50%;
+  margin: 100pt auto 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+  }
+
+  .flex-container > div {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    //line-height: 75px;
+    font-weight: bold;
+  }
+
+  .computer-science {
+    color: $indigo;
+  }
+
+  .united-kingdom {
+    background-image: linear-gradient(to right, $blue, $red);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .favourite-color {
+    color: $blue;
+  }
+
+  .favourite-sports-team {
+    color: navy;
+  }
+
+  .favourite-drink {
+    background-image: linear-gradient(to right, $green, $yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+
+#music {
+  width: 50%;
+  margin: 100pt auto 0;
+  text-align: center;
+}
+
+#connect {
+  width: 50%;
+  margin: 100pt auto 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+  }
+
+  .flex-container > div {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    //line-height: 75px;
+    font-weight: bold;
+  }
+
+  .twitter {
+    color: #1DA1F2;
+  }
+
+  .instagram {
+    background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  #email-wrapper {
+    margin: 30pt 0 0 0;
+  }
+
+  .button {
+    width: 70pt;
+    margin: 0 auto;
+  }
+}
