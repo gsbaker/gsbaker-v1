@@ -62,7 +62,7 @@ nav li {
   line-height: 50pt; }
 
 #navbar-logo {
-  content: url("profile-picture.png");
+  content: url("../assets/profile-picture.png");
   width: 50pt;
   height: 50pt; }
 
@@ -79,7 +79,7 @@ nav li {
   font-size: 30px;
   line-height: 160px; }
 #intro #intro-logo {
-  content: url("profile-picture.png");
+  content: url("../assets/profile-picture.png");
   width: 200px;
   height: 200px; }
 

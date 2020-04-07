@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -71,7 +72,7 @@
       <updated>1586093476414</updated>
       <workItem from="1586093477865" duration="368000" />
       <workItem from="1586185906760" duration="5479000" />
-      <workItem from="1586194898787" duration="21893000" />
+      <workItem from="1586194898787" duration="22273000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586273990723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="compiled scss to css">
+      <created>1586274608645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586274608645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,17 +96,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed V1.0 of gsbaker.uk" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed V1.0 of gsbaker.uk" />
+    <MESSAGE value="compiled scss to css" />
+    <option name="LAST_COMMIT_MESSAGE" value="compiled scss to css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586259015930">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1586259015930" />
-    <state x="1536" y="142" key="CommitChangelistDialog2" timestamp="1586273990482">
+    <state x="1536" y="142" key="CommitChangelistDialog2" timestamp="1586274608461">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586273990482" />
+    <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586274608461" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -107,10 +116,10 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="280" key="Vcs.Push.Dialog.v2" timestamp="1586274282640">
+    <state x="1525" y="280" key="Vcs.Push.Dialog.v2" timestamp="1586274610957">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586274282640" />
+    <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586274610957" />
     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup" timestamp="1586258972136">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
