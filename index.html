@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>gsbaker</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="_scss/styles.css">
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -15,90 +15,60 @@
     </ul>
 </nav>
 
-<div id="intro">
+<div id="top-banner">
     <div class="flex-container">
-        <div id="intro-logo"></div>
-        <div><h1>gsbaker</h1></div>
+        <div id="top-banner-logo"></div>
+        <div class="flex-container-vertical">
+            <div id="top-banner-title"><h1>George Baker</h1></div>
+            <div><p><a href="mailto:george@gsbaker.uk">george@gsbaker.uk</a></p></div>
+        </div>
     </div>
 </div>
 
-<div id="welcome">
-    <h2>Hi, I'm George! The most organised person you'll ever meet. I love photography, music, films, TV shows and
-    of course, technology.</h2>
+<div id="intro">
+    <h2>Computer Science Student, Amateur Photographer, Music Lover</h2>
+    <h2 class="united-kingdom">Birmingham, UK</h2>
+    <h2><a href="index.html">Download My CV</a> </h2>
+</div>
 
+
+<div id="blog-link">
     <div class="button"><h2><a href="blog-coming-soon.html">Blog</a></h2></div>
     <p class="coming-soon">Coming soon.</p>
 </div>
 
 <div id="about-me">
-    <h1>about me</h1>
+    <h1 class="subtitle">About Me</h1>
 
-    <div class="flex-container">
-        <div><h3>education</h3></div>
-        <div><h3 class="computer-science">computer science</h3></div>
-    </div>
+    <ul>
+        <li><p>Studying Computer Science BSc at the University of Birmingham</p></li>
+        <li><p class="wba"><a href="https://www.wba.co.uk">@wba</a> fan</></li>
+        <li><p>Fluent in Java, Python, HTML and CSS (including SASS)</p></li>
+        <li><p>Working on Swift, Javascript and Jekyll</p></li>
+        <li><p>Using Xcode for iOS and MacOS development and Jetbrains IDEs for everything else</p></li>
+        <li><p>I have also used VSCode and Atom</p></li>
+    </ul>
 
-    <div class="flex-container">
-        <div><h3>country</h3></div>
-        <div><h3 class="united-kingdom">united kingdom</h3></div>
-    </div>
-
-    <div class="flex-container">
-        <div><h3>colour</h3></div>
-        <div><h3 class="favourite-color">blue</h3></div>
-    </div>
-
-    <div class="flex-container">
-        <div><h3>sports team</h3></div>
-        <div><h3 class="favourite-sports-team"><a href="https://www.twitter.com/wba">@wba</a></h3></div>
-    </div>
-
-    <div class="flex-container">
-        <div><h3>drink</h3></div>
-        <div><h3 class="favourite-drink">lemonade</h3></div>
-    </div>
 </div>
 
 
 <div id="music">
-    <h1>music</h1>
+    <h1 class="subtitle">What I'm Listening To</h1>
 
-    <h2>current favourite song</h2>
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/visions-of-a-life/1254129591?i=1254129604"></iframe>
-    <h2>my playlist</h2>
-    <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/replay-2020/pl.rp-pEExi66AJQZ?app=music"></iframe>
+    <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/moaning-lisa-smile/976387708?i=976387712&app=music"></iframe>
 
-    <div class="button"><h2><a href="https://music.apple.com/profile/gsbaker">Follow Me On Music</a></h2></div>
+
+    <p><a href="https://music.apple.com/profile/gsbaker">Follow Me</a> on Apple Music.</p>
 
 </div>
 
 
 <div id="connect">
-    <h1>connect with me</h1>
-
     <div class="flex-container">
-    <div><h3>github</h3></div>
-        <div><h3><a href="https://github.com/gsbaker">gsbaker</a></h3></div>
-</div>
-
-    <div class="flex-container">
-        <div><h3>codepen</h3></div>
-        <div><h3><a href="https://codepen.io/gsbaker">gsbaker</a></h3></div>
-    </div>
-
-    <div class="flex-container">
-        <div><h3 class="twitter">twitter</h3></div>
-        <div><h3><a href="https://twitter.com/gsbakertweets">@gsbakertweets</a></h3></div>
-    </div>
-
-    <div class="flex-container">
-        <div><h3 class="instagram">instagram</h3></div>
-        <div><h3><a href="https://instagram.com/georgestephenbaker">@georgestephenbaker</a></h3></div>
-    </div>
-
-    <div id="email-wrapper">
-        <h3>or, send me an email.</h3>
-        <div class="button"><h2><a href="mailto:george@gsbaker.uk">Email</a></h2></div>
+        <div><h3 class="email"><a href="mailto:george@gsbaker.uk">Email</a></h3></div>
+        <div><h3 class="github"><a href="https://github.com/gsbaker">Github</a></h3></div>
+        <div><h3 class="twitter"><a href="https://twitter.com/gsbakertweets">Twitter</a></h3></div>
+        <div><h3 class="instagram"><a href="https://instagram.com/georgestephenbaker">Instagram</a></h3></div>
     </div>
 
 </div>

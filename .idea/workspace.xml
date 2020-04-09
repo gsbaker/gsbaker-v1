@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="added">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/George.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/George.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-coming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-coming-soon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,11 @@
       <updated>1586093476414</updated>
       <workItem from="1586093477865" duration="368000" />
       <workItem from="1586185906760" duration="5479000" />
-      <workItem from="1586194898787" duration="25909000" />
+      <workItem from="1586194898787" duration="38665000" />
+      <workItem from="1586421374090" duration="430000" />
+      <workItem from="1586432647866" duration="96000" />
+      <workItem from="1586434997170" duration="175000" />
+      <workItem from="1586444654965" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -96,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586275012766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added button to follow my apple music profile">
+      <created>1586286697764</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586286697764</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,18 +120,23 @@
     <MESSAGE value="completed V1.0 of gsbaker.uk" />
     <MESSAGE value="compiled scss to css" />
     <MESSAGE value="moved styles.css to css dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved styles.css to css dir" />
+    <MESSAGE value="added button to follow my apple music profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="added button to follow my apple music profile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586259015930">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1586259015930" />
-    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586286553443">
+    <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586336944220">
+      <screen x="0" y="23" width="2560" height="979" />
+    </state>
+    <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
+    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586286697567">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275012584" />
-    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586286553443" />
+    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586286697567" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -126,14 +145,15 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="280" key="Vcs.Push.Dialog.v2" timestamp="1586275016110">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586286753512">
+      <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275016110" />
-    <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup" timestamp="1586258972136">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586286753512" />
+    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1586376419653">
+      <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
-    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1586251646648" />
+    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1586376419653" />
   </component>
 </project>

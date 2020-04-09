@@ -8,6 +8,8 @@ $red: rgb(255, 59, 48);
 $yellow: rgb(255, 204, 0);
 $grey1: rgb(142, 142, 147);
 $grey2: rgb(174, 174, 178);
+$grey3: rgb(72, 72, 74);
+$grey4: rgb(58, 58, 60);
 
 $font-stack: "Helvetica Neue", sans-serif;
 $profile-picture: "../assets/profile-picture.png";
@@ -25,10 +27,19 @@ $profile-picture: "../assets/profile-picture.png";
 }
 
 body {
-  margin: 95px 0 70pt 0;
+  margin: 10pt 0 70pt 0;
   background-color: white;
   color: black;
   font-family: $font-stack;
+}
+
+p {
+  font-size: 14pt;
+  color: $grey3;
+}
+
+h1 h2 h3 h4 {
+  color: $grey4;
 }
 
 h1 {
@@ -48,8 +59,17 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 a:visited {
   color: $blue;
+}
+
+.subtitle {
+  font-size: 20pt;
+  font-weight: normal;
 }
 
 .button {
@@ -63,6 +83,10 @@ a:visited {
 
   a {
     color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 
   a:visited {
@@ -107,7 +131,7 @@ nav {
   font-weight: bold;
 }
 
-#intro {
+#top-banner {
   .flex-container {
     display: flex;
     justify-content: center;
@@ -120,28 +144,57 @@ nav {
     line-height: 160px;
   }
 
-  #intro-logo {
+  .flex-container-vertical {
+    display: flex;
+    flex-direction: column;
+    //background-color: DodgerBlue;
+  }
+
+  .flex-container-vertical > div {
+    //background-color: red;
+    width: 100%;
+    text-align: center;
+    line-height: 1px;
+    font-size: 30px;
+  }
+
+  #top-banner-logo {
     content: url($profile-picture);
     width: 200px;
     height: 200px;
   }
+
+  #top-banner-title {
+    margin-top: 40pt;
+  }
 }
 
-#welcome {
-  width: 50%;
+#intro {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+  .united-kingdom {
+    background-image: linear-gradient(to right, $red, $blue);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+
+#blog-link {
   margin: 0 auto;
   text-align: center;
 
   .button {
     width: 80pt;
-    margin: 30pt auto 0;
+    margin: 100pt auto 0;
   }
 }
 
 #about-me {
-  width: 50%;
-  margin: 100pt auto 0;
-  text-align: center;
+  width: 70%;
+  margin: 70pt auto 0;
+  //text-align: center;
 
   h1 {
     margin: 0;
@@ -149,14 +202,20 @@ nav {
 
   .flex-container {
     display: flex;
-    height: 50px;
+    height: 40px;
     justify-content: center;
+  }
+
+  h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    top: 0;
   }
 
   .flex-container > div {
     width: 200px;
     height: 40px;
-    margin: 10px;
+    line-height: 40px;
     text-align: center;
     //line-height: 75px;
     font-weight: bold;
@@ -166,20 +225,33 @@ nav {
     color: $indigo;
   }
 
-  .united-kingdom {
-    background-image: linear-gradient(to right, $blue, $red);
+  .minecraft {
+    color: darkgreen;
+  }
+
+  .marmite {
+    background-image: linear-gradient(to right, #3f1003, $yellow);
     -webkit-background-clip: text;
     color: transparent;
   }
-
   .favourite-color {
     color: $blue;
   }
 
-  .favourite-sports-team {
+  .wba {
     a {
       color: navy;
     }
+  }
+
+  .favourite-artist {
+    a {
+      color: $yellow;
+    }
+  }
+
+  .favourite-food {
+    color: saddlebrown;
   }
 
   .favourite-drink {
@@ -190,12 +262,12 @@ nav {
 }
 
 #music {
-  width: 50%;
-  margin: 100pt auto 0;
-  text-align: center;
+  width: 70%;
+  margin: 40pt auto 0;
+  //text-align: center;
 
   .button {
-    width: 210pt;
+    width: 120pt;
     margin: 0 auto;
     text-align: center;
   }
@@ -203,7 +275,7 @@ nav {
 
 #connect {
   width: 50%;
-  margin: 100pt auto 0;
+  margin: 80pt auto 0;
   text-align: center;
 
   h1 {
@@ -212,27 +284,43 @@ nav {
 
   .flex-container {
     display: flex;
-    height: 50px;
+    height: 40px;
     justify-content: center;
   }
 
   .flex-container > div {
     width: 200px;
     height: 40px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     //line-height: 75px;
     font-weight: bold;
   }
 
+  .github {
+    a {
+      color: $grey3;
+    }
+  }
+
+  .email {
+    a {
+      color: $blue;
+    }
+  }
+
   .twitter {
-    color: #1DA1F2;
+    a {
+      color: #1DA1F2;
+    }
   }
 
   .instagram {
-    background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
-    -webkit-background-clip: text;
-    color: transparent;
+    a {
+      background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
   }
 
   #email-wrapper {
@@ -244,3 +332,10 @@ nav {
     margin: 0 auto;
   }
 }
+
+#blog-coming-soon {
+  width: 70%;
+  margin: 70pt auto 0;
+  text-align: center;
+}
+

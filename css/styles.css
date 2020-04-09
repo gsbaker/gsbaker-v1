@@ -70,24 +70,24 @@ nav li {
   font-size: 16pt;
   font-weight: bold; }
 
-#intro .flex-container {
+#top-banner .flex-container {
   display: flex;
   justify-content: center; }
-#intro .flex-container > div {
+#top-banner .flex-container > div {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
   line-height: 160px; }
-#intro #intro-logo {
+#top-banner #top-banner-logo {
   content: url("../assets/profile-picture.png");
   width: 200px;
   height: 200px; }
 
-#welcome {
+#blog-link {
   width: 50%;
   margin: 0 auto;
   text-align: center; }
-  #welcome .button {
+  #blog-link .button {
     width: 80pt;
     margin: 30pt auto 0; }
 
@@ -115,7 +115,7 @@ nav li {
     color: transparent; }
   #about-me .favourite-color {
     color: #007aff; }
-  #about-me .favourite-sports-team a {
+  #about-me .wba a {
     color: navy; }
   #about-me .favourite-drink {
     background-image: linear-gradient(to right, #34c759, #ffcc00);
