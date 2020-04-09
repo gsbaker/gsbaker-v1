@@ -9,7 +9,7 @@
   transition: visibility 0s 0.25s, opacity 0.25s linear; }
 
 body {
-  margin: 10pt 0 70pt 0;
+  margin: 10pt 0 40pt 0;
   background-color: white;
   color: black;
   font-family: "Helvetica Neue", sans-serif; }
@@ -62,6 +62,7 @@ a:visited {
   color: #ff3b30; }
 
 nav ul {
+  background-color: #3a3a3c;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -73,16 +74,23 @@ nav li {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 8px;
+  padding: 0 8px;
   text-decoration: none;
   line-height: 50pt; }
+nav a {
+  color: white; }
+nav a:visited {
+  color: white; }
+nav a:hover {
+  color: #aeaeb2;
+  text-decoration: none; }
 
 #navbar-logo {
   content: url("../assets/profile-picture.png");
   width: 50pt;
   height: 50pt; }
 
-#navbar-title {
+.navbar-link {
   font-size: 16pt;
   font-weight: bold; }
 

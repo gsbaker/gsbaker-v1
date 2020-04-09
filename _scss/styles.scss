@@ -27,7 +27,7 @@ $profile-picture: "../assets/profile-picture.png";
 }
 
 body {
-  margin: 10pt 0 70pt 0;
+  margin: 10pt 0 40pt 0;
   background-color: white;
   color: black;
   font-family: $font-stack;
@@ -100,7 +100,9 @@ a:visited {
 }
 
 nav {
+
   ul {
+    background-color: $grey4;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -114,9 +116,22 @@ nav {
     float: left;
     display: block;
     text-align: center;
-    padding: 14px 8px;
+    padding: 0 8px;
     text-decoration: none;
     line-height: 50pt;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: $grey2;
+    text-decoration: none;
   }
 }
 
@@ -126,7 +141,7 @@ nav {
   height: 50pt;
 }
 
-#navbar-title {
+.navbar-link {
   font-size: 16pt;
   font-weight: bold;
 }

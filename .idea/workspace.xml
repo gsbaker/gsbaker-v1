@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="added compiled css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-coming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-coming-soon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
       <workItem from="1586421374090" duration="430000" />
       <workItem from="1586432647866" duration="96000" />
       <workItem from="1586434997170" duration="175000" />
-      <workItem from="1586444654965" duration="5934000" />
+      <workItem from="1586444654965" duration="7696000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -111,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586457000732</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added compiled css">
+      <created>1586457219592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586457219592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +134,8 @@
     <MESSAGE value="moved styles.css to css dir" />
     <MESSAGE value="added button to follow my apple music profile" />
     <MESSAGE value="refined initial design" />
-    <option name="LAST_COMMIT_MESSAGE" value="refined initial design" />
+    <MESSAGE value="added compiled css" />
+    <option name="LAST_COMMIT_MESSAGE" value="added compiled css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586259015930">
@@ -134,11 +146,11 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586457000426">
+    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586458433605">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275012584" />
-    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586457000426" />
+    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586458433605" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -147,11 +159,11 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586457184535">
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586457222497">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275016110" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586457184535" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586457222497" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1586376419653">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
