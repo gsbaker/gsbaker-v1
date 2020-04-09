@@ -1,0 +1,213 @@
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s linear; }
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.25s, opacity 0.25s linear; }
+
+body {
+  margin: 10pt 0 70pt 0;
+  background-color: white;
+  color: black;
+  font-family: "Helvetica Neue", sans-serif; }
+
+p {
+  font-size: 14pt;
+  color: #48484a; }
+
+h1 h2 h3 h4 {
+  color: #3a3a3c; }
+
+h1 {
+  font-size: 30pt; }
+
+h2 {
+  font-size: 18pt; }
+
+h3 {
+  font-size: 16pt; }
+
+a {
+  color: #007aff;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:visited {
+  color: #007aff; }
+
+.subtitle {
+  font-size: 20pt;
+  font-weight: normal; }
+
+.button {
+  background-color: #007aff;
+  color: white;
+  border-radius: 10pt;
+  height: 40pt;
+  line-height: 40pt; }
+  .button a {
+    color: white; }
+  .button a:hover {
+    text-decoration: none; }
+  .button a:visited {
+    color: white; }
+
+.coming-soon {
+  margin: 3pt 0 0 0;
+  color: #ff3b30; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+nav li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 8px;
+  text-decoration: none;
+  line-height: 50pt; }
+
+#navbar-logo {
+  content: url("../assets/profile-picture.png");
+  width: 50pt;
+  height: 50pt; }
+
+#navbar-title {
+  font-size: 16pt;
+  font-weight: bold; }
+
+#top-banner .flex-container {
+  display: flex;
+  justify-content: center; }
+#top-banner .flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  line-height: 160px; }
+#top-banner .flex-container-vertical {
+  display: flex;
+  flex-direction: column; }
+#top-banner .flex-container-vertical > div {
+  width: 100%;
+  text-align: center;
+  line-height: 1px;
+  font-size: 30px; }
+#top-banner #top-banner-logo {
+  content: url("../assets/profile-picture.png");
+  width: 200px;
+  height: 200px; }
+#top-banner #top-banner-title {
+  margin-top: 40pt; }
+
+#intro {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+  #intro .united-kingdom {
+    background-image: linear-gradient(to right, #ff3b30, #007aff);
+    -webkit-background-clip: text;
+    color: transparent; }
+
+#blog-link {
+  margin: 0 auto;
+  text-align: center; }
+  #blog-link .button {
+    width: 80pt;
+    margin: 100pt auto 0; }
+
+#about-me {
+  width: 70%;
+  margin: 70pt auto 0; }
+  #about-me h1 {
+    margin: 0; }
+  #about-me .flex-container {
+    display: flex;
+    height: 40px;
+    justify-content: center; }
+  #about-me h3 {
+    padding: 0 0 0 0;
+    margin: 0;
+    top: 0; }
+  #about-me .flex-container > div {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold; }
+  #about-me .computer-science {
+    color: #5856d6; }
+  #about-me .minecraft {
+    color: darkgreen; }
+  #about-me .marmite {
+    background-image: linear-gradient(to right, #3f1003, #ffcc00);
+    -webkit-background-clip: text;
+    color: transparent; }
+  #about-me .favourite-color {
+    color: #007aff; }
+  #about-me .wba a {
+    color: navy; }
+  #about-me .favourite-artist a {
+    color: #ffcc00; }
+  #about-me .favourite-food {
+    color: saddlebrown; }
+  #about-me .favourite-drink {
+    background-image: linear-gradient(to right, #34c759, #ffcc00);
+    -webkit-background-clip: text;
+    color: transparent; }
+
+#music {
+  width: 70%;
+  margin: 40pt auto 0; }
+  #music .button {
+    width: 120pt;
+    margin: 0 auto;
+    text-align: center; }
+
+#connect {
+  width: 50%;
+  margin: 80pt auto 0;
+  text-align: center; }
+  #connect h1 {
+    margin: 0; }
+  #connect .flex-container {
+    display: flex;
+    height: 40px;
+    justify-content: center; }
+  #connect .flex-container > div {
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold; }
+  #connect .github a {
+    color: #48484a; }
+  #connect .email a {
+    color: #007aff; }
+  #connect .twitter a {
+    color: #1DA1F2; }
+  #connect .instagram a {
+    background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
+    -webkit-background-clip: text;
+    color: transparent; }
+  #connect #email-wrapper {
+    margin: 30pt 0 0 0; }
+  #connect .button {
+    width: 70pt;
+    margin: 0 auto; }
+
+#blog-coming-soon {
+  width: 70%;
+  margin: 70pt auto 0;
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
