@@ -57,9 +57,9 @@ a:visited {
   .button a:visited {
     color: white; }
 
-.coming-soon {
+.beta {
   margin: 3pt 0 0 0;
-  color: #ff3b30; }
+  color: #ff9500; }
 
 nav ul {
   background-color: #3a3a3c;
