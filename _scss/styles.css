@@ -17,17 +17,17 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.6vw;
   color: #48484a; }
 
 h1 h2 h3 h4 {
   color: #3a3a3c; }
 
 h1 {
-  font-size: 2.5em; }
+  font-size: 3.5vw; }
 
 h2 {
-  font-size: 1.5em; }
+  font-size: 2vw; }
 
 h3 {
   font-size: 1.3em; }
@@ -43,15 +43,15 @@ a:visited {
   color: #007aff; }
 
 .subtitle {
-  font-size: 1.7em;
+  font-size: 2.2vw;
   font-weight: normal; }
 
 .button {
   background-color: #007aff;
   color: white;
   border-radius: 0.8em;
-  height: 3.1em;
-  line-height: 3.1em; }
+  height: 4vw;
+  line-height: 4vw; }
   .button a {
     color: white; }
   .button a:hover {
@@ -78,7 +78,7 @@ nav li {
   text-align: center;
   padding: 0 0.45em;
   text-decoration: none;
-  line-height: 3em; }
+  line-height: 5vw; }
 nav a {
   color: white; }
 nav a:visited {
@@ -89,11 +89,11 @@ nav a:hover {
 
 #navbar-logo {
   content: url("../assets/profile-picture.png");
-  width: 4.2em;
-  height: 4.2em; }
+  width: 5vw;
+  height: 5vw; }
 
 .navbar-link {
-  font-size: 1.3em;
+  font-size: 1.7vw;
   font-weight: bold; }
 
 #top-banner .flex-container {
@@ -215,28 +215,5 @@ nav a:hover {
   width: 70%;
   margin: 5.8em auto 0;
   text-align: center; }
-
-#wrapper {
-  max-width: -webkit-calc(800px - (50px * 2));
-  max-width: calc(800px - (50px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px; }
-  @media screen and (max-width: 800px) {
-    #wrapper {
-      max-width: -webkit-calc(800px - (50px));
-      max-width: calc(800px - (50px));
-      padding-right: 10px;
-      padding-left: 10px; } }
-
-#wrapper:before, #wrapper:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 4em; } }
 
 /*# sourceMappingURL=styles.css.map */

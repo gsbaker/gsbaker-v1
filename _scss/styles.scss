@@ -14,22 +14,7 @@ $grey4: rgb(58, 58, 60);
 $font-stack: "Helvetica Neue", sans-serif;
 $profile-picture: "../assets/profile-picture.png";
 
-$base-font-size: 16px;
 
-$horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         20px;
-
-$spacing-unit:     30px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
 
 .visible {
   visibility: visible;
@@ -48,12 +33,12 @@ body {
   background-color: white;
   color: black;
   font-family: $font-stack;
-  font-size: $base-font-size;
+  font-size: 16px;
   -webkit-text-size-adjust: 100%;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.6vw;
   color: $grey3;
 }
 
@@ -62,11 +47,11 @@ h1 h2 h3 h4 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3.5vw;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2vw;
 }
 
 h3 {
@@ -87,7 +72,7 @@ a:visited {
 }
 
 .subtitle {
-  font-size: 1.7em;
+  font-size: 2.2vw;
   font-weight: normal;
 }
 
@@ -95,8 +80,8 @@ a:visited {
   background-color: $blue;
   color: white;
   border-radius: 0.8em;
-  height: 3.1em;
-  line-height: 3.1em;
+  height: 4vw;
+  line-height: 4vw;
 
   // define width in container
 
@@ -137,7 +122,7 @@ nav {
     text-align: center;
     padding: 0 0.45em;
     text-decoration: none;
-    line-height: 3em;
+    line-height: 5vw;
   }
 
   a {
@@ -156,12 +141,12 @@ nav {
 
 #navbar-logo {
   content: url($profile-picture);
-  width: 4.2em;
-  height: 4.2em;
+  width: 5vw;
+  height: 5vw;
 }
 
 .navbar-link {
-  font-size: 1.3em;
+  font-size: 1.7vw;
   font-weight: bold;
 }
 
@@ -367,37 +352,4 @@ nav {
   width: 70%;
   margin: 5.8em auto 0;
   text-align: center;
-}
-
-
-
-#wrapper {
-  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-  max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $horizontal-spacing-unit;
-  padding-left: $horizontal-spacing-unit;
-  @extend %clearfix;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-    padding-right: $spacing-unit / 3;
-    padding-left: $spacing-unit / 3;
-  }
-}
-%clearfix {
-  &:before,
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  h1 {
-    font-size: 4em;
-  }
 }
