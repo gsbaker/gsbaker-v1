@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="support for mobile devices">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1586531351736" duration="428000" />
       <workItem from="1586532052089" duration="1620000" />
       <workItem from="1586703363808" duration="2927000" />
-      <workItem from="1586711745720" duration="3263000" />
+      <workItem from="1586711745720" duration="5165000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586714285544</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="improved support for mobile devices">
+      <created>1586715327281</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586715327282</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +222,8 @@
     <MESSAGE value="added dark mode support" />
     <MESSAGE value="updated what I'm listening to" />
     <MESSAGE value="support for mobile devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="support for mobile devices" />
+    <MESSAGE value="improved support for mobile devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved support for mobile devices" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586259015930">
@@ -225,12 +234,12 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586715300502">
+    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586715327010">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275012584" />
     <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
-    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586715300502" />
+    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586715327010" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -239,12 +248,12 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586714295718">
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586715331673">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275016110" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586714295718" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586715331673" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1586376419653">
       <screen x="0" y="23" width="2560" height="979" />
     </state>

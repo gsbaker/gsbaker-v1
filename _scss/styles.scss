@@ -14,6 +14,23 @@ $grey4: rgb(58, 58, 60);
 $font-stack: "Helvetica Neue", sans-serif;
 $profile-picture: "../assets/profile-picture.png";
 
+$base-font-size: 16px;
+
+$horizontal-spacing-unit:       20px;
+$vertical-spacing-unit:         20px;
+
+$spacing-unit:     30px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
 .visible {
   visibility: visible;
   opacity: 1;
@@ -31,7 +48,8 @@ body {
   background-color: white;
   color: black;
   font-family: $font-stack;
-  font-size: 100%;
+  font-size: $base-font-size;
+  -webkit-text-size-adjust: 100%;
 }
 
 p {
@@ -184,7 +202,6 @@ nav {
 }
 
 #intro {
-  width: 70%;
   margin: 0 auto;
   text-align: center;
 
@@ -206,9 +223,8 @@ nav {
 }
 
 #about-me {
-  width: 70%;
+  width: 100%;
   margin: 5.8em auto 0;
-  //text-align: center;
 
   h1 {
     margin: 0;
@@ -221,7 +237,7 @@ nav {
   }
 
   h3 {
-    padding: 0 0 0 0;
+    padding: 0;
     margin: 0;
     top: 0;
   }
@@ -276,7 +292,7 @@ nav {
 }
 
 #music {
-  width: 70%;
+  //width: 70%;
   margin: 3.3em auto 0;
   //text-align: center;
 
@@ -288,7 +304,7 @@ nav {
 }
 
 #connect {
-  width: 50%;
+  width: 90%;
   margin: 6.7em auto 0;
   text-align: center;
 
@@ -353,3 +369,29 @@ nav {
   text-align: center;
 }
 
+
+
+#wrapper {
+  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+  max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $horizontal-spacing-unit;
+  padding-left: $horizontal-spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+    max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+    padding-right: $spacing-unit / 3;
+    padding-left: $spacing-unit / 3;
+  }
+}
+%clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

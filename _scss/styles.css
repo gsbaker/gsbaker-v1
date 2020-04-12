@@ -13,7 +13,8 @@ body {
   background-color: white;
   color: black;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 100%; }
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%; }
 
 p {
   font-size: 1.2em;
@@ -117,7 +118,6 @@ nav a:hover {
   margin-top: 3.3em; }
 
 #intro {
-  width: 70%;
   margin: 0 auto;
   text-align: center; }
   #intro .united-kingdom {
@@ -133,7 +133,7 @@ nav a:hover {
     margin: 8.4em auto 0; }
 
 #about-me {
-  width: 70%;
+  width: 100%;
   margin: 5.8em auto 0; }
   #about-me h1 {
     margin: 0; }
@@ -142,7 +142,7 @@ nav a:hover {
     height: 2.5em;
     justify-content: center; }
   #about-me h3 {
-    padding: 0 0 0 0;
+    padding: 0;
     margin: 0;
     top: 0; }
   #about-me .flex-container > div {
@@ -173,7 +173,6 @@ nav a:hover {
     color: transparent; }
 
 #music {
-  width: 70%;
   margin: 3.3em auto 0; }
   #music .button {
     width: 10em;
@@ -181,7 +180,7 @@ nav a:hover {
     text-align: center; }
 
 #connect {
-  width: 50%;
+  width: 90%;
   margin: 6.7em auto 0;
   text-align: center; }
   #connect h1 {
@@ -216,5 +215,24 @@ nav a:hover {
   width: 70%;
   margin: 5.8em auto 0;
   text-align: center; }
+
+#wrapper {
+  max-width: -webkit-calc(800px - (20px * 2));
+  max-width: calc(800px - (20px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px; }
+  @media screen and (max-width: 800px) {
+    #wrapper {
+      max-width: -webkit-calc(800px - (20px));
+      max-width: calc(800px - (20px));
+      padding-right: 10px;
+      padding-left: 10px; } }
+
+#wrapper:before, #wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /*# sourceMappingURL=styles.css.map */
