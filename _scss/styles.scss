@@ -16,7 +16,7 @@ $profile-picture: "../assets/profile-picture.png";
 
 $base-font-size: 16px;
 
-$horizontal-spacing-unit:       20px;
+$horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         20px;
 
 $spacing-unit:     30px;
@@ -393,5 +393,11 @@ nav {
     content: "";
     display: table;
     clear: both;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 4em;
   }
 }
