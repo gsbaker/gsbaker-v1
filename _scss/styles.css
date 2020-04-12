@@ -9,7 +9,7 @@
   transition: visibility 0s 0.25s, opacity 0.25s linear; }
 
 body {
-  margin: 10pt 0 40pt 0;
+  margin: 0.8em 0 3.3em 0;
   background-color: white;
   color: black;
   font-family: "Helvetica Neue", sans-serif;
@@ -48,9 +48,9 @@ a:visited {
 .button {
   background-color: #007aff;
   color: white;
-  border-radius: 10pt;
-  height: 40pt;
-  line-height: 40pt; }
+  border-radius: 0.8em;
+  height: 3.1em;
+  line-height: 3.1em; }
   .button a {
     color: white; }
   .button a:hover {
@@ -59,7 +59,7 @@ a:visited {
     color: white; }
 
 .beta {
-  margin: 3pt 0 0 0;
+  margin: 0.25em 0 0 0;
   color: #ff9500; }
 
 nav ul {
@@ -75,9 +75,9 @@ nav li {
   float: left;
   display: block;
   text-align: center;
-  padding: 0 8px;
+  padding: 0 0.45em;
   text-decoration: none;
-  line-height: 50pt; }
+  line-height: 3em; }
 nav a {
   color: white; }
 nav a:visited {
@@ -88,8 +88,8 @@ nav a:hover {
 
 #navbar-logo {
   content: url("../assets/profile-picture.png");
-  width: 50pt;
-  height: 50pt; }
+  width: 4.2em;
+  height: 4.2em; }
 
 .navbar-link {
   font-size: 1.3em;
@@ -99,22 +99,22 @@ nav a:hover {
   display: flex;
   justify-content: center; }
 #top-banner .flex-container > div {
-  margin: 10px;
-  padding: 20px;
-  line-height: 160px; }
+  margin: 0.625em;
+  padding: 1.25em;
+  line-height: 10em; }
 #top-banner .flex-container-vertical {
   display: flex;
   flex-direction: column; }
 #top-banner .flex-container-vertical > div {
   width: 100%;
   text-align: center;
-  line-height: 1px; }
+  line-height: 0.0625em; }
 #top-banner #top-banner-logo {
   content: url("../assets/profile-picture.png");
-  width: 200px;
-  height: 200px; }
+  width: 12.5em;
+  height: 12.5em; }
 #top-banner #top-banner-title {
-  margin-top: 40pt; }
+  margin-top: 3.3em; }
 
 #intro {
   width: 70%;
@@ -129,26 +129,26 @@ nav a:hover {
   margin: 0 auto;
   text-align: center; }
   #blog-link .button {
-    width: 80pt;
-    margin: 100pt auto 0; }
+    width: 6.7em;
+    margin: 8.4em auto 0; }
 
 #about-me {
   width: 70%;
-  margin: 70pt auto 0; }
+  margin: 5.8em auto 0; }
   #about-me h1 {
     margin: 0; }
   #about-me .flex-container {
     display: flex;
-    height: 40px;
+    height: 2.5em;
     justify-content: center; }
   #about-me h3 {
     padding: 0 0 0 0;
     margin: 0;
     top: 0; }
   #about-me .flex-container > div {
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
+    width: 12.5em;
+    height: 2.5em;
+    line-height: 2.5em;
     text-align: center;
     font-weight: bold; }
   #about-me .computer-science {
@@ -174,26 +174,26 @@ nav a:hover {
 
 #music {
   width: 70%;
-  margin: 40pt auto 0; }
+  margin: 3.3em auto 0; }
   #music .button {
-    width: 120pt;
+    width: 10em;
     margin: 0 auto;
     text-align: center; }
 
 #connect {
   width: 50%;
-  margin: 80pt auto 0;
+  margin: 6.7em auto 0;
   text-align: center; }
   #connect h1 {
     margin: 0; }
   #connect .flex-container {
     display: flex;
-    height: 40px;
+    height: 2.5em;
     justify-content: center; }
   #connect .flex-container > div {
-    width: 200px;
-    height: 40px;
-    margin: 5px;
+    width: 12.5em;
+    height: 2.5em;
+    margin: 0.3125em;
     text-align: center;
     font-weight: bold; }
   #connect .github a {
@@ -207,14 +207,14 @@ nav a:hover {
     -webkit-background-clip: text;
     color: transparent; }
   #connect #email-wrapper {
-    margin: 30pt 0 0 0; }
+    margin: 2.5em 0 0 0; }
   #connect .button {
-    width: 70pt;
+    width: 5.8em;
     margin: 0 auto; }
 
 #blog-coming-soon {
   width: 70%;
-  margin: 70pt auto 0;
+  margin: 5.8em auto 0;
   text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
