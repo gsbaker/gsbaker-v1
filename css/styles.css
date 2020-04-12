@@ -12,23 +12,24 @@ body {
   margin: 10pt 0 40pt 0;
   background-color: white;
   color: black;
-  font-family: "Helvetica Neue", sans-serif; }
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 100%; }
 
 p {
-  font-size: 14pt;
+  font-size: 1.2em;
   color: #48484a; }
 
 h1 h2 h3 h4 {
   color: #3a3a3c; }
 
 h1 {
-  font-size: 30pt; }
+  font-size: 2.5em; }
 
 h2 {
-  font-size: 18pt; }
+  font-size: 1.5em; }
 
 h3 {
-  font-size: 16pt; }
+  font-size: 1.3em; }
 
 a {
   color: #007aff;
@@ -41,7 +42,7 @@ a:visited {
   color: #007aff; }
 
 .subtitle {
-  font-size: 20pt;
+  font-size: 1.7em;
   font-weight: normal; }
 
 .button {
@@ -91,7 +92,7 @@ nav a:hover {
   height: 50pt; }
 
 .navbar-link {
-  font-size: 16pt;
+  font-size: 1.3em;
   font-weight: bold; }
 
 #top-banner .flex-container {
@@ -100,7 +101,6 @@ nav a:hover {
 #top-banner .flex-container > div {
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
   line-height: 160px; }
 #top-banner .flex-container-vertical {
   display: flex;
@@ -108,8 +108,7 @@ nav a:hover {
 #top-banner .flex-container-vertical > div {
   width: 100%;
   text-align: center;
-  line-height: 1px;
-  font-size: 30px; }
+  line-height: 1px; }
 #top-banner #top-banner-logo {
   content: url("../assets/profile-picture.png");
   width: 200px;
