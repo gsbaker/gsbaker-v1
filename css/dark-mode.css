@@ -1,0 +1,34 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    p {
+        color: rgb(174, 174, 178);
+    }
+
+    a {
+        color: rgb(10, 132, 255);
+    }
+
+    a:visited {
+        color: rgb(10, 132, 255);
+    }
+
+    .button {
+        background-color: rgb(10, 132, 255);
+    }
+
+    #about-me .wba a {
+        color: white;
+    }
+
+    .beta {
+        color: rgb(255, 159, 10);
+    }
+
+    #connect .github a {
+        color: grey;
+    }
+}
