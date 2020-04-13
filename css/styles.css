@@ -24,7 +24,7 @@ h1 h2 h3 h4 {
   color: #3a3a3c; }
 
 h1 {
-  font-size: min(7vw, 30pt); }
+  font-size: min(5vw, 30pt); }
 
 h2 {
   font-size: min(5vw, 18pt); }
@@ -139,18 +139,13 @@ nav a:hover {
   margin: 8.4em auto 0; }
 
 #about-me {
-  max-width: 70%;
-  margin: 5.8em auto 0; }
-#about-me h1 {
-  margin: 0; }
+  max-width: 700px;
+  margin: 5.8em auto 0;
+  padding: 20px; }
 #about-me .flex-container {
   display: flex;
   height: 2.5em;
   justify-content: center; }
-#about-me h3 {
-  padding: 0;
-  margin: 0;
-  top: 0; }
 #about-me .flex-container > div {
   width: 12.5em;
   height: 2.5em;
@@ -179,8 +174,9 @@ nav a:hover {
   color: transparent; }
 
 #music {
-  width: 70%;
-  margin: 3.3em auto 0; }
+  max-width: 700px;
+  margin: 3.3em auto 0;
+  padding: 20px; }
 #music .button {
   width: 10em;
   margin: 0 auto;
