@@ -90,8 +90,6 @@ nav a:hover {
 
 #navbar-logo {
   content: url("../assets/profile-picture.png");
-  width: 13vw;
-  height: 13vw;
   max-width: 70px;
   max-height: 70px;
   line-height: 70px; }
