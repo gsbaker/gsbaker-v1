@@ -5,7 +5,7 @@
     }
 
     p {
-        color: rgb(174, 174, 178);
+        color: white;
     }
 
     a {
@@ -21,11 +21,15 @@
     }
 
     #about-me .wba a {
-        color: white;
+        color: royalblue;
     }
 
     .beta {
         color: rgb(255, 159, 10);
+    }
+
+    .new {
+        color: rgb(48, 209, 88);
     }
 
     #connect .github a {
