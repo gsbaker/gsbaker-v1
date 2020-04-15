@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,8 @@
       <workItem from="1586811165274" duration="1396000" />
       <workItem from="1586867405755" duration="4404000" />
       <workItem from="1586893398234" duration="5488000" />
-      <workItem from="1586964032308" duration="3830000" />
+      <workItem from="1586964032308" duration="4623000" />
+      <workItem from="1586988625364" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -288,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586900911442</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added some padding">
+      <created>1586985345444</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586985345444</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +323,8 @@
     <MESSAGE value="improved mobile optimisation" />
     <MESSAGE value="added favicons" />
     <MESSAGE value="fixed css path" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed css path" />
+    <MESSAGE value="added some padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some padding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586259015930">
@@ -329,12 +335,12 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586900911227">
+    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586985345132">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275012584" />
     <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
-    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586900911227" />
+    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586985345132" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -343,12 +349,12 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586900913776">
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586988722259">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275016110" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586900913776" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586988722259" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1586867439219">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
