@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>George For Publicity Rep</title>
+    <link rel="stylesheet" href="css/publicity-rep.css">
+    <script>
+        function toggleBody() {
+            let element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        function toggleTopBar() {
+            let topBar = document.getElementById('top-bar');
+            topBar.classList.toggle("top-bar-dark");
+        }
+    </script>
+</head>
+<body>
+
+
+<div class="flex-container" id="top-bar">
+
+    <div><h4>Dark Mode</h4></div>
+
+    <div>
+    <label class="switch">
+        <input type="checkbox" onclick="toggleBody(); toggleTopBar();">
+        <span class="slider round"></span>
+    </label>
+    </div>
+</div>
+
+<div id="top-banner">
+    <h1 class="title">George Baker</h1>
+    <h2 id="publicity-rep-text">Publicity Rep 2020</h2>
+</div>
+
+
+<div id="why-me">
+    <p>I've already proven that I can use the CSS Brand Guidelines &#128521</p>
+    <h1 class="subtitle">Photography Meets CSS</h1>
+    <p>If elected, I'll be photographing ALL of the CSS events. </p>
+    <p>You and your friends can look like this:</p>
+    <div id="rob"></div>
+    <p>or this:</p>
+    <div id="george"></div>
+    <p>I don't know about you but I wanna be that guy ^. You and your friends have never looked more attractive.</p>
+
+    <h1 class="subtitle">Dark Mode Comes To CSS</h1>
+    <p>Yes. That's right. Everyone's favourite feature will be added to the CSS website as soon as I'm elected.</p>
+    <p>To give you a sneak preview, I've even added a dark mode switch to this page!</p>
+    <p>Something nobody asked for and yet something that everybody has always wanted.</p>
+
+    <h1 class="subtitle">CSS Gets Verified</h1>
+    <p>That's right. I'll be applying for verification on Twitter, Instagram and... why not: Facebook too!</p>
+    <img id="twitter" src="assets/css_twitter.png">
+
+    <h1 class="subtitle">Still not convinced?</h1>
+    <p>Well, here's some serious stuff. I am:</p>
+    <ul>
+        <li>comfortable using <a href="https://www.jekyllrb.com">Jekyll</a>: the static site generator behind the
+            <a href="https://www.cssbham.com">CSS Website</a>. I created my <a href="https://blog.gsbaker.uk">personal blog</a>
+        using Jekyll.</li>
+        <li> a <a href="https://https://www.pixelmator.com/pro/">Pixelmator Pro</a> user. Long story short: I can do design stuff. </li>
+        <li>very reliable; I'm never really late to anything.</li>
+        <li>passionate about CSS. I go to all of the events and I want to make it better by improving our publicity and social
+        media presence.</li>
+    </ul>
+</div>
+
+<div id="connect">
+    <div class="flex-container">
+        <div><h3 class="website"><a href="https://www.gsbaker.uk">Website</a></h3></div>
+        <div><h3 class="github"><a href="https://github.com/gsbaker">Github</a></h3></div>
+        <div><h3 class="twitter"><a href="https://twitter.com/gsbakertweets">Twitter</a></h3></div>
+        <div><h3 class="instagram"><a href="https://instagram.com/georgestephenbaker">Instagram</a></h3></div>
+    </div>
+</div>
+
+</body>
+</html>

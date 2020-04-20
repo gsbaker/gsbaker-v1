@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_scss/publicity-rep.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/publicity-rep.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publicity-rep.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -36,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -89,7 +93,8 @@
       <workItem from="1586893398234" duration="5488000" />
       <workItem from="1586964032308" duration="4623000" />
       <workItem from="1586988625364" duration="1643000" />
-      <workItem from="1587207733878" duration="410000" />
+      <workItem from="1587207733878" duration="1065000" />
+      <workItem from="1587391838827" duration="11798000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -301,14 +306,20 @@
       <option name="project" value="LOCAL" />
       <updated>1586988742820</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update README.md">
+      <created>1587208196512</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587208196512</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="completed V1.0 of gsbaker.uk" />
     <MESSAGE value="compiled scss to css" />
     <MESSAGE value="moved styles.css to css dir" />
     <MESSAGE value="added button to follow my apple music profile" />
@@ -333,23 +344,24 @@
     <MESSAGE value="fixed css path" />
     <MESSAGE value="added some padding" />
     <MESSAGE value="changed beta to new" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed beta to new" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586259015930">
+    <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1687" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1586259015930" />
+    <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587407581191" />
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586336944220">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1586988742372">
+    <state x="1536" y="152" key="CommitChangelistDialog2" timestamp="1587208196105">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275012584" />
     <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
-    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1586988742372" />
+    <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1587208196105" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -358,12 +370,16 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586988748574">
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1587208199843">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275016110" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1586988748574" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587208199843" />
+    <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587396683208" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1586867439219">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
