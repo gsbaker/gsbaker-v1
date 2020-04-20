@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicity-rep.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1586964032308" duration="4623000" />
       <workItem from="1586988625364" duration="1643000" />
       <workItem from="1587207733878" duration="1065000" />
-      <workItem from="1587391838827" duration="12173000" />
+      <workItem from="1587391838827" duration="12529000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -310,14 +310,20 @@
       <option name="project" value="LOCAL" />
       <updated>1587208196512</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="create prettier link">
+      <created>1587407996270</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1587407996270</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="compiled scss to css" />
     <MESSAGE value="moved styles.css to css dir" />
     <MESSAGE value="added button to follow my apple music profile" />
     <MESSAGE value="refined initial design" />
@@ -342,7 +348,8 @@
     <MESSAGE value="added some padding" />
     <MESSAGE value="changed beta to new" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="create prettier link" />
+    <option name="LAST_COMMIT_MESSAGE" value="create prettier link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -353,10 +360,10 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1536" y="142" key="CommitChangelistDialog2" timestamp="1587407636868">
+    <state x="1536" y="142" key="CommitChangelistDialog2" timestamp="1587407995999">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1587407636868" />
+    <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1587407995999" />
     <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
     <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1587208196105" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
@@ -367,10 +374,10 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1587208199843">
-      <screen x="0" y="23" width="2560" height="979" />
+    <state x="1525" y="280" key="Vcs.Push.Dialog.v2" timestamp="1587408000076">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1586275016110" />
+    <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408000076" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587208199843" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
