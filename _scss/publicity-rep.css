@@ -106,16 +106,23 @@ input:checked + .slider:before {
   padding: 20px; }
   #why-me .subtitle {
     margin-top: 40px; }
+  #why-me #gallery {
+    background-image: linear-gradient(to right, #ff9c00, #58cad6);
+    -webkit-background-clip: text;
+    color: transparent; }
   #why-me #rob {
     width: 600px;
     height: 400px;
-    background-image: url("../assets/IMG_0733.png"); }
+    background-image: url("../assets/images/Rob Hallam.png"); }
   #why-me #george {
     width: 400px;
     height: 600px;
-    background-image: url("../assets/20200229_0076.png"); }
+    background-image: url("../assets/images/George Baker.png"); }
   #why-me .twitter {
     width: 100px; }
+  #why-me img {
+    width: 600px;
+    border: 1px solid; }
 
 #connect {
   width: 90%;

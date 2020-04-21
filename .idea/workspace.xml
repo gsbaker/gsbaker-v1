@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/CSS Gallery Preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/publicity-rep-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/George.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/George.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/20200229_0076.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/George Baker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/IMG_0733.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Rob Hallam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css_twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/CSS Twitter Verified.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css_twitter.pxd/QuickLook/Icon.tiff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/css_twitter.pxd/QuickLook/Icon.tiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css_twitter.pxd/QuickLook/Thumbnail.tiff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/css_twitter.pxd/QuickLook/Thumbnail.tiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css_twitter.pxd/data/2A4A6A1D-02C6-4A8A-8F11-1609CFB5F794" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/css_twitter.pxd/data/2A4A6A1D-02C6-4A8A-8F11-1609CFB5F794" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css_twitter.pxd/data/75D8D01A-EDAB-459A-8FF3-C9DCD41EF432" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/css_twitter.pxd/data/75D8D01A-EDAB-459A-8FF3-C9DCD41EF432" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css_twitter.pxd/metadata.info" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/css_twitter.pxd/metadata.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/profile-picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/George's Memoji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicons/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/publicity-rep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/publicity-rep.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,15 +71,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/publicity-rep" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/favicons" />
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/publicity-rep" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -91,7 +123,8 @@
       <workItem from="1586964032308" duration="4623000" />
       <workItem from="1586988625364" duration="1643000" />
       <workItem from="1587207733878" duration="1065000" />
-      <workItem from="1587391838827" duration="12529000" />
+      <workItem from="1587391838827" duration="13108000" />
+      <workItem from="1587456202770" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -317,14 +350,20 @@
       <option name="project" value="LOCAL" />
       <updated>1587407996270</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added a paragraph to publicity rep">
+      <created>1587408373235</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1587408373236</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="moved styles.css to css dir" />
     <MESSAGE value="added button to follow my apple music profile" />
     <MESSAGE value="refined initial design" />
     <MESSAGE value="added compiled css" />
@@ -349,7 +388,8 @@
     <MESSAGE value="changed beta to new" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="create prettier link" />
-    <option name="LAST_COMMIT_MESSAGE" value="create prettier link" />
+    <MESSAGE value="added a paragraph to publicity rep" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a paragraph to publicity rep" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -360,10 +400,10 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1536" y="142" key="CommitChangelistDialog2" timestamp="1587407995999">
+    <state x="1536" y="142" key="CommitChangelistDialog2" timestamp="1587408373037">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1587407995999" />
+    <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408373037" />
     <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
     <state x="1536" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1587208196105" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
@@ -374,20 +414,20 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="280" key="Vcs.Push.Dialog.v2" timestamp="1587408000076">
+    <state x="1525" y="280" key="Vcs.Push.Dialog.v2" timestamp="1587408375329">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408000076" />
+    <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587208199843" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587396683208" />
-    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1586867439219">
+    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1587481324658">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
-    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1586867439219" />
+    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1587481324658" />
   </component>
 </project>

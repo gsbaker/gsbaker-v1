@@ -133,20 +133,31 @@ input:checked + .slider:before {
     margin-top: 40px;
   }
 
+  #gallery {
+    background-image: linear-gradient(to right, #ff9c00, #58cad6);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
   #rob {
     width: 600px;
     height: 400px;
-    background-image: url("../assets/IMG_0733.png");
+    background-image: url("../assets/images/Rob Hallam.png");
   }
 
   #george {
     width: 400px;
     height: 600px;
-    background-image: url("../assets/20200229_0076.png");
+    background-image: url("../assets/images/George Baker.png");
   }
 
   .twitter {
     width: 100px;
+  }
+
+  img {
+    width: 600px;
+    border: 1px solid;
   }
 }
 
