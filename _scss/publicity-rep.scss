@@ -30,6 +30,10 @@ a:visited {
   color: #ff9c00;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -209,14 +213,10 @@ input:checked + .slider:before {
       -webkit-background-clip: text;
       color: transparent;
     }
-  }
 
-  #email-wrapper {
-    margin: 2.5em 0 0 0;
-  }
-
-  .button {
-    width: 5.8em;
-    margin: 0 auto;
+    a:hover {
+      color: #C13584;
+      text-decoration: underline;
+    }
   }
 }

@@ -22,6 +22,9 @@ a {
 a:visited {
   color: #ff9c00; }
 
+a:hover {
+  text-decoration: underline; }
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -150,10 +153,8 @@ input:checked + .slider:before {
     background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
     -webkit-background-clip: text;
     color: transparent; }
-  #connect #email-wrapper {
-    margin: 2.5em 0 0 0; }
-  #connect .button {
-    width: 5.8em;
-    margin: 0 auto; }
+  #connect .instagram a:hover {
+    color: #C13584;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=publicity-rep.css.map */
