@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/publicity-rep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/publicity-rep.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +93,7 @@
       <workItem from="1586988625364" duration="1643000" />
       <workItem from="1587207733878" duration="1065000" />
       <workItem from="1587391838827" duration="13108000" />
-      <workItem from="1587456202770" duration="5918000" />
+      <workItem from="1587456202770" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -338,14 +333,20 @@
       <option name="project" value="LOCAL" />
       <updated>1587487689677</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added back to guild link">
+      <created>1587493479872</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1587493479872</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refined initial design" />
     <MESSAGE value="added compiled css" />
     <MESSAGE value="added scss files" />
     <MESSAGE value="pushed updated style to production" />
@@ -370,7 +371,8 @@
     <MESSAGE value="create prettier link" />
     <MESSAGE value="added a paragraph to publicity rep" />
     <MESSAGE value="added gallery page preview to publicity rep page and cleaned up css" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gallery page preview to publicity rep page and cleaned up css" />
+    <MESSAGE value="added back to guild link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added back to guild link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -381,12 +383,12 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
-    <state x="1493" y="152" key="CommitChangelistDialog2" timestamp="1587487689270">
+    <state x="1493" y="152" key="CommitChangelistDialog2" timestamp="1587493479526">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408373037" />
     <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
-    <state x="1493" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1587487689270" />
+    <state x="1493" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1587493479526" />
     <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
@@ -395,12 +397,12 @@
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1587487694696">
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2" timestamp="1587493482216">
       <screen x="0" y="23" width="2560" height="979" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587487694696" />
+    <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493482216" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
