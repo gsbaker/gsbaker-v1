@@ -307,13 +307,6 @@ nav {
   }
 }
 
-
-#music {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 #connect {
   width: 90%;
   margin: 20px auto 0;
@@ -367,5 +360,15 @@ nav {
       color: #C13584;
       text-decoration: underline;
     }
+  }
+}
+
+#gallery {
+  width: 80%;
+  margin: 100px auto 0;
+
+  .vertical-img {
+    width: 70vw;
+    max-width: 500px;
   }
 }
