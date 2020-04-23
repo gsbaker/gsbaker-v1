@@ -220,6 +220,15 @@ nav {
   }
 }
 
+#notice {
+  text-align: center;
+  margin: 50px auto 0;
+  width: 500px;
+
+  border: 5px solid $green;
+  border-radius: 20px;
+}
+
 
 #blog-link {
   margin: 0 auto;
