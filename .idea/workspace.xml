@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="made images bigger on mobile">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="added link back to main site from publicity rep page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,7 @@
       <workItem from="1587666446384" duration="3790000" />
       <workItem from="1587679440804" duration="6897000" />
       <workItem from="1587734739653" duration="4219000" />
-      <workItem from="1587755932056" duration="207000" />
+      <workItem from="1587755932056" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -441,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587738748644</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="added link back to main site from publicity rep page.">
+      <created>1587756223788</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1587756223788</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +466,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated what I'm listening to" />
     <MESSAGE value="support for mobile devices" />
     <MESSAGE value="improved support for mobile devices" />
     <MESSAGE value="testing h1 on mobile" />
@@ -485,7 +490,8 @@
     <MESSAGE value="updated navbar links" />
     <MESSAGE value="mobile optimisation for publicity rep page" />
     <MESSAGE value="made images bigger on mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="made images bigger on mobile" />
+    <MESSAGE value="added link back to main site from publicity rep page." />
+    <option name="LAST_COMMIT_MESSAGE" value="added link back to main site from publicity rep page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -516,12 +522,12 @@
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587739020334">
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587756227194">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587739020334" />
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587756227194" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
       <screen x="0" y="0" width="2560" height="1080" />
