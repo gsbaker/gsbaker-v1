@@ -1,19 +1,25 @@
-.dark-mode {
-  background-color: #212121;
+body {
+  margin: 0.8em 0 3.3em 0;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  background-color: #2f3c63;
   color: white; }
 
-.top-bar-dark {
-  background-color: #484848 !important; }
+p {
+  font-size: 14pt; }
 
-.subtitle {
-  font-size: min(5vw, 18pt);
-  font-weight: normal; }
+h1 h2 h3 h4 {
+  color: #3a3a3c; }
 
-body {
-  background-color: #2f3c63;
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  margin: 0 0 40px 0; }
+h1 {
+  font-size: min(5vw, 30pt); }
+
+h2 {
+  font-size: min(5vw, 18pt); }
+
+h3 {
+  font-size: min(5vw, 16pt); }
 
 a {
   color: #ff9c00;
@@ -24,6 +30,60 @@ a:visited {
 
 a:hover {
   text-decoration: underline; }
+
+.subtitle {
+  font-size: min(5vw, 18pt);
+  font-weight: normal; }
+
+.button {
+  background-color: #007aff;
+  color: white;
+  border-radius: 0.8em;
+  height: 55px;
+  line-height: 55px; }
+  .button a {
+    color: white; }
+  .button a:hover {
+    text-decoration: none; }
+  .button a:visited {
+    color: white; }
+
+#connect {
+  width: 90%;
+  margin: 20px auto 0;
+  text-align: center; }
+  #connect h1 {
+    margin: 0; }
+  #connect .flex-container {
+    display: flex;
+    height: 2.5em;
+    justify-content: center; }
+  #connect .flex-container > div {
+    width: 12.5em;
+    height: 2.5em;
+    margin: 0.3125em;
+    text-align: center;
+    font-weight: bold; }
+  #connect .github a {
+    color: grey; }
+  #connect .website a {
+    color: #ff9c00; }
+  #connect .twitter a {
+    color: #1DA1F2; }
+  #connect .instagram a {
+    background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
+    -webkit-background-clip: text;
+    color: transparent; }
+  #connect .instagram a:hover {
+    color: #C13584;
+    text-decoration: underline; }
+
+.dark-mode {
+  background-color: #212121;
+  color: white; }
+
+.top-bar-dark {
+  background-color: #484848 !important; }
 
 .flex-container {
   display: flex;
@@ -127,34 +187,12 @@ input:checked + .slider:before {
     width: 600px;
     border: 1px solid; }
 
-#connect {
-  width: 90%;
-  margin: 20px auto 0;
-  text-align: center; }
-  #connect h1 {
-    margin: 0; }
-  #connect .flex-container {
-    display: flex;
-    height: 2.5em;
-    justify-content: center; }
-  #connect .flex-container > div {
-    width: 12.5em;
-    height: 2.5em;
-    margin: 0.3125em;
-    text-align: center;
-    font-weight: bold; }
-  #connect .github a {
-    color: grey; }
-  #connect .website a {
-    color: #ff9c00; }
-  #connect .twitter a {
-    color: #1DA1F2; }
-  #connect .instagram a {
-    background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
-    -webkit-background-clip: text;
-    color: transparent; }
-  #connect .instagram a:hover {
-    color: #C13584;
-    text-decoration: underline; }
+.horizontal-img {
+  width: 75vw;
+  max-width: 700px; }
+
+.vertical-img {
+  width: 70vw;
+  max-width: 500px; }
 
 /*# sourceMappingURL=publicity-rep.css.map */

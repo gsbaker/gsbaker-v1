@@ -1,3 +1,144 @@
+//colors
+$blue: rgb(0, 122, 255);
+$green: rgb(52, 199, 89);
+$indigo: rgb(88, 86, 214);
+$orange: #ff9c00;
+$pink: rgb(255, 45, 85);
+$purple: rgb(175, 82, 222);
+$red: rgb(255, 59, 48);
+$yellow: rgb(255, 204, 0);
+$medium-grey: rgb(142, 142, 147);
+$light-grey: rgb(174, 174, 178);
+$dark-grey: rgb(72, 72, 74);
+$x-dark-grey: rgb(58, 58, 60);
+
+$font-stack: "Helvetica Neue", sans-serif;
+$memoji: "../assets/images/George's%20Memoji.png";
+
+body {
+  margin: 0.8em 0 3.3em 0;
+  font-family: $font-stack;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  background-color: #2f3c63;
+  color: white;
+}
+
+p {
+  font-size: 14pt;
+}
+
+h1 h2 h3 h4 {
+  color: $x-dark-grey;
+}
+
+h1 {
+  font-size: min(5vw, 30pt);
+}
+
+h2 {
+  font-size: min(5vw, 18pt);
+}
+
+h3 {
+  font-size: min(5vw, 16pt);
+}
+
+a {
+  color: $orange;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $orange;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: min(5vw, 18pt);
+  font-weight: normal;
+}
+
+.button {
+  background-color: $blue;
+  color: white;
+  border-radius: 0.8em;
+  height: 55px;
+  line-height: 55px;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: white;
+  }
+}
+
+
+#connect {
+  width: 90%;
+  margin: 20px auto 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    height: 2.5em;
+    justify-content: center;
+  }
+
+  .flex-container > div {
+    width: 12.5em;
+    height: 2.5em;
+    margin: 0.3125em;
+    text-align: center;
+    //line-height: 70.3125em;
+    font-weight: bold;
+  }
+
+  .github {
+    a {
+      color: grey;
+    }
+  }
+
+  .website {
+    a {
+      color: #ff9c00;
+    }
+  }
+
+  .twitter {
+    a {
+      color: #1DA1F2;
+    }
+  }
+
+  .instagram {
+    a {
+      background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    a:hover {
+      color: #C13584;
+      text-decoration: underline;
+    }
+  }
+}
+
 .dark-mode {
   //background-color: #171440;
   background-color: #212121;
@@ -6,32 +147,6 @@
 
 .top-bar-dark {
   background-color: #484848 !important;
-}
-
-.subtitle {
-  font-size: min(5vw, 18pt);
-  font-weight: normal;
-  //margin-left: 20px;
-}
-
-body {
-  background-color: #2f3c63;
-  color: white;
-  font-family: "Helvetica Neue", sans-serif;
-  margin: 0 0 40px 0;
-}
-
-a {
-  color: #ff9c00;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #ff9c00;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .flex-container {
@@ -165,58 +280,12 @@ input:checked + .slider:before {
   }
 }
 
-#connect {
-  width: 90%;
-  margin: 20px auto 0;
-  text-align: center;
+.horizontal-img {
+  width: 75vw;
+  max-width: 700px;
+}
 
-  h1 {
-    margin: 0;
-  }
-
-  .flex-container {
-    display: flex;
-    height: 2.5em;
-    justify-content: center;
-  }
-
-  .flex-container > div {
-    width: 12.5em;
-    height: 2.5em;
-    margin: 0.3125em;
-    text-align: center;
-    //line-height: 70.3125em;
-    font-weight: bold;
-  }
-
-  .github {
-    a {
-      color: grey;
-    }
-  }
-
-  .website {
-    a {
-      color: #ff9c00;
-    }
-  }
-
-  .twitter {
-    a {
-      color: #1DA1F2;
-    }
-  }
-
-  .instagram {
-    a {
-      background-image: linear-gradient(to right, #5851DB, #833AB4, #C13584, #E1306C);
-      -webkit-background-clip: text;
-      color: transparent;
-    }
-
-    a:hover {
-      color: #C13584;
-      text-decoration: underline;
-    }
-  }
+.vertical-img {
+  width: 70vw;
+  max-width: 500px;
 }
