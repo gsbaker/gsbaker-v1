@@ -258,34 +258,22 @@ input:checked + .slider:before {
     color: transparent;
   }
 
-  #rob {
-    width: 600px;
-    height: 400px;
-    background-image: url("../assets/images/Rob Hallam.png");
-  }
-
-  #george {
-    width: 400px;
-    height: 600px;
-    background-image: url("../assets/images/George Baker.png");
-  }
-
   .twitter {
     width: 100px;
   }
 
   img {
-    width: 600px;
     border: 1px solid;
+  }
+
+  .horizontal-img {
+    width: 85vw;
+    max-width: 700px;
+  }
+
+  .vertical-img {
+    width: 70vw;
+    max-width: 500px;
   }
 }
 
-.horizontal-img {
-  width: 75vw;
-  max-width: 700px;
-}
-
-.vertical-img {
-  width: 70vw;
-  max-width: 500px;
-}

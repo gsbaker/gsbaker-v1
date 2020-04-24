@@ -173,26 +173,15 @@ input:checked + .slider:before {
     background-image: linear-gradient(to right, #ff9c00, #58cad6);
     -webkit-background-clip: text;
     color: transparent; }
-  #why-me #rob {
-    width: 600px;
-    height: 400px;
-    background-image: url("../assets/images/Rob Hallam.png"); }
-  #why-me #george {
-    width: 400px;
-    height: 600px;
-    background-image: url("../assets/images/George Baker.png"); }
   #why-me .twitter {
     width: 100px; }
   #why-me img {
-    width: 600px;
     border: 1px solid; }
-
-.horizontal-img {
-  width: 75vw;
-  max-width: 700px; }
-
-.vertical-img {
-  width: 70vw;
-  max-width: 500px; }
+  #why-me .horizontal-img {
+    width: 85vw;
+    max-width: 700px; }
+  #why-me .vertical-img {
+    width: 70vw;
+    max-width: 500px; }
 
 /*# sourceMappingURL=publicity-rep.css.map */
