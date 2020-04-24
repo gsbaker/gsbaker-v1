@@ -229,8 +229,18 @@ nav a:hover {
 #gallery {
   width: 80%;
   margin: 100px auto 0; }
+  #gallery .img-view {
+    margin-bottom: 100px; }
+  #gallery img {
+    padding: 5px; }
+  #gallery .horizontal-img {
+    width: 75vw;
+    max-width: 700px; }
   #gallery .vertical-img {
     width: 70vw;
     max-width: 500px; }
+  #gallery p {
+    font-size: min(10vw, 15px);
+    margin: 2px; }
 
 /*# sourceMappingURL=styles.css.map */

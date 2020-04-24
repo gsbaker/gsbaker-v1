@@ -367,8 +367,26 @@ nav {
   width: 80%;
   margin: 100px auto 0;
 
+  .img-view {
+    margin-bottom: 100px;
+  }
+
+  img {
+    padding: 5px;
+  }
+
+  .horizontal-img {
+    width: 75vw;
+    max-width: 700px;
+  }
+
   .vertical-img {
     width: 70vw;
     max-width: 500px;
+  }
+
+  p {
+    font-size: min(10vw, 15px);
+    margin: 2px;
   }
 }
