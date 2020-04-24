@@ -196,6 +196,11 @@ nav a:hover {
   #skills .progress-60 {
     width: 60%; }
 
+#music {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px; }
+
 #connect {
   width: 90%;
   margin: 20px auto 0;
