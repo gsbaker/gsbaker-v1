@@ -23,10 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/publicity-rep.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/publicity-rep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/publicity-rep.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,7 @@
       <workItem from="1587665807291" duration="153000" />
       <workItem from="1587666446384" duration="3790000" />
       <workItem from="1587679440804" duration="6897000" />
-      <workItem from="1587734739653" duration="2209000" />
+      <workItem from="1587734739653" duration="2377000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -423,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587736448677</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="mobile optimisation for publicity rep page">
+      <created>1587736975570</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1587736975570</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,12 +503,12 @@
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587736458617">
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587736987848">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587736458617" />
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587736987848" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
       <screen x="0" y="0" width="2560" height="1080" />
