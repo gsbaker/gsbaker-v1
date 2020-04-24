@@ -19,29 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="added gallery page">
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/George.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/George.xml" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="added images to gallery and updated navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -136,7 +115,7 @@
       <workItem from="1587564675629" duration="123000" />
       <workItem from="1587665807291" duration="153000" />
       <workItem from="1587666446384" duration="3790000" />
-      <workItem from="1587679440804" duration="5719000" />
+      <workItem from="1587679440804" duration="6282000" />
     </task>
     <task id="LOCAL-00001" summary="completed V1.0 of gsbaker.uk">
       <created>1586273990723</created>
@@ -411,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587680208866</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added images to gallery and updated navbar">
+      <created>1587730145703</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1587730145703</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +416,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Blog Link" />
     <MESSAGE value="updated links to https" />
     <MESSAGE value="fixed incorrect nav link" />
     <MESSAGE value="added dark mode support" />
@@ -455,7 +440,8 @@
     <MESSAGE value="added notice that I'm running for CSS publicity rep" />
     <MESSAGE value="mobile optimisation" />
     <MESSAGE value="added gallery page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gallery page" />
+    <MESSAGE value="added images to gallery and updated navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added images to gallery and updated navbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -482,12 +468,12 @@
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587680215011">
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587730157229">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587680215011" />
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587730157229" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
       <screen x="0" y="0" width="2560" height="1080" />
