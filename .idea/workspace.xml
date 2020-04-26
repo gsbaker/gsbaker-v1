@@ -19,12 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="updated what I'm listening to">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="added back css for music">
+      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/gallery/gallery-image-20.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +63,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/gallery" />
       <recent name="$PROJECT_DIR$/assets/favicons" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/publicity-rep" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,14 +122,8 @@
       <workItem from="1587666446384" duration="3790000" />
       <workItem from="1587679440804" duration="6897000" />
       <workItem from="1587734739653" duration="4219000" />
-      <workItem from="1587755932056" duration="1178000" />
-    </task>
-    <task id="LOCAL-00002" summary="compiled scss to css">
-      <created>1586274608645</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1586274608645</updated>
+      <workItem from="1587755932056" duration="1729000" />
+      <workItem from="1587895105640" duration="303000" />
     </task>
     <task id="LOCAL-00003" summary="moved styles.css to css dir">
       <created>1586275012766</created>
@@ -464,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587756758254</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added back css for music">
+      <created>1587757210472</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1587757210472</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing changes on mobile" />
     <MESSAGE value="optimised for mobile devices" />
     <MESSAGE value="navbar mobile optimisation" />
     <MESSAGE value="improved mobile optimisation" />
@@ -508,7 +511,8 @@
     <MESSAGE value="added more content to the publicity rep page" />
     <MESSAGE value="corrected div id" />
     <MESSAGE value="updated what I'm listening to" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated what I'm listening to" />
+    <MESSAGE value="added back css for music" />
+    <option name="LAST_COMMIT_MESSAGE" value="added back css for music" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -539,12 +543,12 @@
     </state>
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587756761389">
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587757213195">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587756761389" />
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1587757213195" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
       <screen x="0" y="0" width="2560" height="1080" />
