@@ -248,4 +248,31 @@ nav a:hover {
     font-size: min(10vw, 15px);
     margin: 2px; }
 
+#publicity-rep {
+  width: 80%;
+  margin: 100px auto 0; }
+  #publicity-rep .img-view {
+    margin-bottom: 100px; }
+  #publicity-rep img {
+    padding: 5px; }
+  #publicity-rep .horizontal-img {
+    width: 75vw;
+    max-width: 700px; }
+  #publicity-rep .vertical-img {
+    width: 70vw;
+    max-width: 500px; }
+  #publicity-rep p {
+    font-size: min(10vw, 15px);
+    margin: 2px; }
+  #publicity-rep .flex-container {
+    display: flex;
+    align-items: center; }
+  #publicity-rep .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; }
+  #publicity-rep .description {
+    margin-left: 20px;
+    font-size: 20px; }
+
 /*# sourceMappingURL=styles.css.map */
