@@ -46,19 +46,6 @@ a:visited {
   font-size: min(5vw, 18pt);
   font-weight: normal; }
 
-.button {
-  background-color: #007aff;
-  color: white;
-  border-radius: 0.8em;
-  height: 55px;
-  line-height: 55px; }
-  .button a {
-    color: white; }
-  .button a:hover {
-    text-decoration: none; }
-  .button a:visited {
-    color: white; }
-
 .beta {
   margin: 0.25em 0 0 0;
   color: #ff9500; }
@@ -149,12 +136,11 @@ nav a:hover {
   border: 5px solid #34c759;
   border-radius: 20px; }
 
-#blog-link {
-  margin: 0 auto;
-  text-align: center;
-  width: 90px; }
-  #blog-link .button {
-    margin: 8.4em auto 0; }
+#site-links .flex-container {
+  display: flex;
+  justify-content: center; }
+#site-links .flex-container > div {
+  margin: 10px; }
 
 #about-me {
   max-width: 700px;

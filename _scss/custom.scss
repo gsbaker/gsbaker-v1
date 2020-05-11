@@ -76,25 +76,6 @@ a:visited {
   font-weight: normal;
 }
 
-.button {
-  background-color: $blue;
-  color: white;
-  border-radius: 0.8em;
-  height: 55px;
-  line-height: 55px;
-
-  a {
-    color: white;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: white;
-  }
-}
 
 .beta {
   margin: 0.25em 0 0 0;
@@ -231,13 +212,15 @@ nav {
 }
 
 
-#blog-link {
-  margin: 0 auto;
-  text-align: center;
-  width: 90px;
+#site-links {
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    //background-color: DodgerBlue;
+  }
 
-  .button {
-    margin: 8.4em auto 0;
+  .flex-container > div {
+    margin: 10px;
   }
 }
 
