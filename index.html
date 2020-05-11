@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>gsbaker</title>
-<!--     <link rel="stylesheet" href="_scss/styles.css">-->
-   <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="_scss/custom.css">
+<!--   <link rel="stylesheet" href="css/custom.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/dark-mode.css">
     <script type="text/javascript" src="js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +36,7 @@
     <div class="flex-container">
         <div id="memoji"></div>
         <div class="flex-container-vertical">
-            <div id="top-banner-title"><h1>George Baker</h1></div>
+            <h1 class="display-4">George Baker</h1>
             <div><p><a href="mailto:george@gsbaker.uk">george@gsbaker.uk</a></p></div>
         </div>
     </div>
@@ -43,19 +45,20 @@
 <div id="intro">
     <h2>Computer Science Student, Amateur Photographer, Music Lover</h2>
     <h2 class="uk">Birmingham, UK</h2>
-    <h2><a href="index.html">Download My CV</a> </h2>
 </div>
 
-<div id="blog-link">
-    <a href="https://blog.gsbaker.uk"><div class="button"><h2>Blog</h2></div></a>
-</div>
+    <div class="d-flex justify-content-center">
+        <div class="p-2 bd-highlight"><a class="btn btn-primary" href="https://www.gsbaker.uk/gallery/" role="button">Gallery</a></div>
+        <div class="p-2 bd-highlight"><a class="btn btn-primary" href="https://blog.gsbaker.uk" role="button">Blog</a></div>
+        <div class="p-2 bd-highlight"><a class="btn btn-primary" href="CV.pdf" role="button">CV</a></div>
+    </div>
 
 <div id="about-me">
     <h1 class="subtitle">About Me</h1>
 
     <ul>
         <li><p>Studying Computer Science BSc at the University of Birmingham</p></li>
-        <li><p class="wba"><a href="https://www.twitter.com/wba">@wba</a> fan</></li>
+        <li><p class="wba"><a href="https://www.twitter.com/wba">@wba</a> fan</p></li>
         <li><p>Fluent in Java, Python, HTML and CSS (including SASS)</p></li>
         <li><p>Working on Swift, JavaScript and Jekyll</p></li>
         <li><p>Using Xcode for iOS and macOS development and JetBrains IDEs for everything else</p></li>

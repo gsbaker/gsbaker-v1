@@ -32,16 +32,6 @@ h2 {
 h3 {
   font-size: min(5vw, 16pt); }
 
-a {
-  color: #007aff;
-  text-decoration: none; }
-
-a:hover {
-  text-decoration: underline; }
-
-a:visited {
-  color: #007aff; }
-
 .subtitle {
   font-size: min(5vw, 18pt);
   font-weight: normal; }
@@ -261,4 +251,4 @@ nav a:hover {
     margin-left: 20px;
     font-size: 20px; }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=custom.css.map */

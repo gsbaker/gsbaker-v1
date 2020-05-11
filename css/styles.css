@@ -149,11 +149,11 @@ nav a:hover {
   border: 5px solid #34c759;
   border-radius: 20px; }
 
-#blog-link {
+#site-links {
   margin: 0 auto;
   text-align: center;
   width: 90px; }
-#blog-link .button {
+#site-links .button {
   margin: 8.4em auto 0; }
 
 #about-me {
@@ -275,4 +275,4 @@ nav a:hover {
   margin-left: 20px;
   font-size: 20px; }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=custom.css.map */
