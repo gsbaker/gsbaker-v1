@@ -20,18 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="fixed main stylesheet">
-      <change afterPath="$PROJECT_DIR$/CV.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_scss/custom.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Memoji Cropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/uob-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/west-bromwich-albion.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/custom.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-coming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-coming-soon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dark-mode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +46,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -63,19 +67,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images/gallery" />
       <recent name="$PROJECT_DIR$/assets/favicons" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -133,7 +138,8 @@
       <workItem from="1588433862991" duration="831000" />
       <workItem from="1588613766393" duration="210000" />
       <workItem from="1589127370811" duration="3503000" />
-      <workItem from="1589227671613" duration="1323000" />
+      <workItem from="1589227671613" duration="5124000" />
+      <workItem from="1589288295980" duration="9986000" />
     </task>
     <task id="LOCAL-00006" summary="added compiled css">
       <created>1586457219592</created>
@@ -530,9 +536,10 @@
     </state>
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587407581191" />
     <state x="1687" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.977@0.23.2560.977" timestamp="1589231824618" />
-    <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586336944220">
-      <screen x="0" y="23" width="2560" height="979" />
+    <state x="1069" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589315186965">
+      <screen x="0" y="23" width="2560" height="977" />
     </state>
+    <state x="1069" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.977@0.23.2560.977" timestamp="1589315186965" />
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
     <state x="1077" y="86" key="CommitChangelistDialog2" timestamp="1587670726904">
       <screen x="0" y="23" width="2560" height="977" />
