@@ -19,24 +19,170 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="fixed main stylesheet">
-      <change afterPath="$PROJECT_DIR$/assets/images/Memoji Cropped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/uob-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/west-bromwich-albion.png" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="changed publicity rep page and moved current page to new campaign page">
+      <change afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/github-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/github-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/custom.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-coming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-coming-soon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dark-mode.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/base.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/cssuob.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/publicity-rep.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/styles.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_scss/publicity-rep.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicons/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/CSS Gallery Preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/CSS Twitter Verified.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/George Baker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/George's Memoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/memoji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Memoji Cropped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Profile Picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Rob Hallam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/css_twitter.pxd/QuickLook/Icon.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/css_twitter.pxd/QuickLook/Thumbnail.tiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/css_twitter.pxd/data/2A4A6A1D-02C6-4A8A-8F11-1609CFB5F794" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/css_twitter.pxd/data/75D8D01A-EDAB-459A-8FF3-C9DCD41EF432" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/css_twitter.pxd/metadata.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/gallery/gallery-image-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/uob-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/west-bromwich-albion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-coming-soon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/publicity-rep.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/publicity-rep-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicity-rep/campaign/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +192,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a7jMHJunk9XubwIIGaasZj0kXJ" />
@@ -64,26 +215,34 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/icon" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img/icon" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/bootstrap/scss" />
+      <recent name="$PROJECT_DIR$/img/logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/images/gallery" />
-      <recent name="$PROJECT_DIR$/assets/favicons" />
-      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/img/icon" />
+      <recent name="$PROJECT_DIR$/img/logo" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/publicity-rep" />
+      <recent name="$PROJECT_DIR$/publicity-rep/campaign/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -134,12 +293,18 @@
       <workItem from="1587734739653" duration="4219000" />
       <workItem from="1587755932056" duration="1729000" />
       <workItem from="1587895105640" duration="349000" />
-      <workItem from="1588361650992" duration="7841000" />
-      <workItem from="1588433862991" duration="831000" />
-      <workItem from="1588613766393" duration="210000" />
-      <workItem from="1589127370811" duration="3503000" />
-      <workItem from="1589227671613" duration="5124000" />
-      <workItem from="1589288295980" duration="9986000" />
+      <workItem from="1588361650992" duration="7254000" />
+      <workItem from="1590055646390" duration="421000" />
+      <workItem from="1590074182445" duration="8345000" />
+      <workItem from="1590265708036" duration="2417000" />
+      <workItem from="1590268505026" duration="697000" />
+    </task>
+    <task id="LOCAL-00005" summary="refined initial design">
+      <created>1586457000731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586457000732</updated>
     </task>
     <task id="LOCAL-00006" summary="added compiled css">
       <created>1586457219592</created>
@@ -477,14 +642,7 @@
       <option name="project" value="LOCAL" />
       <updated>1588367199290</updated>
     </task>
-    <task id="LOCAL-00054" summary="fixed main stylesheet">
-      <created>1588416955593</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1588416955593</updated>
-    </task>
-    <option name="localTasksCounter" value="55" />
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,6 +661,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="improved mobile optimisation" />
     <MESSAGE value="added favicons" />
     <MESSAGE value="fixed css path" />
     <MESSAGE value="added some padding" />
@@ -527,19 +686,16 @@
     <MESSAGE value="added back css for music" />
     <MESSAGE value="added photos to gallery" />
     <MESSAGE value="changed publicity rep page and moved current page to new campaign page" />
-    <MESSAGE value="fixed main stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed main stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed publicity rep page and moved current page to new campaign page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1687" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589231824618">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587407581191" />
-    <state x="1687" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.977@0.23.2560.977" timestamp="1589231824618" />
-    <state x="1069" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589315186965">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586336944220">
+      <screen x="0" y="23" width="2560" height="979" />
     </state>
-    <state x="1069" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.977@0.23.2560.977" timestamp="1589315186965" />
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
     <state x="1077" y="86" key="CommitChangelistDialog2" timestamp="1587670726904">
       <screen x="0" y="23" width="2560" height="977" />
@@ -552,31 +708,46 @@
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1127" y="241" width="1072" height="599" key="DiffContextDialog/0.23.2560.977@0.23.2560.977" timestamp="1587736224739" />
-    <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
-      <screen x="0" y="23" width="2560" height="979" />
+    <state x="511" y="281" key="EditFileWatcherDialog" timestamp="1590268468380">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="511" y="281" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1590268468380" />
     <state x="908" y="329" key="EditFileWatcherDialog/0.23.2560.979@0.23.2560.979" timestamp="1586193872255" />
-    <state x="803" y="182" key="SettingsEditor" timestamp="1587669116839">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="143" y="90" key="MergeDialog" timestamp="1590074229460">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="143" y="90" key="MergeDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074229460" />
+    <state x="379" y="70" key="SettingsEditor" timestamp="1590268471039">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1588416959452">
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1588367219883">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588416959452" />
+    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
-    <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="610" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590265715333">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="610" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590265715333" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587396683208" />
-    <state x="1054" y="308" width="670" height="675" key="search.everywhere.popup" timestamp="1588613976788">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="467" y="149" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590074214482">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="467" y="149" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074214482" />
+    <state x="495" y="325" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590074197803">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="495" y="325" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074197803" />
+    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup" timestamp="1590081053155">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590081053155" />
     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
-    <state x="1054" y="308" width="670" height="675" key="search.everywhere.popup/0.23.2560.977@0.23.2560.977" timestamp="1588613976788" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1587481324658" />
   </component>
 </project>

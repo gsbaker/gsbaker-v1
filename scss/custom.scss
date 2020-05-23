@@ -1,0 +1,23 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Variable Overrides
+$font-family-base: "Helvetica Neue";
+$body-bg: #13191D;
+$navbar-dark-color: #272F32;
+
+// Required
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+// General Styles
+body {
+  background-color: $body-bg;
+  font-family: $font-family-base;
+}
+
+// Navbar
+nav {
+  background-color: $navbar-dark-color;
+}
