@@ -1,0 +1,330 @@
+Index: _scss/custom.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>$red: #F44336;\n$blue: #2196F3;\n$indigo: #3949AB;\n\n.uk-fill {\n    background: -webkit-linear-gradient($red, $indigo);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  //color: red;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _scss/custom.scss	(revision f77625fbc9bf560d9c4b739ea5aa41a7ea1cbe1b)
++++ _scss/custom.scss	(date 1590065671558)
+@@ -3,8 +3,8 @@
+ $indigo: #3949AB;
+ 
+ .uk-fill {
+-    background: -webkit-linear-gradient($red, $indigo);
+-    -webkit-background-clip: text;
+-    -webkit-text-fill-color: transparent;
++  background: -webkit-linear-gradient($red, $indigo);
++  -webkit-background-clip: text;
++  -webkit-text-fill-color: transparent;
+   //color: red;
+ }
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <title>George Baker</title>\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">\n    <script src=\"https://code.jquery.com/jquery-3.4.1.slim.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js\" integrity=\"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6\" crossorigin=\"anonymous\"></script>\n    <link rel=\"stylesheet\" href=\"_scss/custom.css\">\n    <script type=\"text/javascript\" src=\"js/custom.js\"></script>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"assets/favicons/apple-touch-icon.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"assets/favicons/favicon-32x32.png\">\n    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"assets/favicons/favicon-16x16.png\">\n    <link rel=\"manifest\" href=\"assets/favicons/site.webmanifest\">\n</head>\n\n<body>\n\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\">\n        <img src=\"assets/images/Memoji%20Cropped.png\" width=\"30\" height=\"30\" alt=\"George Baker\">\n    </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n        <ul class=\"navbar-nav\">\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"#\">Blog</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" href=\"#\">Gallery</a>\n            </li>\n        </ul>\n    </div>\n</nav>\n\n<div class=\"container\">\n    <div class=\"row align-items-center justify-content-around\">\n        <div class=\"col-md\">\n            <img src=\"assets/images/Memoji%20Cropped.png\">\n        </div>\n        <div class=\"col-md\">\n            <h1 class=\"display-4\">George Baker</h1>\n            <p><a href=\"mailto:george@gsbaker.uk\">george@gsbaker.uk</a></p>\n            <h4>Student, developer, photographer.</h4>\n            <h4><span class=\"uk-fill\">Birmingham, UK.</span></h4>\n            <div class=\"d-flex flex-row bd-highlight mb-3\">\n                <div class=\"p-2 bd-highlight\"><a class=\"btn btn-primary\" href=\"#\" role=\"button\">Blog</a></div>\n                <div class=\"p-2 bd-highlight\"><a class=\"btn btn-primary\" href=\"#\" role=\"button\">Gallery</a></div>\n                <div class=\"p-2 bd-highlight\"><a class=\"btn btn-primary\" href=\"#\" role=\"button\">CV</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div id=\"about-me\">\n    <h1>About Me</h1>\n    <div class=\"row\">\n        <div class=\"col-sm offset-sm-1\">\n            <div class=\"card\" style=\"width: 18rem;\">\n                <img class=\"card-img-top\" src=\"assets/images/uob-logo.jpg\" alt=\"Card image cap\">\n                <div class=\"card-body\">\n                    <p class=\"card-text\">Studying Computer Science BSc at the University of Birmingham.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-sm offset-sm-1\">\n            <div class=\"card\" style=\"width: 18rem;\">\n                <img class=\"card-img-top\" src=\"assets/images/west-bromwich-albion.png\" alt=\"Card image cap\">\n                <div class=\"card-body\">\n                    <p class=\"card-text\">West Bromwich Albion supporter.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"col-sm offset-sm-1\">\n        <div class=\"card\" style=\"width: 18rem;\">\n            <div class=\"card-header\">\n                Hobbies\n            </div>\n            <ul class=\"list-group list-group-flush\">\n                <li class=\"list-group-item\">Coding \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB</li>\n                <li class=\"list-group-item\">Photography \uD83D\uDCF8</li>\n                <li class=\"list-group-item\">Listening to music \uD83C\uDFB5</li>\n                <li class=\"list-group-item\">Running \uD83C\uDFC3\uD83C\uDFFB\u200D</li>\n                <li class=\"list-group-item\">Design \uD83C\uDFA8</li>\n            </ul>\n        </div>\n        </div>\n\n        <div class=\"col-sm offset-sm-1\">\n            <div class=\"card\" style=\"width: 18rem;\">\n                <div class=\"card-header\">\n                    My favourite\n                </div>\n                <ul class=\"list-group list-group-flush\">\n                    <li class=\"list-group-item\">colour: <span style=\"color: blue\">blue</span> </li>\n                    <li class=\"list-group-item\">place: <a href=\"https://en.wikipedia.org/wiki/Aberglaslyn_Pass\">Aberglaslyn Pass</a></li>\n                    <li class=\"list-group-item\">song: <a href=\"https://geo.music.apple.com/us/album/ode-to-sleep/585128397?i=585128667&mt=1&app=music\">Ode To Sleep</a> by Twenty One Pilots </li>\n                    <li class=\"list-group-item\">Running \uD83C\uDFC3\uD83C\uDFFB\u200D</li>\n                    <li class=\"list-group-item\">Design \uD83C\uDFA8</li>\n                </ul>\n            </div>\n        </div>\n\n    </div>\n\n    </div>\n\n</div>\n\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision f77625fbc9bf560d9c4b739ea5aa41a7ea1cbe1b)
++++ index.html	(date 1590065943039)
+@@ -8,7 +8,7 @@
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+-    <link rel="stylesheet" href="_scss/custom.css">
++    <link rel="stylesheet" href="_scss/custom.scss">
+     <script type="text/javascript" src="js/custom.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+@@ -41,7 +41,7 @@
+ <div class="container">
+     <div class="row align-items-center justify-content-around">
+         <div class="col-md">
+-            <img src="assets/images/Memoji%20Cropped.png">
++            <img src="assets/images/Memoji%20Cropped.png" alt="George's Memoji">
+         </div>
+         <div class="col-md">
+             <h1 class="display-4">George Baker</h1>
+Index: .idea/gsbaker.github.io.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"WEB_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\" />\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"library\" name=\"darkmode-js\" level=\"application\" />\n    <orderEntry type=\"library\" name=\"bootstrap\" level=\"application\" />\n    <orderEntry type=\"library\" name=\"jquery-3.4.1.slim\" level=\"application\" />\n    <orderEntry type=\"library\" name=\"popper.js\" level=\"application\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gsbaker.github.io.iml	(revision f77625fbc9bf560d9c4b739ea5aa41a7ea1cbe1b)
++++ .idea/gsbaker.github.io.iml	(date 1590065581495)
+@@ -8,5 +8,8 @@
+     <orderEntry type="library" name="bootstrap" level="application" />
+     <orderEntry type="library" name="jquery-3.4.1.slim" level="application" />
+     <orderEntry type="library" name="popper.js" level="application" />
++    <orderEntry type="library" name="bootstrap" level="application" />
++    <orderEntry type="library" name="popper.js" level="application" />
++    <orderEntry type="library" name="jquery-3.4.1.slim" level="application" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"700b2885-f126-4cc2-8a90-ded87ba06616\" name=\"Default Changelist\" comment=\"fixed main stylesheet\">\n      <change afterPath=\"$PROJECT_DIR$/assets/images/Memoji Cropped.png\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/assets/images/uob-logo.jpg\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/assets/images/west-bromwich-albion.png\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/gsbaker.github.io.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/gsbaker.github.io.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/jsLibraryMappings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/jsLibraryMappings.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/_scss/custom.css\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/_scss/custom.css.map\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/_scss/custom.scss\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/_scss/custom.scss\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/blog-coming-soon.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/blog-coming-soon.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/dark-mode.css\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/styles.css\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/gallery/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/gallery/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/js/script.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/js/custom.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/publicity-rep/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/publicity-rep/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n        <option value=\"SCSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1a7jMHJunk9XubwIIGaasZj0kXJ\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/assets/images\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"SCSS\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/assets/images\" />\n      <recent name=\"$PROJECT_DIR$/css\" />\n      <recent name=\"$PROJECT_DIR$/assets\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/assets/images\" />\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/assets/images/gallery\" />\n      <recent name=\"$PROJECT_DIR$/assets/favicons\" />\n      <recent name=\"$PROJECT_DIR$/assets\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"index.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/gsbaker.github.io/index.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JavaScript Debug.index.html\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"700b2885-f126-4cc2-8a90-ded87ba06616\" name=\"Default Changelist\" comment=\"\" />\n      <created>1586093476414</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1586093476414</updated>\n      <workItem from=\"1586093477865\" duration=\"368000\" />\n      <workItem from=\"1586185906760\" duration=\"5479000\" />\n      <workItem from=\"1586194898787\" duration=\"38665000\" />\n      <workItem from=\"1586421374090\" duration=\"430000\" />\n      <workItem from=\"1586432647866\" duration=\"96000\" />\n      <workItem from=\"1586434997170\" duration=\"175000\" />\n      <workItem from=\"1586444654965\" duration=\"11159000\" />\n      <workItem from=\"1586517729745\" duration=\"961000\" />\n      <workItem from=\"1586531351736\" duration=\"428000\" />\n      <workItem from=\"1586532052089\" duration=\"1620000\" />\n      <workItem from=\"1586703363808\" duration=\"2927000\" />\n      <workItem from=\"1586711745720\" duration=\"16885000\" />\n      <workItem from=\"1586801200742\" duration=\"940000\" />\n      <workItem from=\"1586811165274\" duration=\"1396000\" />\n      <workItem from=\"1586867405755\" duration=\"4404000\" />\n      <workItem from=\"1586893398234\" duration=\"5488000\" />\n      <workItem from=\"1586964032308\" duration=\"4623000\" />\n      <workItem from=\"1586988625364\" duration=\"1643000\" />\n      <workItem from=\"1587207733878\" duration=\"1065000\" />\n      <workItem from=\"1587391838827\" duration=\"13108000\" />\n      <workItem from=\"1587456202770\" duration=\"6812000\" />\n      <workItem from=\"1587564675629\" duration=\"123000\" />\n      <workItem from=\"1587665807291\" duration=\"153000\" />\n      <workItem from=\"1587666446384\" duration=\"3790000\" />\n      <workItem from=\"1587679440804\" duration=\"6897000\" />\n      <workItem from=\"1587734739653\" duration=\"4219000\" />\n      <workItem from=\"1587755932056\" duration=\"1729000\" />\n      <workItem from=\"1587895105640\" duration=\"349000\" />\n      <workItem from=\"1588361650992\" duration=\"7841000\" />\n      <workItem from=\"1588433862991\" duration=\"831000\" />\n      <workItem from=\"1588613766393\" duration=\"210000\" />\n      <workItem from=\"1589127370811\" duration=\"3503000\" />\n      <workItem from=\"1589227671613\" duration=\"5124000\" />\n      <workItem from=\"1589288295980\" duration=\"9986000\" />\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"added compiled css\">\n      <created>1586457219592</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586457219592</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"added scss files\">\n      <created>1586459522232</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586459522232</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"pushed updated style to production\">\n      <created>1586459785886</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586459785886</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Updated Nav Links\">\n      <created>1586536940720</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586536940720</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Updated Blog Link\">\n      <created>1586537417629</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586537417629</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"updated links to https\">\n      <created>1586703557211</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586703557211</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"fixed incorrect nav link\">\n      <created>1586703637769</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586703637769</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"added dark mode support\">\n      <created>1586705326097</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586705326097</updated>\n    </task>\n    <task id=\"LOCAL-00014\" summary=\"updated what I'm listening to\">\n      <created>1586708371204</created>\n      <option name=\"number\" value=\"00014\" />\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586708371204</updated>\n    </task>\n    <task id=\"LOCAL-00015\" summary=\"support for mobile devices\">\n      <created>1586714285544</created>\n      <option name=\"number\" value=\"00015\" />\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586714285544</updated>\n    </task>\n    <task id=\"LOCAL-00016\" summary=\"improved support for mobile devices\">\n      <created>1586715327281</created>\n      <option name=\"number\" value=\"00016\" />\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586715327282</updated>\n    </task>\n    <task id=\"LOCAL-00017\" summary=\"improved support for mobile devices\">\n      <created>1586717231548</created>\n      <option name=\"number\" value=\"00017\" />\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586717231548</updated>\n    </task>\n    <task id=\"LOCAL-00018\" summary=\"improved support for mobile devices\">\n      <created>1586720985670</created>\n      <option name=\"number\" value=\"00018\" />\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586720985670</updated>\n    </task>\n    <task id=\"LOCAL-00019\" summary=\"testing h1 on mobile\">\n      <created>1586721180048</created>\n      <option name=\"number\" value=\"00019\" />\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586721180048</updated>\n    </task>\n    <task id=\"LOCAL-00020\" summary=\"testing changes on mobile\">\n      <created>1586722414777</created>\n      <option name=\"number\" value=\"00020\" />\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586722414777</updated>\n    </task>\n    <task id=\"LOCAL-00021\" summary=\"testing changes on mobile\">\n      <created>1586722495757</created>\n      <option name=\"number\" value=\"00021\" />\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586722495757</updated>\n    </task>\n    <task id=\"LOCAL-00022\" summary=\"optimised for mobile devices\">\n      <created>1586768809083</created>\n      <option name=\"number\" value=\"00022\" />\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586768809083</updated>\n    </task>\n    <task id=\"LOCAL-00023\" summary=\"navbar mobile optimisation\">\n      <created>1586769491163</created>\n      <option name=\"number\" value=\"00023\" />\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586769491163</updated>\n    </task>\n    <task id=\"LOCAL-00024\" summary=\"navbar mobile optimisation\">\n      <created>1586769533987</created>\n      <option name=\"number\" value=\"00024\" />\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586769533987</updated>\n    </task>\n    <task id=\"LOCAL-00025\" summary=\"navbar mobile optimisation\">\n      <created>1586769548626</created>\n      <option name=\"number\" value=\"00025\" />\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586769548626</updated>\n    </task>\n    <task id=\"LOCAL-00026\" summary=\"improved mobile optimisation\">\n      <created>1586774506772</created>\n      <option name=\"number\" value=\"00026\" />\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586774506772</updated>\n    </task>\n    <task id=\"LOCAL-00027\" summary=\"added favicons\">\n      <created>1586811318053</created>\n      <option name=\"number\" value=\"00027\" />\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586811318053</updated>\n    </task>\n    <task id=\"LOCAL-00028\" summary=\"fixed css path\">\n      <created>1586900911442</created>\n      <option name=\"number\" value=\"00028\" />\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586900911442</updated>\n    </task>\n    <task id=\"LOCAL-00029\" summary=\"added some padding\">\n      <created>1586985345444</created>\n      <option name=\"number\" value=\"00029\" />\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586985345444</updated>\n    </task>\n    <task id=\"LOCAL-00030\" summary=\"changed beta to new\">\n      <created>1586988742820</created>\n      <option name=\"number\" value=\"00030\" />\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1586988742820</updated>\n    </task>\n    <task id=\"LOCAL-00031\" summary=\"update README.md\">\n      <created>1587208196512</created>\n      <option name=\"number\" value=\"00031\" />\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587208196512</updated>\n    </task>\n    <task id=\"LOCAL-00032\" summary=\"create prettier link\">\n      <created>1587407996270</created>\n      <option name=\"number\" value=\"00032\" />\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587407996270</updated>\n    </task>\n    <task id=\"LOCAL-00033\" summary=\"added a paragraph to publicity rep\">\n      <created>1587408373235</created>\n      <option name=\"number\" value=\"00033\" />\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587408373236</updated>\n    </task>\n    <task id=\"LOCAL-00034\" summary=\"added gallery page preview to publicity rep page and cleaned up css\">\n      <created>1587487689677</created>\n      <option name=\"number\" value=\"00034\" />\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587487689677</updated>\n    </task>\n    <task id=\"LOCAL-00035\" summary=\"added back to guild link\">\n      <created>1587493479872</created>\n      <option name=\"number\" value=\"00035\" />\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587493479872</updated>\n    </task>\n    <task id=\"LOCAL-00036\" summary=\"fixed css link\">\n      <created>1587493850569</created>\n      <option name=\"number\" value=\"00036\" />\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587493850569</updated>\n    </task>\n    <task id=\"LOCAL-00037\" summary=\"added notice that I'm running for CSS publicity rep\">\n      <created>1587670756821</created>\n      <option name=\"number\" value=\"00037\" />\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587670756821</updated>\n    </task>\n    <task id=\"LOCAL-00038\" summary=\"mobile optimisation\">\n      <created>1587676176037</created>\n      <option name=\"number\" value=\"00038\" />\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587676176037</updated>\n    </task>\n    <task id=\"LOCAL-00039\" summary=\"added gallery page\">\n      <created>1587680208866</created>\n      <option name=\"number\" value=\"00039\" />\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587680208866</updated>\n    </task>\n    <task id=\"LOCAL-00040\" summary=\"added images to gallery and updated navbar\">\n      <created>1587730145703</created>\n      <option name=\"number\" value=\"00040\" />\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587730145703</updated>\n    </task>\n    <task id=\"LOCAL-00041\" summary=\"updated navbar links\">\n      <created>1587730702225</created>\n      <option name=\"number\" value=\"00041\" />\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587730702225</updated>\n    </task>\n    <task id=\"LOCAL-00042\" summary=\"mobile optimisation for publicity rep page\">\n      <created>1587735883677</created>\n      <option name=\"number\" value=\"00042\" />\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587735883677</updated>\n    </task>\n    <task id=\"LOCAL-00043\" summary=\"mobile optimisation for publicity rep page\">\n      <created>1587736448677</created>\n      <option name=\"number\" value=\"00043\" />\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587736448677</updated>\n    </task>\n    <task id=\"LOCAL-00044\" summary=\"mobile optimisation for publicity rep page\">\n      <created>1587736975570</created>\n      <option name=\"number\" value=\"00044\" />\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587736975570</updated>\n    </task>\n    <task id=\"LOCAL-00045\" summary=\"mobile optimisation for publicity rep page\">\n      <created>1587737133118</created>\n      <option name=\"number\" value=\"00045\" />\n      <option name=\"presentableId\" value=\"LOCAL-00045\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587737133118</updated>\n    </task>\n    <task id=\"LOCAL-00046\" summary=\"made images bigger on mobile\">\n      <created>1587738748644</created>\n      <option name=\"number\" value=\"00046\" />\n      <option name=\"presentableId\" value=\"LOCAL-00046\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587738748644</updated>\n    </task>\n    <task id=\"LOCAL-00047\" summary=\"added link back to main site from publicity rep page.\">\n      <created>1587756223788</created>\n      <option name=\"number\" value=\"00047\" />\n      <option name=\"presentableId\" value=\"LOCAL-00047\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587756223788</updated>\n    </task>\n    <task id=\"LOCAL-00048\" summary=\"added more content to the publicity rep page\">\n      <created>1587756618169</created>\n      <option name=\"number\" value=\"00048\" />\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587756618169</updated>\n    </task>\n    <task id=\"LOCAL-00049\" summary=\"corrected div id\">\n      <created>1587756700714</created>\n      <option name=\"number\" value=\"00049\" />\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587756700714</updated>\n    </task>\n    <task id=\"LOCAL-00050\" summary=\"updated what I'm listening to\">\n      <created>1587756758254</created>\n      <option name=\"number\" value=\"00050\" />\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587756758254</updated>\n    </task>\n    <task id=\"LOCAL-00051\" summary=\"added back css for music\">\n      <created>1587757210472</created>\n      <option name=\"number\" value=\"00051\" />\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587757210472</updated>\n    </task>\n    <task id=\"LOCAL-00052\" summary=\"added photos to gallery\">\n      <created>1587895428347</created>\n      <option name=\"number\" value=\"00052\" />\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587895428347</updated>\n    </task>\n    <task id=\"LOCAL-00053\" summary=\"changed publicity rep page and moved current page to new campaign page\">\n      <created>1588367199289</created>\n      <option name=\"number\" value=\"00053\" />\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1588367199290</updated>\n    </task>\n    <task id=\"LOCAL-00054\" summary=\"fixed main stylesheet\">\n      <created>1588416955593</created>\n      <option name=\"number\" value=\"00054\" />\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1588416955593</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"55\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"added favicons\" />\n    <MESSAGE value=\"fixed css path\" />\n    <MESSAGE value=\"added some padding\" />\n    <MESSAGE value=\"changed beta to new\" />\n    <MESSAGE value=\"update README.md\" />\n    <MESSAGE value=\"create prettier link\" />\n    <MESSAGE value=\"added a paragraph to publicity rep\" />\n    <MESSAGE value=\"added gallery page preview to publicity rep page and cleaned up css\" />\n    <MESSAGE value=\"added back to guild link\" />\n    <MESSAGE value=\"fixed css link\" />\n    <MESSAGE value=\"added notice that I'm running for CSS publicity rep\" />\n    <MESSAGE value=\"mobile optimisation\" />\n    <MESSAGE value=\"added gallery page\" />\n    <MESSAGE value=\"added images to gallery and updated navbar\" />\n    <MESSAGE value=\"updated navbar links\" />\n    <MESSAGE value=\"mobile optimisation for publicity rep page\" />\n    <MESSAGE value=\"made images bigger on mobile\" />\n    <MESSAGE value=\"added link back to main site from publicity rep page.\" />\n    <MESSAGE value=\"added more content to the publicity rep page\" />\n    <MESSAGE value=\"corrected div id\" />\n    <MESSAGE value=\"updated what I'm listening to\" />\n    <MESSAGE value=\"added back css for music\" />\n    <MESSAGE value=\"added photos to gallery\" />\n    <MESSAGE value=\"changed publicity rep page and moved current page to new campaign page\" />\n    <MESSAGE value=\"fixed main stylesheet\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fixed main stylesheet\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"1687\" y=\"23\" key=\"#com.intellij.refactoring.rename.AutomaticRenamingDialog\" timestamp=\"1589231824618\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"1687\" y=\"0\" key=\"#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080\" timestamp=\"1587407581191\" />\n    <state x=\"1687\" y=\"23\" key=\"#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.977@0.23.2560.977\" timestamp=\"1589231824618\" />\n    <state x=\"1069\" y=\"287\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1589315186965\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"1069\" y=\"287\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.977@0.23.2560.977\" timestamp=\"1589315186965\" />\n    <state x=\"1069\" y=\"288\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979\" timestamp=\"1586336944220\" />\n    <state x=\"1077\" y=\"86\" key=\"CommitChangelistDialog2\" timestamp=\"1587670726904\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"1536\" y=\"142\" key=\"CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080\" timestamp=\"1587408373037\" />\n    <state x=\"383\" y=\"23\" key=\"CommitChangelistDialog2/0.23.1280.727@0.23.1280.727\" timestamp=\"1586537417304\" />\n    <state x=\"1077\" y=\"86\" key=\"CommitChangelistDialog2/0.23.2560.977@0.23.2560.977\" timestamp=\"1587670726904\" />\n    <state x=\"1493\" y=\"152\" key=\"CommitChangelistDialog2/0.23.2560.979@0.23.2560.979\" timestamp=\"1587493850375\" />\n    <state x=\"1127\" y=\"241\" width=\"1072\" height=\"599\" key=\"DiffContextDialog\" timestamp=\"1587736224739\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"1127\" y=\"241\" width=\"1072\" height=\"599\" key=\"DiffContextDialog/0.23.2560.977@0.23.2560.977\" timestamp=\"1587736224739\" />\n    <state x=\"908\" y=\"329\" key=\"EditFileWatcherDialog\" timestamp=\"1586193872255\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"979\" />\n    </state>\n    <state x=\"908\" y=\"329\" key=\"EditFileWatcherDialog/0.23.2560.979@0.23.2560.979\" timestamp=\"1586193872255\" />\n    <state x=\"803\" y=\"182\" key=\"SettingsEditor\" timestamp=\"1587669116839\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"803\" y=\"182\" key=\"SettingsEditor/0.23.2560.977@0.23.2560.977\" timestamp=\"1587669116839\" />\n    <state x=\"803\" y=\"182\" key=\"SettingsEditor/0.23.2560.979@0.23.2560.979\" timestamp=\"1586196597237\" />\n    <state x=\"1148\" y=\"265\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1588416959452\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"1525\" y=\"280\" key=\"Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080\" timestamp=\"1587408375329\" />\n    <state x=\"480\" y=\"212\" key=\"Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727\" timestamp=\"1586537422387\" />\n    <state x=\"1148\" y=\"265\" key=\"Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977\" timestamp=\"1588416959452\" />\n    <state x=\"1525\" y=\"277\" key=\"Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979\" timestamp=\"1587493852860\" />\n    <state x=\"1085\" y=\"464\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1587396683208\">\n      <screen x=\"0\" y=\"0\" width=\"2560\" height=\"1080\" />\n    </state>\n    <state x=\"1085\" y=\"464\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080\" timestamp=\"1587396683208\" />\n    <state x=\"1054\" y=\"308\" width=\"670\" height=\"675\" key=\"search.everywhere.popup\" timestamp=\"1588613976788\">\n      <screen x=\"0\" y=\"23\" width=\"2560\" height=\"977\" />\n    </state>\n    <state x=\"1054\" y=\"316\" width=\"670\" height=\"746\" key=\"search.everywhere.popup/0.0.2560.1080@0.0.2560.1080\" timestamp=\"1586258972136\" />\n    <state x=\"1054\" y=\"308\" width=\"670\" height=\"675\" key=\"search.everywhere.popup/0.23.2560.977@0.23.2560.977\" timestamp=\"1588613976788\" />\n    <state x=\"1054\" y=\"309\" width=\"670\" height=\"676\" key=\"search.everywhere.popup/0.23.2560.979@0.23.2560.979\" timestamp=\"1587481324658\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision f77625fbc9bf560d9c4b739ea5aa41a7ea1cbe1b)
++++ .idea/workspace.xml	(date 1590065871040)
+@@ -19,24 +19,13 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="fixed main stylesheet">
+-      <change afterPath="$PROJECT_DIR$/assets/images/Memoji Cropped.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/assets/images/uob-logo.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/assets/images/west-bromwich-albion.png" afterDir="false" />
++    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="changed publicity rep page and moved current page to new campaign page">
+       <change beforePath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gsbaker.github.io.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/.sass-cache/db1a95c7f7e018e430ff0bfce216c6016a3af454/custom.scssc" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_scss/custom.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_scss/custom.css.map" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/_scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_scss/custom.scss" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/blog-coming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-coming-soon.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/dark-mode.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/publicity-rep/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publicity-rep/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -46,14 +35,19 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="CSS File" />
+         <option value="JavaScript File" />
+         <option value="HTML File" />
+-        <option value="CSS File" />
+         <option value="SCSS File" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="1a7jMHJunk9XubwIIGaasZj0kXJ" />
+@@ -64,26 +58,32 @@
+   </component>
+   <component name="PropertiesComponent">
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="list.type.of.created.stylesheet" value="SCSS" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/assets/images" />
++      <recent name="$PROJECT_DIR$" />
+       <recent name="$PROJECT_DIR$/css" />
+       <recent name="$PROJECT_DIR$/assets" />
+-      <recent name="$PROJECT_DIR$" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/assets/images" />
+-      <recent name="$PROJECT_DIR$" />
+       <recent name="$PROJECT_DIR$/assets/images/gallery" />
+       <recent name="$PROJECT_DIR$/assets/favicons" />
+       <recent name="$PROJECT_DIR$/assets" />
++      <recent name="$PROJECT_DIR$/publicity-rep" />
+     </key>
+   </component>
+   <component name="RunManager">
+@@ -134,12 +134,15 @@
+       <workItem from="1587734739653" duration="4219000" />
+       <workItem from="1587755932056" duration="1729000" />
+       <workItem from="1587895105640" duration="349000" />
+-      <workItem from="1588361650992" duration="7841000" />
+-      <workItem from="1588433862991" duration="831000" />
+-      <workItem from="1588613766393" duration="210000" />
+-      <workItem from="1589127370811" duration="3503000" />
+-      <workItem from="1589227671613" duration="5124000" />
+-      <workItem from="1589288295980" duration="9986000" />
++      <workItem from="1588361650992" duration="7254000" />
++      <workItem from="1590055646390" duration="421000" />
++    </task>
++    <task id="LOCAL-00005" summary="refined initial design">
++      <created>1586457000731</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1586457000732</updated>
+     </task>
+     <task id="LOCAL-00006" summary="added compiled css">
+       <created>1586457219592</created>
+@@ -477,14 +480,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1588367199290</updated>
+     </task>
+-    <task id="LOCAL-00054" summary="fixed main stylesheet">
+-      <created>1588416955593</created>
+-      <option name="number" value="00054" />
+-      <option name="presentableId" value="LOCAL-00054" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1588416955593</updated>
+-    </task>
+-    <option name="localTasksCounter" value="55" />
++    <option name="localTasksCounter" value="54" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -503,6 +499,7 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
++    <MESSAGE value="improved mobile optimisation" />
+     <MESSAGE value="added favicons" />
+     <MESSAGE value="fixed css path" />
+     <MESSAGE value="added some padding" />
+@@ -527,19 +524,21 @@
+     <MESSAGE value="added back css for music" />
+     <MESSAGE value="added photos to gallery" />
+     <MESSAGE value="changed publicity rep page and moved current page to new campaign page" />
+-    <MESSAGE value="fixed main stylesheet" />
+-    <option name="LAST_COMMIT_MESSAGE" value="fixed main stylesheet" />
++    <option name="LAST_COMMIT_MESSAGE" value="changed publicity rep page and moved current page to new campaign page" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="1687" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589231824618">
+-      <screen x="0" y="23" width="2560" height="977" />
++    <state x="597" y="320" key="#File_Watchers" timestamp="1590065685852">
++      <screen x="0" y="23" width="1440" height="823" />
++    </state>
++    <state x="597" y="320" key="#File_Watchers/0.23.1440.823@0.23.1440.823" timestamp="1590065685852" />
++    <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
++      <screen x="0" y="0" width="2560" height="1080" />
+     </state>
+     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587407581191" />
+-    <state x="1687" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.977@0.23.2560.977" timestamp="1589231824618" />
+-    <state x="1069" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589315186965">
+-      <screen x="0" y="23" width="2560" height="977" />
++    <state x="601" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590065868879">
++      <screen x="0" y="23" width="1440" height="823" />
+     </state>
+-    <state x="1069" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.977@0.23.2560.977" timestamp="1589315186965" />
++    <state x="601" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.823@0.23.1440.823" timestamp="1590065868879" />
+     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
+     <state x="1077" y="86" key="CommitChangelistDialog2" timestamp="1587670726904">
+       <screen x="0" y="23" width="2560" height="977" />
+@@ -556,27 +555,27 @@
+       <screen x="0" y="23" width="2560" height="979" />
+     </state>
+     <state x="908" y="329" key="EditFileWatcherDialog/0.23.2560.979@0.23.2560.979" timestamp="1586193872255" />
+-    <state x="803" y="182" key="SettingsEditor" timestamp="1587669116839">
+-      <screen x="0" y="23" width="2560" height="977" />
++    <state x="358" y="100" key="SettingsEditor" timestamp="1590065723274">
++      <screen x="0" y="23" width="1440" height="823" />
+     </state>
++    <state x="358" y="100" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1590065723274" />
+     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
+     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
+-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1588416959452">
++    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1588367219883">
+       <screen x="0" y="23" width="2560" height="977" />
+     </state>
+     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
+     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
+-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588416959452" />
++    <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
+     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
+     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
+       <screen x="0" y="0" width="2560" height="1080" />
+     </state>
+     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587396683208" />
+-    <state x="1054" y="308" width="670" height="675" key="search.everywhere.popup" timestamp="1588613976788">
+-      <screen x="0" y="23" width="2560" height="977" />
++    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1587481324658">
++      <screen x="0" y="23" width="2560" height="979" />
+     </state>
+     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
+-    <state x="1054" y="308" width="670" height="675" key="search.everywhere.popup/0.23.2560.977@0.23.2560.977" timestamp="1588613976788" />
+     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1587481324658" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/watcherTasks.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectTasksOptions\">\n    <TaskOptions isEnabled=\"true\">\n      <option name=\"arguments\" value=\"$FileName$:$FileNameWithoutExtension$.css\" />\n      <option name=\"checkSyntaxErrors\" value=\"true\" />\n      <option name=\"description\" />\n      <option name=\"exitCodeBehavior\" value=\"ERROR\" />\n      <option name=\"fileExtension\" value=\"scss\" />\n      <option name=\"immediateSync\" value=\"true\" />\n      <option name=\"name\" value=\"SCSS\" />\n      <option name=\"output\" value=\"$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map\" />\n      <option name=\"outputFilters\">\n        <array />\n      </option>\n      <option name=\"outputFromStdout\" value=\"false\" />\n      <option name=\"program\" value=\"sass\" />\n      <option name=\"runOnExternalChanges\" value=\"true\" />\n      <option name=\"scopeName\" value=\"Project Files\" />\n      <option name=\"trackOnlyRoot\" value=\"true\" />\n      <option name=\"workingDir\" value=\"$FileDir$\" />\n      <envs />\n    </TaskOptions>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/watcherTasks.xml	(revision f77625fbc9bf560d9c4b739ea5aa41a7ea1cbe1b)
++++ .idea/watcherTasks.xml	(date 1590065686175)
+@@ -1,25 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ProjectTasksOptions">
+-    <TaskOptions isEnabled="true">
+-      <option name="arguments" value="$FileName$:$FileNameWithoutExtension$.css" />
+-      <option name="checkSyntaxErrors" value="true" />
+-      <option name="description" />
+-      <option name="exitCodeBehavior" value="ERROR" />
+-      <option name="fileExtension" value="scss" />
+-      <option name="immediateSync" value="true" />
+-      <option name="name" value="SCSS" />
+-      <option name="output" value="$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map" />
+-      <option name="outputFilters">
+-        <array />
+-      </option>
+-      <option name="outputFromStdout" value="false" />
+-      <option name="program" value="sass" />
+-      <option name="runOnExternalChanges" value="true" />
+-      <option name="scopeName" value="Project Files" />
+-      <option name="trackOnlyRoot" value="true" />
+-      <option name="workingDir" value="$FileDir$" />
+-      <envs />
+-    </TaskOptions>
++    <enabled-global>
++      <option value="SCSS" />
++    </enabled-global>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/jsLibraryMappings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"JavaScriptLibraryMappings\">\n    <file url=\"PROJECT\" libraries=\"{bootstrap, darkmode-js, jquery-3.4.1.slim, popper.js}\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jsLibraryMappings.xml	(revision f77625fbc9bf560d9c4b739ea5aa41a7ea1cbe1b)
++++ .idea/jsLibraryMappings.xml	(date 1590065581498)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="JavaScriptLibraryMappings">
+-    <file url="PROJECT" libraries="{bootstrap, darkmode-js, jquery-3.4.1.slim, popper.js}" />
++    <file url="PROJECT" libraries="{bootstrap, jquery-3.4.1.slim, popper.js}" />
+   </component>
+ </project>
+\ No newline at end of file
