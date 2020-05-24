@@ -1,10 +1,15 @@
 body {
   background-color: #13191D;
   font-family: "Helvetica Neue";
+  color: #E3E8E9;
 }
 
 nav {
   background-color: #272F32;
+}
+
+.card-text {
+  color: #13191D;
 }
 
 /*# sourceMappingURL=custom.css.map */

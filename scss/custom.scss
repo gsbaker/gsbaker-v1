@@ -4,6 +4,8 @@
 // Variable Overrides
 $font-family-base: "Helvetica Neue";
 $body-bg: #13191D;
+$body-color: #E3E8E9;
+$card-color: #13191D;
 $navbar-dark-color: #272F32;
 
 // Required
@@ -15,9 +17,14 @@ $navbar-dark-color: #272F32;
 body {
   background-color: $body-bg;
   font-family: $font-family-base;
+  color: $body-color;
 }
 
 // Navbar
 nav {
   background-color: $navbar-dark-color;
+}
+
+.card-text {
+  color: $card-color;
 }
