@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Added top section and started About Me section.">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/georgebaker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg/bg-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg/bg-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg/bg-lilac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg/bg-orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg/bg-purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bg/bg-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/ebay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo/htm.png" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Finished About section and Music section.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
@@ -148,14 +139,7 @@
       <workItem from="1590055646390" duration="421000" />
       <workItem from="1590074182445" duration="8345000" />
       <workItem from="1590265708036" duration="2417000" />
-      <workItem from="1590268505026" duration="12345000" />
-    </task>
-    <task id="LOCAL-00007" summary="added scss files">
-      <created>1586459522232</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1586459522232</updated>
+      <workItem from="1590268505026" duration="13287000" />
     </task>
     <task id="LOCAL-00008" summary="pushed updated style to production">
       <created>1586459785886</created>
@@ -493,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590324864411</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Finished About section and Music section.">
+      <created>1590349837587</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1590349837587</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +503,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed css path" />
     <MESSAGE value="added some padding" />
     <MESSAGE value="changed beta to new" />
     <MESSAGE value="update README.md" />
@@ -537,7 +527,8 @@
     <MESSAGE value="changed publicity rep page and moved current page to new campaign page" />
     <MESSAGE value="Finished navbar and applied color scheme." />
     <MESSAGE value="Added top section and started About Me section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added top section and started About Me section." />
+    <MESSAGE value="Finished About section and Music section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished About section and Music section." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -574,10 +565,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590324867569">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590349842721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590324867569" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590349842721" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
