@@ -1,0 +1,47 @@
+body {
+  background-color: #13191D;
+  font-family: "Helvetica Neue";
+  color: #E3E8E9;
+}
+
+nav {
+  background-color: #272F32;
+}
+
+.card-text {
+  color: #13191D;
+}
+
+.card-title {
+  color: #13191D;
+}
+
+.card-header {
+  color: #13191D;
+}
+
+.list-group .list-group-item {
+  color: #13191D;
+}
+
+.text-java-orange {
+  color: #ED8B00;
+}
+
+.text-mysql-blue {
+  color: #00758f;
+}
+
+.text-bootstrap-purple {
+  color: #563d7c;
+}
+
+.text-html {
+  color: #F16529;
+}
+
+.text-python {
+  color: #ffde57;
+}
+
+/*# sourceMappingURL=custom.css.map */

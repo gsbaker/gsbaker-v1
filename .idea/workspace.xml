@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="changed publicity rep page and moved current page to new campaign page">
-      <change afterPath="$PROJECT_DIR$/CV.pdf" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Finished About section and Music section.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +35,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1a7jMHJunk9XubwIIGaasZj0kXJ" />
@@ -54,22 +61,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/bg" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/assets/images/gallery" />
-      <recent name="$PROJECT_DIR$/assets/favicons" />
-      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/img/logo" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/icon" />
       <recent name="$PROJECT_DIR$/publicity-rep" />
+      <recent name="$PROJECT_DIR$/publicity-rep/campaign/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/bg" />
+      <recent name="$PROJECT_DIR$/img/icon" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/bootstrap/scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -122,27 +137,9 @@
       <workItem from="1587895105640" duration="349000" />
       <workItem from="1588361650992" duration="7254000" />
       <workItem from="1590055646390" duration="421000" />
-    </task>
-    <task id="LOCAL-00005" summary="refined initial design">
-      <created>1586457000731</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1586457000732</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added compiled css">
-      <created>1586457219592</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1586457219592</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added scss files">
-      <created>1586459522232</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1586459522232</updated>
+      <workItem from="1590074182445" duration="8345000" />
+      <workItem from="1590265708036" duration="2417000" />
+      <workItem from="1590268505026" duration="13287000" />
     </task>
     <task id="LOCAL-00008" summary="pushed updated style to production">
       <created>1586459785886</created>
@@ -466,7 +463,28 @@
       <option name="project" value="LOCAL" />
       <updated>1588367199290</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Finished navbar and applied color scheme.">
+      <created>1590271808284</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1590271808285</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Added top section and started About Me section.">
+      <created>1590324864411</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1590324864411</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Finished About section and Music section.">
+      <created>1590349837587</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1590349837587</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,9 +503,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="improved mobile optimisation" />
-    <MESSAGE value="added favicons" />
-    <MESSAGE value="fixed css path" />
     <MESSAGE value="added some padding" />
     <MESSAGE value="changed beta to new" />
     <MESSAGE value="update README.md" />
@@ -510,7 +525,10 @@
     <MESSAGE value="added back css for music" />
     <MESSAGE value="added photos to gallery" />
     <MESSAGE value="changed publicity rep page and moved current page to new campaign page" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed publicity rep page and moved current page to new campaign page" />
+    <MESSAGE value="Finished navbar and applied color scheme." />
+    <MESSAGE value="Added top section and started About Me section." />
+    <MESSAGE value="Finished About section and Music section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished About section and Music section." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -532,29 +550,46 @@
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1127" y="241" width="1072" height="599" key="DiffContextDialog/0.23.2560.977@0.23.2560.977" timestamp="1587736224739" />
-    <state x="908" y="329" key="EditFileWatcherDialog" timestamp="1586193872255">
-      <screen x="0" y="23" width="2560" height="979" />
+    <state x="511" y="281" key="EditFileWatcherDialog" timestamp="1590268468380">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="511" y="281" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1590268468380" />
     <state x="908" y="329" key="EditFileWatcherDialog/0.23.2560.979@0.23.2560.979" timestamp="1586193872255" />
-    <state x="803" y="182" key="SettingsEditor" timestamp="1587669116839">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="143" y="90" key="MergeDialog" timestamp="1590074229460">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="143" y="90" key="MergeDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074229460" />
+    <state x="379" y="70" key="SettingsEditor" timestamp="1590268471039">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="1148" y="265" key="Vcs.Push.Dialog.v2" timestamp="1588367219883">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590349842721">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590349842721" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
-    <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587396683208">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="610" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590265715333">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="610" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590265715333" />
     <state x="1085" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587396683208" />
-    <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup" timestamp="1587481324658">
-      <screen x="0" y="23" width="2560" height="979" />
+    <state x="467" y="149" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590074214482">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="467" y="149" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074214482" />
+    <state x="495" y="325" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590074197803">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="495" y="325" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074197803" />
+    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup" timestamp="1590349140747">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590349140747" />
     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1587481324658" />
   </component>

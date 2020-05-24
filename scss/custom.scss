@@ -1,0 +1,65 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// Variable Overrides
+$font-family-base: "Helvetica Neue";
+$body-bg: #13191D;
+$body-color: #E3E8E9;
+$card-color: #13191D;
+$navbar-dark-color: #272F32;
+
+// Required
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+// General Styles
+body {
+  background-color: $body-bg;
+  font-family: $font-family-base;
+  color: $body-color;
+}
+
+// Navbar
+nav {
+  background-color: $navbar-dark-color;
+}
+
+.card-text {
+  color: $card-color;
+}
+
+.card-title {
+  color: $card-color;
+}
+
+.card-header {
+  color: $card-color;
+}
+
+.list-group {
+
+  .list-group-item {
+    color: $card-color;
+  }
+}
+
+.text-java-orange {
+  color: #ED8B00;
+}
+
+.text-mysql-blue {
+  color: #00758f;
+}
+
+.text-bootstrap-purple {
+  color: #563d7c;
+}
+
+.text-html {
+  color: #F16529;
+}
+
+.text-python {
+  color: #ffde57;
+}
