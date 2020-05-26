@@ -2,11 +2,12 @@
 // Option B: Include parts of Bootstrap
 
 // Variable Overrides
-$font-family-base: "Helvetica Neue";
-$body-bg: #13191D;
-$body-color: #E3E8E9;
+$font-family-base: Helvetica Neue, sans-serif;
+$body-bg: #fff;
+$body-color: #000;
 $card-color: #13191D;
 $navbar-dark-color: #272F32;
+$primary: #2C2C54;
 
 // Required
 @import "../bootstrap/scss/functions";
@@ -24,6 +25,18 @@ body {
 nav {
   background-color: $navbar-dark-color;
 }
+
+
+// Components
+#connect-links {
+  list-style-type: none;
+}
+
+#description {
+  font-size: 20px;
+}
+// Classes
+
 
 .card-text {
   color: $card-color;
@@ -44,22 +57,65 @@ nav {
   }
 }
 
-.text-java-orange {
+.font-georgia {
+  font-family: Georgia, sans-serif;
+}
+
+.font-menlo {
+  font-family: Menlo, sans-serif;
+}
+
+.color-uk {
+  background: -webkit-linear-gradient(#E12B27, #4C6085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-github {
+  color: #333;
+  &:hover {
+    color: #333;
+  }
+}
+
+.color-linkedin {
+  color: #2867B2;
+  &:hover {
+    color: #2867B2;
+  }
+}
+
+.color-twitter {
+  color: #1DA1F2;
+  &:hover {
+    color: #1DA1F2;
+  }
+}
+
+.color-rss {
+  color: orange;
+  &:hover {
+    color: orange;
+  }
+}
+
+.color-java {
   color: #ED8B00;
 }
 
-.text-mysql-blue {
+.color-mysql {
   color: #00758f;
 }
 
-.text-bootstrap-purple {
+.color-bootstrap {
   color: #563d7c;
 }
 
-.text-html {
+.color-html {
   color: #F16529;
 }
 
-.text-python {
+.color-python {
   color: #ffde57;
 }
+

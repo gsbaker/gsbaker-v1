@@ -1,11 +1,19 @@
 body {
-  background-color: #13191D;
-  font-family: "Helvetica Neue";
-  color: #E3E8E9;
+  background-color: #fff;
+  font-family: Helvetica Neue, sans-serif;
+  color: #000;
 }
 
 nav {
   background-color: #272F32;
+}
+
+#connect-links {
+  list-style-type: none;
+}
+
+#description {
+  font-size: 20px;
 }
 
 .card-text {
@@ -24,23 +32,65 @@ nav {
   color: #13191D;
 }
 
-.text-java-orange {
+.font-georgia {
+  font-family: Georgia, sans-serif;
+}
+
+.font-menlo {
+  font-family: Menlo, sans-serif;
+}
+
+.color-uk {
+  background: -webkit-linear-gradient(#E12B27, #4C6085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-github {
+  color: #333;
+}
+.color-github:hover {
+  color: #333;
+}
+
+.color-linkedin {
+  color: #2867B2;
+}
+.color-linkedin:hover {
+  color: #2867B2;
+}
+
+.color-twitter {
+  color: #1DA1F2;
+}
+.color-twitter:hover {
+  color: #1DA1F2;
+}
+
+.color-rss {
+  color: orange;
+}
+.color-rss:hover {
+  color: orange;
+}
+
+.color-java {
   color: #ED8B00;
 }
 
-.text-mysql-blue {
+.color-mysql {
   color: #00758f;
 }
 
-.text-bootstrap-purple {
+.color-bootstrap {
   color: #563d7c;
 }
 
-.text-html {
+.color-html {
   color: #F16529;
 }
 
-.text-python {
+.color-python {
   color: #ffde57;
 }
 

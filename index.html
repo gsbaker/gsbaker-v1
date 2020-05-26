@@ -17,49 +17,8 @@
     <title>George Baker</title>
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar sticky-top navbar-expand-md navbar-dark">
-    <a class="navbar-brand" href="#">
-        <img src="img/memoji.png" width="30" height="30" alt="George's Memoji">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/gsbakertweets">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/georgestephenbaker/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/georgestephenbaker/">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/gsbaker">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
 <!-- Container -->
-<div class="container mt-lg-5">
+<div class="container mt-md-2">
     <!-- Content here -->
     <!-- Top Section -->
     <div class="container">
@@ -69,31 +28,43 @@
             </div>
             <div class="col-lg">
                 <div class="row">
-                    <h1 class="display-3">George Baker</h1>
+                    <h1 class="display-4 font-georgia">George Baker</h1>
                 </div>
                 <div class="row">
-                    <h2>Student • Developer • Photographer</h2>
+                    <h4 class="font-menlo">Computer Science Student in <span class="color-uk">Birmingham, U.K.</span></h4>
                 </div>
                 <div class="row mt-2">
-                    <a class="btn btn-outline-success" href="CV.pdf" role="button">Download My CV</a>
+                    <a class="btn btn-outline-primary" href="CV.pdf" role="button">Download My CV</a>
                 </div>
                 <div class="d-flex row flex-row bd-highlight mb-3 mt-1 align-items-center">
                     <div class="p-2 bd-highlight">
-                        <h4><i class="far fa-envelope"></i></h4>
+
                     </div>
                     <div class="p-2 bd-highlight">
-                        <h4><a href="mailto:george@gsbaker.uk">george@gsbaker.uk</a></h4>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <ul id="connect-links">
+        <li><a href="mailto:george@gsbaker.uk"><i class="far fa-envelope"></i> george@gsbaker.uk</a></li>
+        <li><a href="https://www.github.com/gsbaker" class="color-github"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/georgestephenbaker" class="color-linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://www.twitter.com/gsbakertweets" class="color-twitter"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.twitter.com/gsbakertweets" class="color-rss"><i class="fas fa-rss"></i> Blog</a></li>
+    </ul>
     <!-- About Me -->
     <div class="container mt-md-5">
-        <h1>About Me</h1>
-        <p>Hi! I'm George. I'm a computer science student from Birmingham, U.K.
-        I'm focusing on learning to develop for technologies that I like to use myself
-            so that I will enjoy my career in the future. As well as studying of course ;)</p>
+        <div id="description" class="font-georgia">
+            <p>Hi there! My name is George. I'm a computer science student
+                at the University of Birmingham.</p>
+            <p>I focus on project based learning. I enjoy running,
+            alternative/indie music and photography.</p>
+
+        </div>
+
 
         <h3 class="mt-lg-4">What I've done so far</h3>
         <div class="d-flex row flex-row bd-highlight mb-3 mt-1">
@@ -154,8 +125,8 @@
                         <h5 class="card-title">Food Diary</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Languages and frameworks</h6>
                         <ul class="card-text">
-                            <li class="text-mysql-blue">MySQL <i class="fas fa-database"></i></li>
-                            <li class="text-java-orange">Java <i class="fab fa-java"></i></li>
+                            <li class="color-mysql">MySQL <i class="fas fa-database"></i></li>
+                            <li class="color-java">Java <i class="fab fa-java"></i></li>
                             <li>JavaFX</li>
                         </ul>
                         <h6 class="card-subtitle mb-2 text-muted">Description</h6>
@@ -195,8 +166,8 @@
                         <h5 class="card-title">This Website</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Languages and frameworks</h6>
                         <ul class="card-text">
-                            <li class="text-bootstrap-purple">Bootstrap <i class="fab fa-bootstrap"></i></li>
-                            <li class="text-html">HTML5 <i class="fab fa-html5"></i></li>
+                            <li class="color-bootstrap">Bootstrap <i class="fab fa-bootstrap"></i></li>
+                            <li class="color-html">HTML5 <i class="fab fa-html5"></i></li>
                             <li>SCSS</li>
                         </ul>
                         <h6 class="card-subtitle mb-2 text-muted">Description</h6>
@@ -213,7 +184,7 @@
                         <h5 class="card-title">Shmup</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Languages and frameworks</h6>
                         <ul class="card-text">
-                            <li class="text-python">Python <i class="fab fa-python"></i></li>
+                            <li class="color-python">Python <i class="fab fa-python"></i></li>
                             <li>PyGame</li>
                         </ul>
                         <h6 class="card-subtitle mb-2 text-muted">Description</h6>

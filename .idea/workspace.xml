@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Merging dev.">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated CV.pdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/bg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -137,6 +140,8 @@
       <workItem from="1590074182445" duration="8345000" />
       <workItem from="1590265708036" duration="2417000" />
       <workItem from="1590268505026" duration="13287000" />
+      <workItem from="1590489111772" duration="570000" />
+      <workItem from="1590498330853" duration="4558000" />
     </task>
     <task id="LOCAL-00008" summary="pushed updated style to production">
       <created>1586459785886</created>
