@@ -1,18 +1,12 @@
-# gsbaker.github.io
+# [gsbaker.uk](https://www.gsbaker.uk)
 
-## A Showcase Of HTML And CSS
-I created this website without any frameworks or libraries; it's
-just plain old HTML and CSS with a little bit of Javascript for 
-fading in the navbar. 
+My personal website, version 1! 
 
-The only extra I did use is the CSS extension language
-[SASS](https://sass-lang.com). I would recommend using this if
-you're going to be heavily using CSS
-in your project. I found it very easy to pick up.
+## How it's built
+I decided to use the Bootstrap front-end CSS library because of its easy to implement layout options. 
 
-## Why did I create a personal website?
-There are three main purposes to this site:
-1. An 'online CV' which I can link to on my actual CV document.
-2. To teach myself some basic front-end skills since I don't usually
-do very much web development.
-3. To serve as a portal to my [blog](https://blog.gsbaker.uk). 
+For any custom CSS I used [SCSS](https://sass-lang.com) to make my life easier. 
+
+## Purpose of this site
+I want this website to act as an extension to my CV. It allows me to go more in depth on projects I've done 
+than I am able to do on my CV. 
