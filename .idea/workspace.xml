@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated what I've done so far.">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated my projects.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -138,14 +138,7 @@
       <workItem from="1590265708036" duration="2417000" />
       <workItem from="1590268505026" duration="13287000" />
       <workItem from="1590489111772" duration="570000" />
-      <workItem from="1590498330853" duration="13263000" />
-    </task>
-    <task id="LOCAL-00010" summary="Updated Blog Link">
-      <created>1586537417629</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1586537417629</updated>
+      <workItem from="1590498330853" duration="14263000" />
     </task>
     <task id="LOCAL-00011" summary="updated links to https">
       <created>1586703557211</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590585012976</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Updated my projects.">
+      <created>1590585194790</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1590585194790</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +502,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update README.md" />
     <MESSAGE value="create prettier link" />
     <MESSAGE value="added a paragraph to publicity rep" />
     <MESSAGE value="added gallery page preview to publicity rep page and cleaned up css" />
@@ -527,7 +526,8 @@
     <MESSAGE value="Finished About section and Music section." />
     <MESSAGE value="Changed to white background, removed nav, changed some&#10;fonts and font sizes, created connect with me links" />
     <MESSAGE value="Updated what I've done so far." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated what I've done so far." />
+    <MESSAGE value="Updated my projects." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated my projects." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -564,10 +564,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590585016247">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590585196502">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590585016247" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590585196502" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
