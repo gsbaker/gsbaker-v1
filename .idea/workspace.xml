@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated CV.pdf">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Changed to white background, removed nav, changed some&#10;fonts and font sizes, created connect with me links">
+      <change afterPath="$PROJECT_DIR$/img/logo/css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/georgebaker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/georgebaker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +71,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img/bg" />
-      <recent name="$PROJECT_DIR$/img/icon" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/bootstrap/scss" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/logo" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/icon" />
       <recent name="$PROJECT_DIR$/publicity-rep" />
       <recent name="$PROJECT_DIR$/publicity-rep/campaign/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/bg" />
+      <recent name="$PROJECT_DIR$/img/icon" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/bootstrap/scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -141,14 +140,7 @@
       <workItem from="1590265708036" duration="2417000" />
       <workItem from="1590268505026" duration="13287000" />
       <workItem from="1590489111772" duration="570000" />
-      <workItem from="1590498330853" duration="4558000" />
-    </task>
-    <task id="LOCAL-00008" summary="pushed updated style to production">
-      <created>1586459785886</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1586459785886</updated>
+      <workItem from="1590498330853" duration="13017000" />
     </task>
     <task id="LOCAL-00009" summary="Updated Nav Links">
       <created>1586536940720</created>
@@ -486,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590349837587</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Changed to white background, removed nav, changed some&#10;fonts and font sizes, created connect with me links">
+      <created>1590520497824</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1590520497824</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +504,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added some padding" />
     <MESSAGE value="changed beta to new" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="create prettier link" />
@@ -530,7 +528,8 @@
     <MESSAGE value="Finished navbar and applied color scheme." />
     <MESSAGE value="Added top section and started About Me section." />
     <MESSAGE value="Finished About section and Music section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished About section and Music section." />
+    <MESSAGE value="Changed to white background, removed nav, changed some&#10;fonts and font sizes, created connect with me links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to white background, removed nav, changed some&#10;fonts and font sizes, created connect with me links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -567,10 +566,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590351405771">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590520501487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590351405771" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590520501487" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
@@ -588,10 +587,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="495" y="325" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074197803" />
-    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup" timestamp="1590349140747">
+    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup" timestamp="1590584823889">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590349140747" />
+    <state x="593" y="263" width="670" height="622" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1590584823889" />
     <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1587481324658" />
   </component>
