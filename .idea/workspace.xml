@@ -19,8 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated my projects.">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated links for blog.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020,_11_52_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020,_14_17_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020,_16_16_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020__11_52__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020__14_17__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020__16_16__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,14 +145,8 @@
       <workItem from="1590265708036" duration="2417000" />
       <workItem from="1590268505026" duration="13287000" />
       <workItem from="1590489111772" duration="570000" />
-      <workItem from="1590498330853" duration="14263000" />
-    </task>
-    <task id="LOCAL-00011" summary="updated links to https">
-      <created>1586703557211</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1586703557211</updated>
+      <workItem from="1590498330853" duration="14627000" />
+      <workItem from="1590872718997" duration="160000" />
     </task>
     <task id="LOCAL-00012" summary="fixed incorrect nav link">
       <created>1586703637769</created>
@@ -483,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590585194790</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Updated links for blog.">
+      <created>1590586423509</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1590586423509</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,7 +510,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create prettier link" />
     <MESSAGE value="added a paragraph to publicity rep" />
     <MESSAGE value="added gallery page preview to publicity rep page and cleaned up css" />
     <MESSAGE value="added back to guild link" />
@@ -527,7 +534,8 @@
     <MESSAGE value="Changed to white background, removed nav, changed some&#10;fonts and font sizes, created connect with me links" />
     <MESSAGE value="Updated what I've done so far." />
     <MESSAGE value="Updated my projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated my projects." />
+    <MESSAGE value="Updated links for blog." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated links for blog." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
