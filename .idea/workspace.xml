@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated links for blog.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020,_11_52_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020,_14_17_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020,_16_16_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020__11_52__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020__14_17__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_05_2020__16_16__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Update CV.pdf">
+      <change afterPath="$PROJECT_DIR$/img/logo/oxford-hack.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo/ebay.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo/ebay.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,19 +71,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img/logo" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/img/icon" />
-      <recent name="$PROJECT_DIR$/publicity-rep" />
-      <recent name="$PROJECT_DIR$/publicity-rep/campaign/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/bg" />
       <recent name="$PROJECT_DIR$/img/icon" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/bootstrap/js" />
       <recent name="$PROJECT_DIR$/bootstrap/scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/logo" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/icon" />
+      <recent name="$PROJECT_DIR$/publicity-rep" />
+      <recent name="$PROJECT_DIR$/publicity-rep/campaign/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -146,14 +141,8 @@
       <workItem from="1590268505026" duration="13287000" />
       <workItem from="1590489111772" duration="570000" />
       <workItem from="1590498330853" duration="14627000" />
-      <workItem from="1590872718997" duration="160000" />
-    </task>
-    <task id="LOCAL-00012" summary="fixed incorrect nav link">
-      <created>1586703637769</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1586703637769</updated>
+      <workItem from="1590872718997" duration="694000" />
+      <workItem from="1591538761853" duration="2036000" />
     </task>
     <task id="LOCAL-00013" summary="added dark mode support">
       <created>1586705326097</created>
@@ -491,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590586423509</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Update CV.pdf">
+      <created>1590872933926</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1590872933927</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +506,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a paragraph to publicity rep" />
     <MESSAGE value="added gallery page preview to publicity rep page and cleaned up css" />
     <MESSAGE value="added back to guild link" />
     <MESSAGE value="fixed css link" />
@@ -535,7 +530,8 @@
     <MESSAGE value="Updated what I've done so far." />
     <MESSAGE value="Updated my projects." />
     <MESSAGE value="Updated links for blog." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated links for blog." />
+    <MESSAGE value="Update CV.pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update CV.pdf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -572,10 +568,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590585196502">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1590872937242">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590585196502" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590872937242" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
