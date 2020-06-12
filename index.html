@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="bootstrap/scss/bootstrap-reboot.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="scss/custom.css">
+    <!-- Custom JS -->
+    <script type="text/javascript" src="js/script.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
     <!-- Favicon -->
@@ -26,7 +28,7 @@
 </head>
 <body>
 <div class="container text-center mt-lg-5 mb-lg-5">
-    <img id="profile-picture" src="img/profile-picture.jpeg" alt="Profile Picture" title="George Baker">
+    <img id="profile-picture" src="img/profile-picture.jpeg" alt="Profile Picture" title="Amazing mirror selfie">
     <h1>George Baker</h1>
     <h3 class="helvetica-normal grey">Computer Science Student</h3>
     <h4 class="uk-gradient">Birmingham, U.K.</h4>
@@ -40,16 +42,18 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container-sm text-center">
     <div class="d-inline-flex p-2 bd-highlight mb-lg-3">
-        <button type="button" class="btn btn-dark mr-sm-3">Short</button>
-        <button type="button" class="btn btn-outline-dark mr-sm-3">Long</button>
-        <button type="button" class="btn btn-outline-dark mr-sm-3">Speaker</button>
+        <button type="button" id="short-toggle" class="btn btn-dark mr-sm-3" onclick="toggleDescription(this)">Short</button>
+        <button type="button" id="long-toggle" class="btn btn-outline-dark mr-sm-3" onclick="toggleDescription(this)">Long</button>
+        <button type="button" id="speaker-toggle" class="btn btn-outline-dark mr-sm-3" onclick="toggleDescription(this)">Speaker</button>
     </div>
+</div>
 
-    <div id="description">
-        Hello world.
-    </div>
+<div class="container" id="description">
+    <p> Hi there! My name is George. I'm a computer science student at the
+        University of Birmingham. I enjoy photography, design, alternative/indie music,
+        films and building cool projects (like this).</p>
 </div>
 
 
