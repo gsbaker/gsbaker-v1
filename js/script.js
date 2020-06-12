@@ -22,13 +22,8 @@ function toggleDescription(toggle) {
         "He is perhaps the most organised and tidy person that you will ever meet. George loves simplicity " +
         "and therefore obsesses over constructing everything in his life to meet this ideal. He has shown a " +
         "great dedication to the <a href='https://cssbham.com'>Computer Science Society</a> at the University of " +
-        "Birmingham, now serving on its committee as publicity rep. Although he doesn't drink, George loves a good " +
-        "party and also meeting new people. He will never be led by a crowd or let himself be influenced by what " +
-        "other people are doing; instead he does what he thinks will make him happy. George has found several " +
-        "things that make him happy: from simple things like hanging out with his friends to capturing " +
-        "an amazing photograph. George runs his own <a href='https://blog.gsbaker.uk'>blog</a> where he shares" +
-        " his thoughts on the most important subjects of our time. Like Amazon's awful UI or annoying people " +
-        "at the supermarket. </p>"
+        "Birmingham, now serving on its committee as publicity rep.  George runs his own <a href='https://blog.gsbaker.uk'>blog</a> where he shares" +
+        " his thoughts on the most irrelevant subjects of our time. </p>"
 
     if (toggle.id === "long-toggle") {
         description.innerHTML = longDescription;

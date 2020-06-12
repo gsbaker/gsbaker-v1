@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Got rid of gradient text Birmingham.">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Fixed margin issues on mobile.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +143,7 @@
       <workItem from="1591538761853" duration="2679000" />
       <workItem from="1591622521249" duration="3000" />
       <workItem from="1591877138542" duration="1832000" />
-      <workItem from="1591953550484" duration="12972000" />
-    </task>
-    <task id="LOCAL-00020" summary="testing changes on mobile">
-      <created>1586722414777</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1586722414777</updated>
+      <workItem from="1591953550484" duration="13389000" />
     </task>
     <task id="LOCAL-00021" summary="testing changes on mobile">
       <created>1586722495757</created>
@@ -492,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591977977048</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Fixed margin issues on mobile.">
+      <created>1591989249423</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1591989249423</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +507,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated navbar links" />
     <MESSAGE value="mobile optimisation for publicity rep page" />
     <MESSAGE value="made images bigger on mobile" />
     <MESSAGE value="added link back to main site from publicity rep page." />
@@ -536,7 +531,8 @@
     <MESSAGE value="Finished descriptions: short, long and speaker." />
     <MESSAGE value="Added Github to social links." />
     <MESSAGE value="Got rid of gradient text Birmingham." />
-    <option name="LAST_COMMIT_MESSAGE" value="Got rid of gradient text Birmingham." />
+    <MESSAGE value="Fixed margin issues on mobile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed margin issues on mobile." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -578,10 +574,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1591977979379">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1591989252975">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591977979379" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591989252975" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
