@@ -19,56 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Commented out self study.">
-      <change afterPath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/android-chrome-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/profile-picture.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_alert.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_background-variant.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_badge.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_border-radius.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_box-shadow.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_breakpoints.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_buttons.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_caret.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_clearfix.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_deprecate.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_float.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_forms.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_gradients.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_grid-framework.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_grid.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_hover.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_image.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_list-group.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_lists.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_nav-divider.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_pagination.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_reset-text.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_resize.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_screen-reader.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_size.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_table-row.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_text-emphasis.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_text-hide.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_text-truncate.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_transition.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/09d83081ab9a82dcd9375e66221d671f7731c8f3/_visibility.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/539acc82c3b92bd93ccf8f1e977d40ec336f8310/_rfs.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/ed0359c203602d66a84f52e6862a54f6783b34f2/_functions.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/ed0359c203602d66a84f52e6862a54f6783b34f2/_mixins.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.sass-cache/ed0359c203602d66a84f52e6862a54f6783b34f2/_variables.scssc" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Started redesign. Added profile-picture.jpeg, title, subtitle and location.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
@@ -193,14 +147,7 @@
       <workItem from="1591538761853" duration="2679000" />
       <workItem from="1591622521249" duration="3000" />
       <workItem from="1591877138542" duration="1832000" />
-      <workItem from="1591953550484" duration="1569000" />
-    </task>
-    <task id="LOCAL-00014" summary="updated what I'm listening to">
-      <created>1586708371204</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1586708371204</updated>
+      <workItem from="1591953550484" duration="4119000" />
     </task>
     <task id="LOCAL-00015" summary="support for mobile devices">
       <created>1586714285544</created>
@@ -538,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591541778679</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Started redesign. Added profile-picture.jpeg, title, subtitle and location.">
+      <created>1591955495181</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1591955495181</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +511,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added back to guild link" />
     <MESSAGE value="fixed css link" />
     <MESSAGE value="added notice that I'm running for CSS publicity rep" />
     <MESSAGE value="mobile optimisation" />
@@ -582,7 +535,8 @@
     <MESSAGE value="Updated links for blog." />
     <MESSAGE value="Update CV.pdf" />
     <MESSAGE value="Commented out self study." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented out self study." />
+    <MESSAGE value="Started redesign. Added profile-picture.jpeg, title, subtitle and location." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started redesign. Added profile-picture.jpeg, title, subtitle and location." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">

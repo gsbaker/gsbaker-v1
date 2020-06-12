@@ -113,6 +113,20 @@ body {
   }
 }
 
+.facebook {
+  color: #1876f2;
+  &:hover {
+    color: #1876f2;
+  }
+}
+
+.instagram {
+  color: #833AB4;
+  &:hover {
+    color: #C13584;
+  }
+}
+
 .rss {
   color: orange;
   &:hover {

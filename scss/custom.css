@@ -72,6 +72,16 @@ body {
   .twitter:hover {
     color: #1DA1F2; }
 
+.facebook {
+  color: #1876f2; }
+  .facebook:hover {
+    color: #1876f2; }
+
+.instagram {
+  color: #833AB4; }
+  .instagram:hover {
+    color: #C13584; }
+
 .rss {
   color: orange; }
   .rss:hover {
