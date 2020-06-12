@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Finished descriptions: short, long and speaker.">
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Added Github to social links.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -143,14 +143,7 @@
       <workItem from="1591538761853" duration="2679000" />
       <workItem from="1591622521249" duration="3000" />
       <workItem from="1591877138542" duration="1832000" />
-      <workItem from="1591953550484" duration="11474000" />
-    </task>
-    <task id="LOCAL-00018" summary="improved support for mobile devices">
-      <created>1586720985670</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1586720985670</updated>
+      <workItem from="1591953550484" duration="12380000" />
     </task>
     <task id="LOCAL-00019" summary="testing h1 on mobile">
       <created>1586721180048</created>
@@ -488,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591975214349</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Added Github to social links.">
+      <created>1591975537715</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1591975537716</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +507,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added gallery page" />
     <MESSAGE value="added images to gallery and updated navbar" />
     <MESSAGE value="updated navbar links" />
     <MESSAGE value="mobile optimisation for publicity rep page" />
@@ -532,7 +531,8 @@
     <MESSAGE value="Added social icons." />
     <MESSAGE value="Added variable, interactive description with toggles." />
     <MESSAGE value="Finished descriptions: short, long and speaker." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished descriptions: short, long and speaker." />
+    <MESSAGE value="Added Github to social links." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Github to social links." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -544,6 +544,10 @@
     </state>
     <state x="601" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591965193672" />
     <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
+    <state x="477" y="142" key="#index.html_(1)" timestamp="1591975709697">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="477" y="142" key="#index.html_(1)/0.0.1440.900@0.0.1440.900" timestamp="1591975709697" />
     <state x="1077" y="86" key="CommitChangelistDialog2" timestamp="1587670726904">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
@@ -570,10 +574,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1591975219486">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1591975539871">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591975219486" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591975539871" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
