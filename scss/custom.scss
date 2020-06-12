@@ -62,6 +62,24 @@ body {
   }
 }
 
+.toggle {
+  font-size: 20px;
+}
+
+.toggle-active {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.toggle-inactive {
+  color: grey;
+  &:hover {
+    color: $body-color;
+  }
+}
+
 /* FONTS */
 .georgia {
   font-family: Georgia, sans-serif;
@@ -152,5 +170,12 @@ body {
 
 .python {
   color: #ffde57;
+}
+
+.wba {
+  color: #091454;
+  &:hover {
+    color: #091454;
+  }
 }
 

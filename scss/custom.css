@@ -33,6 +33,19 @@ body {
 .list-group .list-group-item {
   color: #13191D; }
 
+.toggle {
+  font-size: 20px; }
+
+.toggle-active {
+  text-decoration: underline; }
+  .toggle-active:hover {
+    text-decoration: underline; }
+
+.toggle-inactive {
+  color: grey; }
+  .toggle-inactive:hover {
+    color: #000; }
+
 /* FONTS */
 .georgia {
   font-family: Georgia, sans-serif; }
@@ -101,5 +114,10 @@ body {
 
 .python {
   color: #ffde57; }
+
+.wba {
+  color: #091454; }
+  .wba:hover {
+    color: #091454; }
 
 /*# sourceMappingURL=custom.css.map */
