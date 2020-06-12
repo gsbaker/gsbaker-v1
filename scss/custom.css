@@ -7,6 +7,9 @@ body {
   color: #000; }
 
 /* COMPONENTS */
+#profile {
+  margin-top: 40px; }
+
 #connect-links {
   list-style-type: none; }
 
@@ -32,6 +35,9 @@ body {
 
 .list-group .list-group-item {
   color: #13191D; }
+
+.social-icon {
+  margin-right: 25px; }
 
 .toggle {
   font-size: 20px; }

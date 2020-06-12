@@ -25,6 +25,10 @@ body {
 
 
 /* COMPONENTS */
+#profile {
+  margin-top: 40px;
+}
+
 #connect-links {
   list-style-type: none;
 }
@@ -60,6 +64,10 @@ body {
   .list-group-item {
     color: $card-color;
   }
+}
+
+.social-icon {
+  margin-right: 25px;
 }
 
 .toggle {
