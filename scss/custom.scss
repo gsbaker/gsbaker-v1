@@ -1,7 +1,7 @@
 // Custom.scss
 // Option B: Include parts of Bootstrap
 
-// Variable Overrides
+/* VARIABLE OVERIDES */
 $font-family-base: Helvetica Neue, sans-serif;
 $body-bg: #fff;
 $body-color: #000;
@@ -9,25 +9,22 @@ $card-color: #13191D;
 $navbar-dark-color: #272F32;
 $primary: #2C2C54;
 
-// Required
+
+/* REQUIRED IMPORTS */
 @import "../bootstrap/scss/functions";
 @import "../bootstrap/scss/variables";
 @import "../bootstrap/scss/mixins";
 
-// General Styles
+
+/* HTML ELEMENTS */
 body {
   background-color: $body-bg;
   font-family: $font-family-base;
   color: $body-color;
 }
 
-// Navbar
-nav {
-  background-color: $navbar-dark-color;
-}
 
-
-// Components
+/* COMPONENTS */
 #connect-links {
   list-style-type: none;
 }
@@ -35,9 +32,17 @@ nav {
 #description {
   font-size: 20px;
 }
-// Classes
+
+#profile-picture {
+  width: 50vw;
+  height: 50vw;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 100%;
+}
 
 
+/* CLASSES */
 .card-text {
   color: $card-color;
 }
@@ -57,65 +62,81 @@ nav {
   }
 }
 
-.font-georgia {
+/* FONTS */
+.georgia {
   font-family: Georgia, sans-serif;
 }
 
-.font-menlo {
+.menlo {
   font-family: Menlo, sans-serif;
 }
 
-.color-uk {
+.helvetica-light {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+.helvetica-normal {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
+}
+
+/* COLOR CLASSES */
+.grey {
+  color: grey;
+}
+
+.uk-gradient {
   background: -webkit-linear-gradient(#E12B27, #4C6085);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.color-github {
+.github {
   color: #333;
   &:hover {
     color: #333;
   }
 }
 
-.color-linkedin {
+.linkedin {
   color: #2867B2;
   &:hover {
     color: #2867B2;
   }
 }
 
-.color-twitter {
+.twitter {
   color: #1DA1F2;
   &:hover {
     color: #1DA1F2;
   }
 }
 
-.color-rss {
+.rss {
   color: orange;
   &:hover {
     color: orange;
   }
 }
 
-.color-java {
+.java {
   color: #ED8B00;
 }
 
-.color-mysql {
+.mysql {
   color: #00758f;
 }
 
-.color-bootstrap {
+.bootstrap {
   color: #563d7c;
 }
 
-.color-html {
+.html {
   color: #F16529;
 }
 
-.color-python {
+.python {
   color: #ffde57;
 }
 

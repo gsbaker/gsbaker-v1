@@ -1,97 +1,95 @@
+/* VARIABLE OVERIDES */
+/* REQUIRED IMPORTS */
+/* HTML ELEMENTS */
 body {
   background-color: #fff;
   font-family: Helvetica Neue, sans-serif;
-  color: #000;
-}
+  color: #000; }
 
-nav {
-  background-color: #272F32;
-}
-
+/* COMPONENTS */
 #connect-links {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 #description {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
+#profile-picture {
+  width: 50vw;
+  height: 50vw;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 100%; }
+
+/* CLASSES */
 .card-text {
-  color: #13191D;
-}
+  color: #13191D; }
 
 .card-title {
-  color: #13191D;
-}
+  color: #13191D; }
 
 .card-header {
-  color: #13191D;
-}
+  color: #13191D; }
 
 .list-group .list-group-item {
-  color: #13191D;
-}
+  color: #13191D; }
 
-.font-georgia {
-  font-family: Georgia, sans-serif;
-}
+/* FONTS */
+.georgia {
+  font-family: Georgia, sans-serif; }
 
-.font-menlo {
-  font-family: Menlo, sans-serif;
-}
+.menlo {
+  font-family: Menlo, sans-serif; }
 
-.color-uk {
+.helvetica-light {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter; }
+
+.helvetica-normal {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal; }
+
+/* COLOR CLASSES */
+.grey {
+  color: grey; }
+
+.uk-gradient {
   background: -webkit-linear-gradient(#E12B27, #4C6085);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  -webkit-text-fill-color: transparent; }
 
-.color-github {
-  color: #333;
-}
-.color-github:hover {
-  color: #333;
-}
+.github {
+  color: #333; }
+  .github:hover {
+    color: #333; }
 
-.color-linkedin {
-  color: #2867B2;
-}
-.color-linkedin:hover {
-  color: #2867B2;
-}
+.linkedin {
+  color: #2867B2; }
+  .linkedin:hover {
+    color: #2867B2; }
 
-.color-twitter {
-  color: #1DA1F2;
-}
-.color-twitter:hover {
-  color: #1DA1F2;
-}
+.twitter {
+  color: #1DA1F2; }
+  .twitter:hover {
+    color: #1DA1F2; }
 
-.color-rss {
-  color: orange;
-}
-.color-rss:hover {
-  color: orange;
-}
+.rss {
+  color: orange; }
+  .rss:hover {
+    color: orange; }
 
-.color-java {
-  color: #ED8B00;
-}
+.java {
+  color: #ED8B00; }
 
-.color-mysql {
-  color: #00758f;
-}
+.mysql {
+  color: #00758f; }
 
-.color-bootstrap {
-  color: #563d7c;
-}
+.bootstrap {
+  color: #563d7c; }
 
-.color-html {
-  color: #F16529;
-}
+.html {
+  color: #F16529; }
 
-.color-python {
-  color: #ffde57;
-}
+.python {
+  color: #ffde57; }
 
 /*# sourceMappingURL=custom.css.map */
