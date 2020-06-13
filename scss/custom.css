@@ -1,4 +1,4 @@
-/* VARIABLE OVERIDES */
+/* VARIABLE OVERRIDES */
 /* REQUIRED IMPORTS */
 /* HTML ELEMENTS */
 body {
@@ -24,6 +24,22 @@ body {
   border-radius: 100%; }
 
 /* CLASSES */
+.dark-mode {
+  background-color: black;
+  color: white; }
+  .dark-mode .toggle-active {
+    color: white; }
+  .dark-mode .toggle-inactive:hover {
+    color: lightgray; }
+  .dark-mode .github {
+    color: white; }
+    .dark-mode .github:hover {
+      color: white; }
+  .dark-mode .instagram {
+    color: #C13584; }
+    .dark-mode .instagram:hover {
+      color: #833AB4; }
+
 .card-text {
   color: #13191D; }
 

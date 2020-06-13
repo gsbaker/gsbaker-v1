@@ -1,3 +1,5 @@
+let darkModeOn = false;
+
 function toggleDescription(toggle) {
     let description = document.getElementById("description");
     let shortDescription = "<p> Hi there! My name is George. I'm a computer science student at the" +
@@ -51,5 +53,21 @@ function toggleDescription(toggle) {
         document.getElementById("speaker-toggle").classList.add("toggle-inactive");
     } else {
         console.log("Error: a button was clicked that does not correspond to a text toggle for the description.")
+    }
+}
+
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+    darkModeOn = !darkModeOn;
+
+    let toggleBtn = document.getElementById("dark-mode-toggle");
+    if (darkModeOn) {
+        toggleBtn.classList.remove("btn-light");
+        toggleBtn.classList.add("btn-dark");
+        // toggleBtn.innerHTML = "Light";
+    } else {
+        toggleBtn.classList.remove("btn-dark");
+        toggleBtn.classList.add("btn-light");
+        // toggleBtn.innerHTML = "Dark";
     }
 }

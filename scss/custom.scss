@@ -1,7 +1,7 @@
 // Custom.scss
 // Option B: Include parts of Bootstrap
 
-/* VARIABLE OVERIDES */
+/* VARIABLE OVERRIDES */
 $font-family-base: Helvetica Neue, sans-serif;
 $body-bg: #fff;
 $body-color: #000;
@@ -47,6 +47,35 @@ body {
 
 
 /* CLASSES */
+.dark-mode {
+  background-color: black;
+  color: white;
+
+  .toggle-active {
+    color: white;
+  }
+
+  .toggle-inactive {
+    &:hover {
+      color: lightgray;
+    }
+  }
+
+  .github {
+    color: white;
+    &:hover {
+      color: white;
+    }
+  }
+
+  .instagram {
+    color: #C13584;
+    &:hover {
+      color: #833AB4;
+    }
+  }
+}
+
 .card-text {
   color: $card-color;
 }
