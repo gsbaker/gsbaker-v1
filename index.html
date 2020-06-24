@@ -11,10 +11,6 @@
     <link rel="stylesheet" href="bootstrap/scss/bootstrap-reboot.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="scss/custom.css">
-    <!-- Custom JS -->
-    <script type="text/javascript" src="js/script.js"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -26,20 +22,31 @@
 
     <title>George Baker</title>
 </head>
+
+<!--<body onload="startTimer()">-->
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg">
-    <button type="button" id="dark-mode-toggle" class="btn btn-light" onclick="toggleDarkMode()" onmouseover="mouseOverToggle(this)" onmouseout="mouseOutToggle(this)"><i class="fas fa-moon"></i></button>
-</nav>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="nav ml-auto">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <button type="button" id="dark-mode-toggle" class="btn btn-light" onclick="toggleDarkMode()"><i class="fas fa-moon"></i></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
 
 <div class="container text-center mt-lg-5 mb-lg-5" id="profile">
-    <img id="profile-picture" src="img/profile-picture.jpeg" alt="Profile Picture" title="Amazing mirror selfie">
+    <img id="profile-picture" src="img/profile-pictures/wwdc-memoji.png" alt="Profile Picture" title="Profile Picture">
     <h1>George Baker</h1>
     <h3 class="helvetica-normal grey">Computer Science Student</h3>
     <div class="d-inline-flex p-2 bd-highlight">
         <div class="social-icon"><h4><a href="mailto:george@gsbaker.uk"><i class="far fa-envelope"></i></a></h4></div>
         <div class="social-icon"><h4><a class="github" href="https://www.github.com/gsbaker"><i class="fab fa-github"></i></a></h4></div>
-        <div class="social-icon"><h4><a class="twitter" href="https://www.twitter.com/gsbakertweets"><i class="fab fa-twitter"></i></a></h4></div>
+        <div class="social-icon"><h4><a class="twitter" href="https://www.twitter.com/georgestephenb"><i class="fab fa-twitter"></i></a></h4></div>
         <div class="social-icon"><h4><a class="linkedin" href="https://www.linkedin.com/in/georgestephenbaker"><i class="fab fa-linkedin"></i></a></h4></div>
         <div class="social-icon"><h4><a class="facebook" href="https://www.facebook.com/georgestephenbaker"><i class="fab fa-facebook-square"></i></a></h4></div>
         <div class="social-icon"><h4><a class="instagram" href="https://www.instagram.com/georgestephenbaker"><i class="fab fa-instagram"></i></a></h4></div>
@@ -63,6 +70,10 @@
 
 
 <!-- Optional JavaScript -->
+<!-- Custom JS -->
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

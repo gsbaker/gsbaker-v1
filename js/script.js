@@ -1,4 +1,15 @@
 let darkModeOn = false;
+if (localStorage.getItem('theme')) {
+    theme = localStorage.getItem('theme');
+
+    if (theme === "dark") {
+        console.log("theme is dark");
+        toggleDarkMode();
+    }
+}
+
+let images = ["wwdc-memoji.png", "profile-picture-1.png", "profile-picture-2.png"];
+let currentUrl = "img/profile-pictures/profile-picture-1.png";
 
 function toggleDescription(toggle) {
     let description = document.getElementById("description");
@@ -57,17 +68,36 @@ function toggleDescription(toggle) {
 }
 
 function toggleDarkMode() {
+    console.log("Toggling Dark Mode");
     document.body.classList.toggle("dark-mode");
     darkModeOn = !darkModeOn;
 
     let toggleBtn = document.getElementById("dark-mode-toggle");
     if (darkModeOn) {
+        console.log("Dark Mode On");
         toggleBtn.classList.remove("btn-light");
         toggleBtn.classList.add("btn-dark");
-        // toggleBtn.innerHTML = "Light";
+        localStorage.setItem('theme', "dark");
     } else {
+        console.log("Dark Mode Off");
         toggleBtn.classList.remove("btn-dark");
         toggleBtn.classList.add("btn-light");
-        // toggleBtn.innerHTML = "Dark";
+        localStorage.setItem('theme', "light");
     }
+}
+
+function changeProfileImage() {
+    let urlGenerated = false;
+    while (!urlGenerated) {
+        let newUrl = "img/profile-pictures/" + images[Math.floor(Math.random() * images.length)];
+        if (newUrl !== currentUrl) {
+            currentUrl = newUrl;
+            document.getElementById("profile-picture").src = currentUrl;
+            urlGenerated = true;
+        }
+    }
+}
+
+function startTimer() {
+    setInterval(changeProfileImage, 5000);
 }

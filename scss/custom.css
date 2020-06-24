@@ -40,6 +40,18 @@ body {
     .dark-mode .instagram:hover {
       color: #833AB4; }
 
+.fade {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; }
+
+.fade-out {
+  opacity: 0; }
+
+.fade-in {
+  opacity: 1; }
+
 .card-text {
   color: #13191D; }
 
