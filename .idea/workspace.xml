@@ -19,17 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Added dark mode.">
-      <change afterPath="$PROJECT_DIR$/img/profile-pictures/profile-picture-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/profile-pictures/profile-picture-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/profile-pictures/wwdc-memoji.png" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Added WWDC profile picture and updated Twitter link.">
+      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/safari-pinned-tab.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,19 +88,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/img/bg" />
-      <recent name="$PROJECT_DIR$/img/icon" />
-      <recent name="$PROJECT_DIR$/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/bootstrap/scss" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/profile-pictures" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img/logo" />
       <recent name="$PROJECT_DIR$/img/icon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/bg" />
+      <recent name="$PROJECT_DIR$/img/icon" />
+      <recent name="$PROJECT_DIR$/bootstrap/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,14 +164,11 @@
       <workItem from="1591877138542" duration="1832000" />
       <workItem from="1591953550484" duration="19887000" />
       <workItem from="1592379994476" duration="1076000" />
-      <workItem from="1592911892554" duration="7209000" />
-    </task>
-    <task id="LOCAL-00023" summary="navbar mobile optimisation">
-      <created>1586769491163</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1586769491163</updated>
+      <workItem from="1592911892554" duration="7601000" />
+      <workItem from="1593108425078" duration="645000" />
+      <workItem from="1593171175570" duration="17000" />
+      <workItem from="1593176562269" duration="892000" />
+      <workItem from="1594650814313" duration="1298000" />
     </task>
     <task id="LOCAL-00024" summary="navbar mobile optimisation">
       <created>1586769533987</created>
@@ -498,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592045781220</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Added WWDC profile picture and updated Twitter link.">
+      <created>1592993580975</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1592993580975</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added link back to main site from publicity rep page." />
     <MESSAGE value="added more content to the publicity rep page" />
     <MESSAGE value="corrected div id" />
     <MESSAGE value="updated what I'm listening to" />
@@ -542,7 +556,8 @@
     <MESSAGE value="Fixed margin issues on mobile." />
     <MESSAGE value="Updated speaker description." />
     <MESSAGE value="Added dark mode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dark mode." />
+    <MESSAGE value="Added WWDC profile picture and updated Twitter link." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added WWDC profile picture and updated Twitter link." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
@@ -584,10 +599,10 @@
     <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592045783949">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1592993585961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592045783949" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592993585961" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
     <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />

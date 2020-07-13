@@ -13,22 +13,23 @@ let currentUrl = "img/profile-pictures/profile-picture-1.png";
 
 function toggleDescription(toggle) {
     let description = document.getElementById("description");
-    let shortDescription = "<p> Hi there! My name is George. I'm a computer science student at the" +
-        " University of Birmingham. I enjoy photography, design, alternative/indie music," +
-        " films and building cool projects (like this).</p>";
-    let longDescription = "<p> Hello there! 👋🏻 My name is George Baker. I am the most amazing person that you'll " +
-        "ever meet due to my humble attitude. I study computer science at the University" +
+    let shortDescription = "<p> Hi there! My name is George. I study computer science at the" +
+        " University of Birmingham. My hobbies include photography, design, alternative/indie music," +
+        " tennis, running and building cool projects (like this).</p>";
+    let longDescription = "<p> Hello there! 👋🏻 My name is George Baker. I am the most amazing and humble person that you'll " +
+        "ever meet. I study computer science at the University" +
         " of Birmingham and also work on my own projects like this fantastic website.</p>" +
         "<p>On top of that, I run an amazing <a href='https://blog.gsbaker.uk'>blog</a> where I talk about my irrelevant thoughts. </p>" +
         "<p>In addition, I am the publicity rep for the University of Birmingham's " +
         "<a href='https://cssbham.com'>Computer Science Society</a>. " +
         "I maintain and develop our website and photograph all of our events and " +
         "promote them on social media.  If you're a Birmingham student, you should definitely join. 😉 </p>" +
-        "<p>I am a huge Apple fanboy. Everything that I design is inspired by their simplicity — including " +
-        "this website.</p>" +
+        "<p>My mantra is focus and simplicity.</p>" +
         "<p>In my spare time, I enjoy photography, designing things, listening to alternative/indie" +
-        " music, watching films/TV series and organising stuff! I'm also a keen runner and an avid " +
-        "<a href='https://www.wba.co.uk'>West Bromwich Albion</a> supporter.</p>" +
+        " music, watching films/TV series and organising stuff! </p>" +
+        "<p>When it comes to sports, I love playing tennis 🎾 and running 🏃 I'm trying to also fit " +
+        "in the gym. I really like football but I don't play that so much anymore; however, I still " +
+        "support <a href='https://www.wba.co.uk'>West Bromwich Albion</a> religiously.</p>" +
         "<p>You can find me on social media using the links above. If you want to get in touch, don't be " +
         "shy; send me an email or a DM! 😃</p>";
     let speakerDescription = "<p>George is a dedicated computer science student at the University of Birmingham. " +
