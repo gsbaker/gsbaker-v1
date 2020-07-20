@@ -33,6 +33,26 @@ body {
   list-style-type: none;
 }
 
+#main-site-gateway {
+  max-width: 600px;
+  padding: 20px;
+
+  .btn {
+    color: white;
+    background-color: #D2D4DB;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+
+  img {
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    margin-left: 5px;
+  }
+}
+
 #description {
   font-size: 18px;
 }
@@ -45,11 +65,22 @@ body {
   border-radius: 100%;
 }
 
+#cv-links {
+  img {
+    height: 1em;
+  }
+}
 
 /* CLASSES */
 .dark-mode {
   background-color: black;
   color: white;
+
+  #main-site-gateway {
+    .btn {
+      background-color: #525666;
+    }
+  }
 
   .toggle-active {
     color: white;
@@ -231,3 +262,10 @@ body {
   }
 }
 
+.coming-soon {
+  display: inline-block;
+  border: 3px solid #FF571F;
+  border-radius: 10px;
+  color: #FF571F;
+  padding: 5px;
+}

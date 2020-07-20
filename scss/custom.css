@@ -13,6 +13,21 @@ body {
 #connect-links {
   list-style-type: none; }
 
+#main-site-gateway {
+  max-width: 600px;
+  padding: 20px; }
+  #main-site-gateway .btn {
+    color: white;
+    background-color: #D2D4DB;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 15px; }
+  #main-site-gateway img {
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    margin-left: 5px; }
+
 #description {
   font-size: 18px; }
 
@@ -23,10 +38,15 @@ body {
   max-height: 300px;
   border-radius: 100%; }
 
+#cv-links img {
+  height: 1em; }
+
 /* CLASSES */
 .dark-mode {
   background-color: black;
   color: white; }
+  .dark-mode #main-site-gateway .btn {
+    background-color: #525666; }
   .dark-mode .toggle-active {
     color: white; }
   .dark-mode .toggle-inactive:hover {
@@ -153,5 +173,12 @@ body {
   color: #091454; }
   .wba:hover {
     color: #091454; }
+
+.coming-soon {
+  display: inline-block;
+  border: 3px solid #FF571F;
+  border-radius: 10px;
+  color: #FF571F;
+  padding: 5px; }
 
 /*# sourceMappingURL=custom.css.map */
