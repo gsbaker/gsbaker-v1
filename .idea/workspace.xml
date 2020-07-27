@@ -19,16 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Updated bio">
-      <change afterPath="$PROJECT_DIR$/cv/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog-logo.png" afterDir="false" />
+    <list default="true" id="700b2885-f126-4cc2-8a90-ded87ba06616" name="Default Changelist" comment="Added gateway to blog. Started working on CV page.">
+      <change afterPath="$PROJECT_DIR$/George's CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/safari-pinned-tab.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/d0b1b0701ca41cef5437447a46906a77bb7df71a/custom.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/site.webmanifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,22 +83,22 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cv" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/bg" />
       <recent name="$PROJECT_DIR$/img/icon" />
-      <recent name="$PROJECT_DIR$/bootstrap/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/favicon" />
       <recent name="$PROJECT_DIR$/cv/img" />
       <recent name="$PROJECT_DIR$/img/profile-pictures" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img/logo" />
     </key>
   </component>
   <component name="RunManager">
@@ -158,14 +168,11 @@
       <workItem from="1593176562269" duration="892000" />
       <workItem from="1594650814313" duration="2172000" />
       <workItem from="1594755638250" duration="459000" />
-      <workItem from="1595277750280" duration="1659000" />
-    </task>
-    <task id="LOCAL-00025" summary="navbar mobile optimisation">
-      <created>1586769548626</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1586769548626</updated>
+      <workItem from="1595277750280" duration="2165000" />
+      <workItem from="1595428221219" duration="749000" />
+      <workItem from="1595495212736" duration="299000" />
+      <workItem from="1595500065162" duration="4930000" />
+      <workItem from="1595786795283" duration="5787000" />
     </task>
     <task id="LOCAL-00026" summary="improved mobile optimisation">
       <created>1586774506772</created>
@@ -503,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594662705697</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Added gateway to blog. Started working on CV page.">
+      <created>1595279582215</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1595279582215</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="corrected div id" />
     <MESSAGE value="updated what I'm listening to" />
     <MESSAGE value="added back css for music" />
     <MESSAGE value="added photos to gallery" />
@@ -547,18 +560,18 @@
     <MESSAGE value="Added dark mode." />
     <MESSAGE value="Added WWDC profile picture and updated Twitter link." />
     <MESSAGE value="Updated bio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated bio" />
+    <MESSAGE value="Added gateway to blog. Started working on CV page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gateway to blog. Started working on CV page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587407581191">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="1687" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1080@0.0.2560.1080" timestamp="1587407581191" />
-    <state x="601" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591965193672">
+    <state x="601" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595883655023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="601" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591965193672" />
-    <state x="1069" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.979@0.23.2560.979" timestamp="1586336944220" />
+    <state x="601" y="244" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1595883655023" />
     <state x="477" y="142" key="#index.html_(1)" timestamp="1591975709697">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -567,7 +580,6 @@
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state x="1536" y="142" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408373037" />
-    <state x="383" y="23" key="CommitChangelistDialog2/0.23.1280.727@0.23.1280.727" timestamp="1586537417304" />
     <state x="1077" y="86" key="CommitChangelistDialog2/0.23.2560.977@0.23.2560.977" timestamp="1587670726904" />
     <state x="1493" y="152" key="CommitChangelistDialog2/0.23.2560.979@0.23.2560.979" timestamp="1587493850375" />
     <state x="1127" y="241" width="1072" height="599" key="DiffContextDialog" timestamp="1587736224739">
@@ -578,23 +590,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="511" y="281" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1590268468380" />
-    <state x="908" y="329" key="EditFileWatcherDialog/0.23.2560.979@0.23.2560.979" timestamp="1586193872255" />
     <state x="143" y="90" key="MergeDialog" timestamp="1590074229460">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="143" y="90" key="MergeDialog/0.23.1440.821@0.23.1440.821" timestamp="1590074229460" />
-    <state x="379" y="70" key="SettingsEditor" timestamp="1590268471039">
+    <state x="379" y="70" key="SettingsEditor" timestamp="1595500005007">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590268471039" />
+    <state x="379" y="70" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1595500005007" />
     <state x="803" y="182" key="SettingsEditor/0.23.2560.977@0.23.2560.977" timestamp="1587669116839" />
-    <state x="803" y="182" key="SettingsEditor/0.23.2560.979@0.23.2560.979" timestamp="1586196597237" />
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1594662712254">
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2" timestamp="1595279597363">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594662712254" />
+    <state x="440" y="170" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595279597363" />
     <state x="1525" y="280" key="Vcs.Push.Dialog.v2/0.0.2560.1080@0.0.2560.1080" timestamp="1587408375329" />
-    <state x="480" y="212" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1586537422387" />
     <state x="1148" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.977@0.23.2560.977" timestamp="1588367219883" />
     <state x="1525" y="277" key="Vcs.Push.Dialog.v2/0.23.2560.979@0.23.2560.979" timestamp="1587493852860" />
     <state x="610" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590265715333">
@@ -614,7 +623,6 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="593" y="263" width="670" height="622" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591954400498" />
-    <state x="1054" y="316" width="670" height="746" key="search.everywhere.popup/0.0.2560.1080@0.0.2560.1080" timestamp="1586258972136" />
     <state x="1054" y="309" width="670" height="676" key="search.everywhere.popup/0.23.2560.979@0.23.2560.979" timestamp="1587481324658" />
   </component>
 </project>

@@ -15,7 +15,7 @@ function toggleDescription(toggle) {
     let description = document.getElementById("description");
     let shortDescription = "<p> Hi there! My name is George. I study computer science at the" +
         " University of Birmingham. My hobbies include photography, design, alternative/indie music," +
-        " tennis, running and building cool projects (like this). <a href=\"cv\">Download my CV</a>.</p>";
+        " tennis, running and building cool projects (like this). <a href='#download-my-cv-modal' data-toggle='modal'>Download my CV</a>.</p>";
     let longDescription = "<p> Hello there! 👋🏻 My name is George Baker. I am the most amazing and humble person that you'll " +
         "ever meet. I study computer science at the University" +
         " of Birmingham and also work on my own projects like this fantastic website.</p>" +
@@ -32,7 +32,7 @@ function toggleDescription(toggle) {
         "support <a href='https://www.wba.co.uk'>West Bromwich Albion</a> religiously.</p>" +
         "<p>You can find me on social media using the links above. If you want to get in touch, don't be " +
         "shy; send me an email or a DM! 😃</p>" +
-        "<p>You can also <a href=\"cv\">download my CV</a> if you want to hire me!</p>";
+        "<p>You can also <a href='#download-my-cv-modal' data-toggle='modal'>download my CV</a> if you want to hire me!</p>";
     let speakerDescription = "<p>George is a dedicated computer science student at the University of Birmingham. " +
         "He is perhaps the most organised and tidy person that you will ever meet. George loves simplicity " +
         "and therefore obsesses over constructing everything in his life to meet this ideal. He has shown a " +

@@ -7,7 +7,7 @@ $body-bg: #fff;
 $body-color: #000;
 $card-color: #13191D;
 $navbar-dark-color: #272F32;
-$primary: #2C2C54;
+$primary: #0F91D2;
 
 
 /* REQUIRED IMPORTS */
@@ -65,16 +65,27 @@ body {
   border-radius: 100%;
 }
 
+#profile-picture-small {
+  width: 30vw;
+  height: 30vw;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100%;
+}
+
 #cv-links {
-  img {
-    height: 1em;
-  }
+
 }
 
 /* CLASSES */
 .dark-mode {
   background-color: black;
   color: white;
+
+  .modal-content {
+    background-color: #1E1F1E;
+    border-radius: 10px;
+  }
 
   #main-site-gateway {
     .btn {
@@ -107,19 +118,25 @@ body {
   }
 }
 
-.fade {
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+.modal-content {
+  border: none;
+  border-radius: 15px;
 }
 
-.fade-out {
-  opacity: 0;
+.modal-header {
+  border: none;
+  padding: 10px 0 10px 16px;
+
 }
 
-.fade-in {
-  opacity: 1;
+.modal-body {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+.modal-footer {
+  border: none;
+  padding: 0 10px 10px;
 }
 
 .card-text {

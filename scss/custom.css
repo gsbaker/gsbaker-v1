@@ -38,13 +38,20 @@ body {
   max-height: 300px;
   border-radius: 100%; }
 
-#cv-links img {
-  height: 1em; }
+#profile-picture-small {
+  width: 30vw;
+  height: 30vw;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100%; }
 
 /* CLASSES */
 .dark-mode {
   background-color: black;
   color: white; }
+  .dark-mode .modal-content {
+    background-color: #1E1F1E;
+    border-radius: 10px; }
   .dark-mode #main-site-gateway .btn {
     background-color: #525666; }
   .dark-mode .toggle-active {
@@ -60,17 +67,21 @@ body {
     .dark-mode .instagram:hover {
       color: #833AB4; }
 
-.fade {
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out; }
+.modal-content {
+  border: none;
+  border-radius: 15px; }
 
-.fade-out {
-  opacity: 0; }
+.modal-header {
+  border: none;
+  padding: 10px 0 10px 16px; }
 
-.fade-in {
-  opacity: 1; }
+.modal-body {
+  padding: 0 0 0 16px;
+  margin: 0; }
+
+.modal-footer {
+  border: none;
+  padding: 0 10px 10px; }
 
 .card-text {
   color: #13191D; }
