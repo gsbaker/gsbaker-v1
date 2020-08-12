@@ -1,12 +1,9 @@
-# [gsbaker.uk](https://www.gsbaker.uk)
+# [gsbaker](https://www.gsbaker.uk)
 
-My personal website! 😀 
+Hello there! 👋🏻 I'm George.
 
-## How it's built
-I used the Bootstrap front-end CSS library because of its easy to implement layout options. 
+I love making simple, clean and elegant software. Right now, I'm focussing on iOS and web development.
 
-For any custom CSS, I used [SCSS](https://sass-lang.com) to make my life easier. 
-
-## Purpose of this site
-I want this website to act as an extension to my CV. It allows me to go more in depth on projects I've done 
-than I am able to do on my CV. 
+Apart from coding, I enjoy playing tennis, listening to alternative/indie music and supporting West Bromwich
+ Albion FC. If you would like to know more about me, visit my [website](https://www.gsbaker.uk) or the 
+ [about page](https://blog.gsbaker.uk/about/) on my [blog](https://blog.gsbaker.uk).
