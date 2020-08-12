@@ -1,4 +1,4 @@
-// Custom.scss
+// Custom.css
 // Option B: Include parts of Bootstrap
 
 /* VARIABLE OVERRIDES */
@@ -11,9 +11,9 @@ $primary: #0F91D2;
 
 
 /* REQUIRED IMPORTS */
-@import "../bootstrap/scss/functions";
-@import "../bootstrap/scss/variables";
-@import "../bootstrap/scss/mixins";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
 
 
 /* HTML ELEMENTS */
