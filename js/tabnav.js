@@ -6,6 +6,11 @@ let defaultWidth = defaultToggle.getBoundingClientRect().right - defaultToggle.g
 indicator.style.width = defaultWidth + "px";
 
 function animateIndicator(toggleElement) {
+    // remove active class from current toggle
+    let activeElements = document.getElementsByClassName("active");
+    let prevToggle = activeElements[1];
+    prevToggle.classList.remove("active");
+
     let currentX = bar.getBoundingClientRect().left;
     console.log("currentX: " + currentX);
     let newX = toggleElement.getBoundingClientRect().left;
@@ -17,4 +22,5 @@ function animateIndicator(toggleElement) {
 
     indicator.style.transform = "translateX(" + translateDist + "px)";
     indicator.style.width = newWidth + "px";
+    toggleElement.classList.add("active");
 }

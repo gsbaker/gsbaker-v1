@@ -67,7 +67,8 @@ body {
       #tabnav .tabnav-items .tabnav-link:hover {
         text-decoration: none; }
     #tabnav .tabnav-items .tabnav-link.active {
-      color: #151515; }
+      color: #151515;
+      transition: all .25s ease-in-out; }
   #tabnav .tabnav-bar {
     display: inline-block;
     width: 100%;
@@ -78,7 +79,8 @@ body {
     width: 50px;
     height: 4px;
     border-radius: 10px;
-    background: black; }
+    background: black;
+    transition: transform 0.25s ease-in-out; }
 
 /* Classes */
 .modal-content {
