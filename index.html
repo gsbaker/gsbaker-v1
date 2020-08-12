@@ -25,7 +25,7 @@
 
 <body>
 
-<div class="container">
+<div class="container" id="top">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="nav ml-auto">
             <ul class="navbar-nav">
@@ -42,7 +42,7 @@
     <img id="profile-picture" src="img/profile-pictures/wwdc-memoji.png" alt="Profile Picture" title="Profile Picture">
     <h1>George Baker</h1>
     <h3 class="helvetica-normal grey">Computer Science Student</h3>
-    <div class="d-inline-flex p-2 bd-highlight">
+    <div class="d-inline-flex">
         <div class="social-icon"><h4><a href="mailto:george@gsbaker.uk"><i class="far fa-envelope"></i></a></h4></div>
         <div class="social-icon"><h4><a class="github" href="https://www.github.com/gsbaker"><i class="fab fa-github"></i></a></h4></div>
         <div class="social-icon"><h4><a class="twitter" href="https://www.twitter.com/georgestephenb"><i class="fab fa-twitter"></i></a></h4></div>
@@ -57,25 +57,18 @@
     <a class="btn" href="https://blog.gsbaker.uk" role="button"><i class="fas fa-link"></i> blog.gsbaker.uk <img src="img/blog-logo.png"></a>
 </div>
 
-<div class="container-sm text-center mt-4">
-    <div class="d-inline-flex mb-3">
-        <button type="button" id="short-toggle" class="btn toggle toggle-active mr-sm-3" onclick="toggleDescription(this)">Short</button>
-        <button type="button" id="long-toggle" class="btn toggle toggle-inactive mr-sm-3" onclick="toggleDescription(this)">Long</button>
-        <button type="button" id="speaker-toggle" class="btn toggle toggle-inactive mr-sm-3" onclick="toggleDescription(this)">Speaker</button>
-    </div>
-</div>
 
 <div id="tabnav-container">
     <div id="tabnav" class="text-center mt-3">
         <ul class="tabnav-items">
             <li class="tabnav-item">
-                <a href="#description" class="tabnav-link active" id="default-toggle" onclick="animateIndicator(this)">Short</a>
+                <a href="#top" class="tabnav-link active description-toggle" id="default-toggle" onclick="animateIndicator(this)" data-section="short">Short</a>
             </li>
             <li class="tabnav-item">
-                <a href="#description" class="tabnav-link" onclick="animateIndicator(this)">Long</a>
+                <a href="#top" class="tabnav-link description-toggle" onclick="animateIndicator(this)" data-section="long">Long</a>
             </li>
             <li class="tabnav-item">
-                <a href="#description" class="tabnav-link" onclick="animateIndicator(this)">Speaker</a>
+                <a href="#top" class="tabnav-link description-toggle" onclick="animateIndicator(this)" data-section="speaker">Speaker</a>
             </li>
         </ul>
         <div class="tabnav-bar" id="tabnav-bar">
@@ -85,14 +78,51 @@
 </div>
 
 
-<div id="short-description" class="text-center mt-5">
-    Hi there!
-</div>
+<div id="description-container" class="container mt-5">
+    <div class="description short">
+        <p> Hi there! My name is George. I'm a computer science student at the
+            University of Birmingham. I enjoy photography, design, alternative/indie music,
+            films and building cool projects (like this). <a href="George's%20CV.pdf">Download my CV</a>.</p>
+    </div>
 
-<div class="container" id="description">
-    <p> Hi there! My name is George. I'm a computer science student at the
-        University of Birmingham. I enjoy photography, design, alternative/indie music,
-        films and building cool projects (like this). <a href="George's%20CV.pdf">Download my CV</a>.</p>
+    <div class="description long hidden">
+        <p>
+            Hello there! 👋🏻 My name is George Baker. I am the most amazing and humble person that you'll
+            ever meet.
+        </p>
+        <p>
+            I study computer science at the University of Birmingham and also work on my own projects like this
+            fantastic website.
+        </p>
+
+        <p>
+            On top of that, I run an amazing <a href="https://blog.gsbaker.uk">blog</a> where I talk about my irrelevant
+            thoughts.
+        </p>
+
+        <p>In addition, I am the publicity rep for the University of Birmingham's " +
+        <a href="https://cssbham.com">Computer Science Society</a>.
+        I maintain and develop our website and photograph all of our events and
+        promote them on social media.  If you're a Birmingham student, you should definitely join. 😉 </p>
+        <p>My mantra is focus and simplicity.</p>
+        <p>In my spare time, I enjoy photography, designing things, listening to alternative/indie
+        music, watching films/TV series and organising stuff! </p>
+        <p>When it comes to sports, I love playing tennis 🎾 and running 🏃 I'm trying to also fit
+        in the gym. I really like football but I don't play that so much anymore; however, I still
+        support <a href="https://www.wba.co.uk">West Bromwich Albion</a> religiously.</p>
+        <p>You can find me on social media using the links above. If you want to get in touch, don't be
+        shy; send me an email or a DM! 😃</p>
+        <p>You can also <a href="George's%20CV.pdf">download my CV</a> if you want to hire me!</p>
+    </div>
+
+    <div class="description speaker hidden">
+        <p>George is a dedicated computer science student at the University of Birmingham. " +
+            "He is perhaps the most organised and tidy person that you will ever meet. George loves simplicity " +
+            "and therefore obsesses over constructing everything in his life to meet this ideal. He has shown a " +
+            "great dedication to the <a href='https://cssbham.com'>Computer Science Society</a> at the University of " +
+            "Birmingham, now serving on its committee as publicity rep.  George runs his own <a href='https://blog.gsbaker.uk'>blog</a> where he shares" +
+            " his thoughts on the most irrelevant subjects of our time. </p>
+    </div>
 </div>
 
 

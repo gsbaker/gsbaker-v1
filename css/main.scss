@@ -53,10 +53,6 @@ body {
   }
 }
 
-#description {
-  font-size: 18px;
-}
-
 #profile-picture {
   width: 50vw;
   height: 50vw;
@@ -65,13 +61,6 @@ body {
   border-radius: 100%;
 }
 
-#profile-picture-small {
-  width: 30vw;
-  height: 30vw;
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 100%;
-}
 
 #tabnav-container {
   text-align: center;
@@ -110,8 +99,6 @@ body {
     }
   }
 
-
-
   .tabnav-bar {
     display: inline-block;
     width: 100%;
@@ -129,70 +116,29 @@ body {
   }
 }
 
-/* Classes */
+#description-container {
+  position: relative;
+  font-size: 18px;
 
+  .description {
+    position: absolute;
+    opacity: 1;
+    //transition: opacity 2s;
+  }
 
-.modal-content {
-  border: none;
-  border-radius: 15px;
-}
-
-.modal-header {
-  border: none;
-  padding: 10px 0 10px 16px;
-
-}
-
-.modal-body {
-  padding: 0 0 0 16px;
-  margin: 0;
-}
-
-.modal-footer {
-  border: none;
-  padding: 0 10px 10px;
-}
-
-.card-text {
-  color: $card-color;
-}
-
-.card-title {
-  color: $card-color;
-}
-
-.card-header {
-  color: $card-color;
-}
-
-.list-group {
-
-  .list-group-item {
-    color: $card-color;
+  .description.hidden {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
   }
 }
 
+/* Classes */
 .social-icon {
   margin-right: 25px;
 }
 
-.toggle {
-  font-size: 20px;
-}
-
-.toggle-active {
-  text-decoration: underline;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.toggle-inactive {
-  color: grey;
-  &:hover {
-    color: $body-color;
-  }
-}
 
 /* Fonts */
 .helvetica-light {
@@ -291,4 +237,28 @@ body {
       color: #833AB4;
     }
   }
+
+  #tabnav {
+    .tabnav-link {
+      color: grey;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .tabnav-link.active {
+      color: white;
+      transition: all .25s ease-in-out;
+    }
+
+    .tabnav-bar {
+      background: #323036;
+    }
+
+    .indicator {
+      background: #787382;
+    }
+  }
+
 }
