@@ -1,3 +1,4 @@
+let bar = document.getElementById("tabnav-bar");
 let indicator = document.getElementById("tabnav-indicator");
 let defaultToggle = document.getElementById("default-toggle");
 
@@ -5,7 +6,7 @@ let defaultWidth = defaultToggle.getBoundingClientRect().right - defaultToggle.g
 indicator.style.width = defaultWidth + "px";
 
 function animateIndicator(toggleElement) {
-    let currentX = indicator.getBoundingClientRect().left;
+    let currentX = bar.getBoundingClientRect().left;
     console.log("currentX: " + currentX);
     let newX = toggleElement.getBoundingClientRect().left;
     console.log("newX: " + newX);
