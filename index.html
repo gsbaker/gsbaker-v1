@@ -23,7 +23,6 @@
     <title>George Baker</title>
 </head>
 
-<!--<body onload="startTimer()">-->
 <body>
 
 <div class="container">
@@ -59,11 +58,35 @@
 </div>
 
 <div class="container-sm text-center mt-4">
-    <div class="d-inline-flex p-2 bd-highlight mb-3">
+    <div class="d-inline-flex mb-3">
         <button type="button" id="short-toggle" class="btn toggle toggle-active mr-sm-3" onclick="toggleDescription(this)">Short</button>
         <button type="button" id="long-toggle" class="btn toggle toggle-inactive mr-sm-3" onclick="toggleDescription(this)">Long</button>
         <button type="button" id="speaker-toggle" class="btn toggle toggle-inactive mr-sm-3" onclick="toggleDescription(this)">Speaker</button>
     </div>
+</div>
+
+<div id="tabnav-container">
+    <div id="tabnav" class="text-center mt-3">
+        <ul class="tabnav-items">
+            <li class="tabnav-item">
+                <a href="#description" class="tabnav-link active" id="default-toggle" onclick="animateIndicator(this)">Short</a>
+            </li>
+            <li class="tabnav-item">
+                <a href="#description" class="tabnav-link" onclick="animateIndicator(this)">Long</a>
+            </li>
+            <li class="tabnav-item">
+                <a href="#description" class="tabnav-link" onclick="animateIndicator(this)">Speaker</a>
+            </li>
+        </ul>
+        <div class="tabnav-bar">
+            <div class="indicator" id="tabnav-indicator"></div>
+        </div>
+    </div>
+</div>
+
+
+<div id="short-description" class="text-center mt-5">
+    Hi there!
 </div>
 
 <div class="container" id="description">
@@ -77,6 +100,7 @@
 <!-- Optional JavaScript -->
 <!-- Custom JS -->
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/tabnav.js"></script>
 <!-- Font Awesome -->
 <script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,12 +1,12 @@
-/* VARIABLE OVERRIDES */
-/* REQUIRED IMPORTS */
-/* HTML ELEMENTS */
+/* Variables */
+/* Required imports */
+/* Elements */
 body {
   background-color: #fff;
   font-family: Helvetica Neue, sans-serif;
   color: #000; }
 
-/* COMPONENTS */
+/* IDs */
 #profile {
   margin-top: 40px; }
 
@@ -45,28 +45,42 @@ body {
   max-height: 200px;
   border-radius: 100%; }
 
-/* CLASSES */
-.dark-mode {
-  background-color: black;
-  color: white; }
-  .dark-mode .modal-content {
-    background-color: #1E1F1E;
-    border-radius: 10px; }
-  .dark-mode #main-site-gateway .btn {
-    background-color: #525666; }
-  .dark-mode .toggle-active {
-    color: white; }
-  .dark-mode .toggle-inactive:hover {
-    color: lightgray; }
-  .dark-mode .github {
-    color: white; }
-    .dark-mode .github:hover {
-      color: white; }
-  .dark-mode .instagram {
-    color: #C13584; }
-    .dark-mode .instagram:hover {
-      color: #833AB4; }
+#tabnav-container {
+  text-align: center; }
 
+#tabnav {
+  display: inline-block;
+  text-align: center; }
+  #tabnav .tabnav-items {
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-weight: 500; }
+    #tabnav .tabnav-items .tabnav-item {
+      display: inline-block;
+      margin-left: 40px; }
+      #tabnav .tabnav-items .tabnav-item:first-child {
+        margin-left: 0; }
+    #tabnav .tabnav-items .tabnav-link {
+      color: #838383; }
+      #tabnav .tabnav-items .tabnav-link:hover {
+        text-decoration: none; }
+    #tabnav .tabnav-items .tabnav-link.active {
+      color: #151515; }
+  #tabnav .tabnav-bar {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background: #e7e7e7;
+    border-radius: 10px; }
+  #tabnav .indicator {
+    width: 50px;
+    height: 4px;
+    border-radius: 10px;
+    background: black; }
+
+/* Classes */
 .modal-content {
   border: none;
   border-radius: 15px; }
@@ -111,13 +125,7 @@ body {
   .toggle-inactive:hover {
     color: #000; }
 
-/* FONTS */
-.georgia {
-  font-family: Georgia, sans-serif; }
-
-.menlo {
-  font-family: Menlo, sans-serif; }
-
+/* Fonts */
 .helvetica-light {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: lighter; }
@@ -126,14 +134,9 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: normal; }
 
-/* COLOR CLASSES */
+/* Colors */
 .grey {
   color: grey; }
-
-.uk-gradient {
-  background: -webkit-linear-gradient(#E12B27, #4C6085);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
 
 .github {
   color: #333; }
@@ -165,31 +168,26 @@ body {
   .rss:hover {
     color: orange; }
 
-.java {
-  color: #ED8B00; }
-
-.mysql {
-  color: #00758f; }
-
-.bootstrap {
-  color: #563d7c; }
-
-.html {
-  color: #F16529; }
-
-.python {
-  color: #ffde57; }
-
-.wba {
-  color: #091454; }
-  .wba:hover {
-    color: #091454; }
-
-.coming-soon {
-  display: inline-block;
-  border: 3px solid #FF571F;
-  border-radius: 10px;
-  color: #FF571F;
-  padding: 5px; }
+/* Dark Mode */
+.dark-mode {
+  background-color: black;
+  color: white; }
+  .dark-mode .modal-content {
+    background-color: #1E1F1E;
+    border-radius: 10px; }
+  .dark-mode #main-site-gateway .btn {
+    background-color: #525666; }
+  .dark-mode .toggle-active {
+    color: white; }
+  .dark-mode .toggle-inactive:hover {
+    color: lightgray; }
+  .dark-mode .github {
+    color: white; }
+    .dark-mode .github:hover {
+      color: white; }
+  .dark-mode .instagram {
+    color: #C13584; }
+    .dark-mode .instagram:hover {
+      color: #833AB4; }
 
 /*# sourceMappingURL=main.css.map */
