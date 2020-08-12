@@ -1,0 +1,6 @@
+# .idea/
+.idea/
+
+# sass-cache
+css/.sass-cache
+css/bootstrap/scss/.sass-cache/
