@@ -147,7 +147,7 @@ select.form-control {
 // Build on `.form-control` with modifier classes to decrease or increase the
 // height and font-size of form controls.
 //
-// Repeated in `_input_group.scss` to avoid Sass extend issues.
+// Repeated in `_input_group.css` to avoid Sass extend issues.
 
 .form-control-sm {
   height: $input-height-sm;
