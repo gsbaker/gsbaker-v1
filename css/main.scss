@@ -33,7 +33,7 @@ body {
   list-style-type: none;
 }
 
-#main-site-gateway {
+.special-link {
   max-width: 600px;
   padding: 20px;
 
@@ -51,14 +51,6 @@ body {
     border-radius: 100%;
     margin-left: 5px;
   }
-}
-
-#profile-picture {
-  width: 50vw;
-  height: 50vw;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 100%;
 }
 
 
@@ -208,7 +200,7 @@ body {
     border-radius: 10px;
   }
 
-  #main-site-gateway {
+  .special-link {
     .btn {
       background-color: #525666;
     }
@@ -261,4 +253,36 @@ body {
     }
   }
 
+  #profile-picture-container {
+    border-color: #333333;
+  }
+
+}
+
+
+#profile-picture-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 4px solid #eee;
+  border-radius: 100%;
+}
+
+.slide {
+  border: none;
+  opacity: 0;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 50%;
+  margin-left: -150px;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 3s linear;
+  -o-transition: opacity 3s linear;
+  transition: opacity 0.5s linear;
+  border-radius: 100%;
+}
+.showMe {
+  opacity: 1;
 }

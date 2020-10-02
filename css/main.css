@@ -13,27 +13,20 @@ body {
 #connect-links {
   list-style-type: none; }
 
-#main-site-gateway {
+.special-link {
   max-width: 600px;
   padding: 20px; }
-  #main-site-gateway .btn {
+  .special-link .btn {
     color: white;
     background-color: #D2D4DB;
     font-weight: bold;
     font-size: 16px;
     border-radius: 15px; }
-  #main-site-gateway img {
+  .special-link img {
     height: 1.5em;
     width: 1.5em;
     border-radius: 100%;
     margin-left: 5px; }
-
-#profile-picture {
-  width: 50vw;
-  height: 50vw;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 100%; }
 
 #tabnav-container {
   text-align: center; }
@@ -138,7 +131,7 @@ body {
   .dark-mode .modal-content {
     background-color: #1E1F1E;
     border-radius: 10px; }
-  .dark-mode #main-site-gateway .btn {
+  .dark-mode .special-link .btn {
     background-color: #525666; }
   .dark-mode .toggle-active {
     color: white; }
@@ -163,5 +156,32 @@ body {
     background: #323036; }
   .dark-mode #tabnav .indicator {
     background: #787382; }
+  .dark-mode #profile-picture-container {
+    border-color: #333333; }
+
+#profile-picture-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 4px solid #eee;
+  border-radius: 100%; }
+
+.slide {
+  border: none;
+  opacity: 0;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 50%;
+  margin-left: -150px;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 3s linear;
+  -o-transition: opacity 3s linear;
+  transition: opacity 0.5s linear;
+  border-radius: 100%; }
+
+.showMe {
+  opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
