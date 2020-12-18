@@ -1,6 +1,3 @@
-// Custom.css
-// Option B: Include parts of Bootstrap
-
 $font-family-base: Helvetica Neue, sans-serif;
 $body-bg: #fff;
 $body-color: #000;
@@ -45,6 +42,7 @@ p {
   transition: opacity 0.5s linear;
   border-radius: 100%;
 }
+
 .showMe {
   opacity: 1;
 }
@@ -97,7 +95,6 @@ p {
 #connect-links {
   list-style-type: none;
 }
-
 
 #blog-link {
   font-size: 22px;
