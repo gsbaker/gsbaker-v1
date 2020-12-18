@@ -2,7 +2,7 @@
 
 Hello there! 👋🏻 I'm George: a second year computer science student at the University of Birmingham.
 
-[George's Blog](https://blog.gsbaker.uk)
+### [George's Blog](https://blog.gsbaker.uk)
 
 ## Favourite Projects
 * [gsbaker/hangman](https://github.com/gsbaker/hangman)
