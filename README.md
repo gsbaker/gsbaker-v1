@@ -1,14 +1,20 @@
 # [gsbaker](https://www.gsbaker.uk)
 
-Hello there! 👋🏻 I'm George.
+Hello there! 👋🏻 I'm George. I'm a second year computer science student at the University of Birmingham.
 
-I love making simple, clean and elegant software.
+[George's Blog](https://blog.gsbaker.uk)
 
-Currently, I'm learning:
-* JavaScript
-* iOS Development with Swift
+## Favourite Projects
+* [gsbaker/hangman](https://github.com/gsbaker/hangman)
+* [gsbaker/quiz](https://github.com/gsbaker/quiz)
+* [gsbaker/food-diary](https://github.com/gsbaker/food-diary)
+
+## Favourite Tools
+* [CodeRunner](https://coderunnerapp.com)
 * Vim
+* JetBrains IDEs
 
-Apart from coding, I enjoy playing tennis, listening to alternative/indie music and supporting West Bromwich
- Albion FC. If you would like to know more about me, visit my [website](https://www.gsbaker.uk) or the 
- [about page](https://blog.gsbaker.uk/about/) on my [blog](https://blog.gsbaker.uk).
+## Personal Interests
+* Tennis 🎾
+* [Photography](https://www.instagram.com/georgestephenbaker) 📸
+* [Listening to music](https://blog.gsbaker.uk/playlist/) 🎧
