@@ -1,6 +1,6 @@
 # [gsbaker](https://www.gsbaker.uk)
 
-Hello there! 👋🏻 I'm George. I'm a second year computer science student at the University of Birmingham.
+Hello there! 👋🏻 I'm George: a second year computer science student at the University of Birmingham.
 
 [George's Blog](https://blog.gsbaker.uk)
 
