@@ -1,20 +1,22 @@
-# [gsbaker](https://www.gsbaker.uk)
+# gsbaker
 
-Hello there! 👋🏻 I'm George: a second year computer science student at the University of Birmingham.
+- [www.gsbaker.uk](https://www.gsbaker.uk)
+- [blog.gsbaker.uk](https://blog.gsbaker.uk)
 
-### [George's Blog](https://blog.gsbaker.uk)
+Hello there! 👋 I'm George: a second year computer science student at the
+ University of Birmingham.
 
 ## Favourite Projects
-* [gsbaker/hangman](https://github.com/gsbaker/hangman)
-* [gsbaker/quiz](https://github.com/gsbaker/quiz)
-* [gsbaker/food-diary](https://github.com/gsbaker/food-diary)
+- [gsbaker/hangman](https://github.com/gsbaker/hangman)
+- [gsbaker/quiz](https://github.com/gsbaker/quiz)
+- [gsbaker/food-diary](https://github.com/gsbaker/food-diary)
 
-## Favourite Tools
-* [CodeRunner](https://coderunnerapp.com)
-* Vim
-* JetBrains IDEs
+## Favourite Text Editors
+- [CodeRunner](https://coderunnerapp.com)
+- Vim
+- JetBrains IDEs
 
 ## Personal Interests
-* Tennis 🎾
-* [Photography](https://www.instagram.com/georgestephenbaker) 📸
-* [Listening to music](https://blog.gsbaker.uk/playlist/) 🎧
+- Tennis 🎾
+- [Photography](https://www.instagram.com/georgestephenbaker) 📸
+- [Listening to music](https://music.apple.com/profile/gsbaker) 🎧
