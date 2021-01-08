@@ -1,10 +1,10 @@
-# gsbaker
+# George Baker
 
 - [www.gsbaker.uk](https://www.gsbaker.uk)
 - [blog.gsbaker.uk](https://blog.gsbaker.uk)
 
-Hello there! 👋 I'm George: a second year computer science student at the
- University of Birmingham.
+Hello there! 👋 I'm a second year computer science student at the
+University of Birmingham interested in iOS and web development.
 
 ## Favourite Projects
 - [gsbaker/hangman](https://github.com/gsbaker/hangman)
@@ -12,6 +12,7 @@ Hello there! 👋 I'm George: a second year computer science student at the
 - [gsbaker/food-diary](https://github.com/gsbaker/food-diary)
 
 ## Favourite Text Editors
+- Xcode
 - [CodeRunner](https://coderunnerapp.com)
 - Vim
 - JetBrains IDEs
