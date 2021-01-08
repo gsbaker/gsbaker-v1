@@ -6,6 +6,9 @@ body {
 p {
   font-size: 20px; }
 
+.nav-item {
+  font-size: 22px; }
+
 #profile-picture-container {
   position: relative;
   height: 300px;
@@ -60,8 +63,9 @@ p {
 #connect-links {
   list-style-type: none; }
 
-#blog-link {
-  font-size: 22px; }
+#tagline {
+  font-size: 22px;
+  font-weight: 500; }
 
 #tabnav-container {
   text-align: center; }

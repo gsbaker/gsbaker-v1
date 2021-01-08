@@ -1,141 +1,148 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap/scss/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap/scss/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap/scss/bootstrap-reboot.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <title>George Baker</title>
-</head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap/scss/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap/scss/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap/scss/bootstrap-reboot.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+        <title>George Baker</title>
+    </head>
+    
+    <body>
+        <div class="container" id="top">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<body>
-<div class="container" id="top">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="nav ml-auto">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <button type="button" id="dark-mode-toggle" class="btn btn-light" onclick="toggleDarkMode()"><i class="fas fa-moon"></i></button>
-                </li>
-            </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://blog.gsbaker.uk">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="George's%20CV.pdf">CV</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav ml-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <button type="button" id="dark-mode-toggle" class="btn btn-light" onclick="toggleDarkMode()"><i class="fas fa-moon"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
-</div>
-
-<div class="container text-center mt-3" id="profile">
-    <div id="profile-picture-container" class="container">
-        <img id="slide-img-0" class="slide showMe" src="img/memoji/happy.png" alt="Happy Memoji">
-        <img id="slide-img-1" class="slide" src="img/memoji/tongue-out.png" alt="Tongue Out Memoji">
-        <img id="slide-img-2" class="slide" src="img/memoji/shocked.png" alt="Shocked Memoji">
-        <img id="slide-img-3" class="slide" src="img/memoji/wink.png" alt="Wink Memoji">
-        <img id="slide-img-4" class="slide" src="img/memoji/party.png" alt="Party Memoji">
-    </div>
-    <h1>George Baker</h1>
-    <p id="blog-link">
-        <a href="https://blog.gsbaker.uk">blog.gsbaker.uk</a>
-    </p>
-    <div class="d-inline-flex" id="social-icons">
-        <div><h4><a href="mailto:george@gsbaker.uk"><i class="far fa-envelope"></i></a></h4></div>
-        <div><h4><a class="github" href="https://www.github.com/gsbaker"><i class="fab fa-github"></i></a></h4></div>
-        <div><h4><a class="twitter" href="https://www.twitter.com/georgestephenb"><i class="fab fa-twitter"></i></a></h4></div>
-        <div><h4><a class="linkedin" href="https://www.linkedin.com/in/georgestephenbaker"><i class="fab fa-linkedin"></i></a></h4></div>
-        <div><h4><a class="facebook" href="https://www.facebook.com/georgestephenbaker"><i class="fab fa-facebook-square"></i></a></h4></div>
-        <div><h4><a class="instagram" href="https://www.instagram.com/georgestephenbaker"><i class="fab fa-instagram"></i></a></h4></div>
-    </div>
-</div>
-
-<div id="tabnav-container">
-    <div id="tabnav" class="text-center mt-3">
-        <ul class="tabnav-items">
-            <li class="tabnav-item">
-                <a href="#top" class="tabnav-link active description-toggle" id="default-toggle" onclick="animateIndicator(this)" data-section="short">Short</a>
-            </li>
-            <li class="tabnav-item">
-                <a href="#top" class="tabnav-link description-toggle" onclick="animateIndicator(this)" data-section="long">Long</a>
-            </li>
-            <li class="tabnav-item">
-                <a href="#top" class="tabnav-link description-toggle" onclick="animateIndicator(this)" data-section="speaker">Speaker</a>
-            </li>
-        </ul>
-        <div class="tabnav-bar" id="tabnav-bar">
-            <div class="indicator" id="tabnav-indicator"></div>
+        
+        <div class="container text-center mt-3" id="profile">
+            <div id="profile-picture-container" class="container">
+                <img id="slide-img-0" class="slide showMe" src="img/memoji/happy.png" alt="Happy Memoji">
+                <img id="slide-img-1" class="slide" src="img/memoji/tongue-out.png" alt="Tongue Out Memoji">
+                <img id="slide-img-2" class="slide" src="img/memoji/shocked.png" alt="Shocked Memoji">
+                <img id="slide-img-3" class="slide" src="img/memoji/wink.png" alt="Wink Memoji">
+                <img id="slide-img-4" class="slide" src="img/memoji/party.png" alt="Party Memoji">
+            </div>
+            
+            <h1>George Baker</h1>
+            
+            <div class="d-inline-flex mt-2" id="social-icons">
+                <div><h4><a href="mailto:george@gsbaker.uk"><i class="far fa-envelope"></i></a></h4></div>
+                <div><h4><a class="github" href="https://www.github.com/gsbaker"><i class="fab fa-github"></i></a></h4></div>
+                <div><h4><a class="twitter" href="https://www.twitter.com/georgestephenb"><i class="fab fa-twitter"></i></a></h4></div>
+                <div><h4><a class="linkedin" href="https://www.linkedin.com/in/georgestephenbaker"><i class="fab fa-linkedin"></i></a></h4></div>
+                <div><h4><a class="facebook" href="https://www.facebook.com/georgestephenbaker"><i class="fab fa-facebook-square"></i></a></h4></div>
+                <div><h4><a class="instagram" href="https://www.instagram.com/georgestephenbaker"><i class="fab fa-instagram"></i></a></h4></div>
+            </div>
         </div>
-    </div>
-</div>
-
-<div id="description-container" class="container mt-3">
-    <div class="description short">
-        <p>
-            👋🏻 I'm George. 👨🏻‍🎓 2nd Year Computer Science Student. Into 📸 🎾 🎧
-            <a href="George's%20CV.pdf">Download my CV 📄</a>
-        </p>
-
-    </div>
-
-    <div class="description long hidden">
-        <p>
-            Hey there! I'm a second year computer science student at the University of Birmingham currently
-            looking for a summer internship. I've long enjoyed developing my own small projects; now, I'd like
-            to take that experience, and my computer science education to a professional level.
-        </p>
-        <p>
-            To that end, you can download my CV <a href="George's%20CV.pdf">here</a>.
-        </p>
-        <p>
-            When I'm not bashing away at the keyboard, I have several other interests to keep me occupied:
-            tennis, photography, and listening to music.
-        </p>
-
-        <p>
-            On top of that, I have a <a href="https://blog.gsbaker.uk">blog</a> where I share my thoughts
-            and discuss my interests.
-        </p>
-
-        <p>This year, I'm the publicity rep for the University of Birmingham's
-        <a href="https://cssbham.com">Computer Science Society</a>.
-        That involves working on the website, creating graphics and promoting events!
-        </p>
-        <p>You can find me on social media using the links above. If you want to get in touch, you
-            can send me an email, or just message me directly.</p>
-    </div>
-
-    <div class="description speaker hidden">
-        <p>
-            George is a second year computer science student at the University of Birmingham currently
-            looking for a summer internship. To find out more about his skills and achievements, you can
-            download his CV <a href="George's%20CV.pdf">here</a>.
-        </p>
-        <p>
-            This year, he's enjoyed working on the committee of the University's
-            <a href="https://cssbham.com">Computer Science Society</a> as publicity rep.</p>
-        <p>
-            In his personal life, George enjoys playing tennis, photography, and listening to music.
-        </p>
-        <p>
-            George has his own <a href="https://blog.gsbaker.uk">blog</a> where he writes about his
-            thoughts and interests.
-        </p>
-        <p>If you want to get in touch with George, you can send him an
-            <a href="mailto:george@gsbaker.uk">email</a>, or a DM. </p>
-    </div>
-</div>
-
-<!-- Custom JS -->
-<script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/tabnav.js"></script>
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="css/bootstrap/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+        
+        <div id="tabnav-container">
+            <div id="tabnav" class="text-center mt-3">
+                <ul class="tabnav-items">
+                    <li class="tabnav-item">
+                        <a href="#top" class="tabnav-link active description-toggle" id="default-toggle" onclick="animateIndicator(this)" data-section="short">Short</a>
+                    </li>
+                    <li class="tabnav-item">
+                        <a href="#top" class="tabnav-link description-toggle" onclick="animateIndicator(this)" data-section="long">Long</a>
+                    </li>
+                    <li class="tabnav-item">
+                        <a href="#top" class="tabnav-link description-toggle" onclick="animateIndicator(this)" data-section="speaker">Speaker</a>
+                    </li>
+                </ul>
+                <div class="tabnav-bar" id="tabnav-bar">
+                    <div class="indicator" id="tabnav-indicator"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="description-container" class="container mt-3">
+            <div class="description short">
+                <p>
+                    Hi, I'm George. I'm a computer science student at the University of Birmingham. Interests include
+                    photography, playing tennis, and serious procrastination.
+                </p>
+                
+            </div>
+            
+            <div class="description long hidden">
+                <p>
+                    Hey there! My name is George and I'm a second year computer science student at the University of Birmingham.
+                </p>
+                <p>
+                    I'm also an aspiring developer, interested in iOS and web development. All of my 
+                    projects can be found on my <a href="https://www.github.com/gsbaker">GitHub</a>.
+                </p>
+                <p>
+                    In addition to this webpage, I also have a 
+                    <a href="https://blog.gsbaker.uk">blog</a> where I write about programming and
+                    other things that I'm passionate about, including photography, playing tennis, and
+                    playing the piano.
+                </p>
+                <p>
+                    If you'd like to get in touch, don't hesitate to send me an email!
+                </p>
+            </div>
+            
+            <div class="description speaker hidden">
+                <p>
+                    George is a second year computer science student at the University of Birmingham with
+                    a keen interest in iOS and web development.
+                </p>
+                <p>
+                    In his personal life, George enjoys playing tennis, playing the piano, and photography.
+                </p>
+                <p>
+                    George has a <a href="https://blog.gsbaker.uk">blog</a> where he writes programming and
+                    his other interest.
+                </p>
+                <p>If you want to get in touch with George, you can send him an
+                    <a href="mailto:george@gsbaker.uk">email</a>, or a DM.
+                </p>
+                <p>
+                    If you're interested in hiring George, you can look at his <a href="George's%20CV.pdf">
+                    CV</a>.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Custom JS -->
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/tabnav.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/3e937b69c2.js" crossorigin="anonymous"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="css/bootstrap/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>
