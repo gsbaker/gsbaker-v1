@@ -15,7 +15,7 @@ body {
   color: $body-color;
 }
 
-p {
+p, li {
   font-size: 20px;
 }
 
@@ -60,6 +60,13 @@ p {
     margin-right: 25px;
   }
 
+  .rss {
+    color: orange;
+    &:hover {
+      color: orange;
+    }
+  }
+
   .github {
     color: #333;
     &:hover {
@@ -78,13 +85,6 @@ p {
     color: #1DA1F2;
     &:hover {
       color: #1DA1F2;
-    }
-  }
-
-  .facebook {
-    color: #1876f2;
-    &:hover {
-      color: #1876f2;
     }
   }
 

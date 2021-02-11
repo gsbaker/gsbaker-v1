@@ -51,7 +51,7 @@ for(var k = 0; k < toggles.length; k++) {
 
 var timer = setInterval(nextImage, 6000);
 var curImage = 0;
-var numImages = 5;
+var numImages = 6;
 
 function nextImage() {
     var e;

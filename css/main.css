@@ -3,7 +3,7 @@ body {
   font-family: Helvetica Neue, sans-serif;
   color: #000; }
 
-p {
+p, li {
   font-size: 20px; }
 
 .nav-item {
@@ -39,6 +39,10 @@ p {
 
 #social-icons div {
   margin-right: 25px; }
+#social-icons .rss {
+  color: orange; }
+  #social-icons .rss:hover {
+    color: orange; }
 #social-icons .github {
   color: #333; }
   #social-icons .github:hover {
@@ -51,10 +55,6 @@ p {
   color: #1DA1F2; }
   #social-icons .twitter:hover {
     color: #1DA1F2; }
-#social-icons .facebook {
-  color: #1876f2; }
-  #social-icons .facebook:hover {
-    color: #1876f2; }
 #social-icons .instagram {
   color: #833AB4; }
   #social-icons .instagram:hover {
