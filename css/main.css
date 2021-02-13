@@ -37,7 +37,7 @@ p, li {
 #profile {
   margin-top: 40px; }
 
-#social-icons div {
+#social-icons div:not(:last-child) {
   margin-right: 25px; }
 #social-icons .rss {
   color: orange; }

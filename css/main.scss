@@ -56,7 +56,7 @@ p, li {
 }
 
 #social-icons {
-  div {
+  div:not(:last-child) {
     margin-right: 25px;
   }
 
