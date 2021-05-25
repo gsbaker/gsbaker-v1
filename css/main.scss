@@ -29,6 +29,14 @@ p, li {
   border-radius: 100%;
 }
 
+#blog-link {
+  display: inline-block;
+}
+
+#blog-link-text {
+  margin-left: 5px;
+}
+
 .slide {
   border: none;
   opacity: 0;
@@ -76,6 +84,13 @@ p, li {
     color: #2867B2;
     &:hover {
       color: #2867B2;
+    }
+  }
+
+  .music {
+    color: #fc3c44;
+    &:hover {
+      color: #fc3c44;
     }
   }
 

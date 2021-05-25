@@ -16,6 +16,12 @@ p, li {
   border: 4px solid #eee;
   border-radius: 100%; }
 
+#blog-link {
+  display: inline-block; }
+
+#blog-link-text {
+  margin-left: 5px; }
+
 .slide {
   border: none;
   opacity: 0;
@@ -51,6 +57,10 @@ p, li {
   color: #2867B2; }
   #social-icons .linkedin:hover {
     color: #2867B2; }
+#social-icons .music {
+  color: #fc3c44; }
+  #social-icons .music:hover {
+    color: #fc3c44; }
 #social-icons .twitter {
   color: #1DA1F2; }
   #social-icons .twitter:hover {
