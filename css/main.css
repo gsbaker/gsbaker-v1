@@ -1,5 +1,7 @@
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white; } }
 body {
-  background-color: #fff;
   font-family: "Helvetica Neue", sans-serif, "Helvetica", sans-serif, "Fira Sans", sans-serif;
   color: #000; }
 
@@ -124,6 +126,8 @@ p, li {
     margin: 0 auto;
     left: 0;
     right: 0; }
+    #description-container .description ul {
+      list-style-type: none; }
   #description-container .description.hidden {
     top: 0;
     left: 0;
