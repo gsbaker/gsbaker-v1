@@ -1,0 +1,241 @@
+body {
+  background-color: #fff;
+  font-family: "Helvetica Neue", sans-serif, "Helvetica", sans-serif, "Arial", sans-serif;
+  color: #000;
+}
+
+p, li {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote {
+  display: block;
+  margin: 1em 40px;
+  color: grey;
+}
+
+#photos img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.nav-item {
+  font-size: 22px;
+}
+
+#profile-picture-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 4px solid #eee;
+  border-radius: 100%;
+}
+
+#blog-link {
+  display: inline-block;
+}
+
+#blog-link-text {
+  margin-left: 5px;
+}
+
+.slide {
+  border: none;
+  opacity: 0;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 50%;
+  margin-left: -150px;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 3s linear;
+  -o-transition: opacity 3s linear;
+  transition: opacity 0.5s linear;
+  border-radius: 100%;
+}
+
+.showMe {
+  opacity: 1;
+}
+
+#profile {
+  margin-top: 40px;
+}
+
+#social-icons div:not(:last-child) {
+  margin-right: 25px;
+}
+#social-icons .rss {
+  color: orange;
+}
+#social-icons .rss:hover {
+  color: orange;
+}
+#social-icons .github {
+  color: #333;
+}
+#social-icons .github:hover {
+  color: #333;
+}
+#social-icons .linkedin {
+  color: #2867B2;
+}
+#social-icons .linkedin:hover {
+  color: #2867B2;
+}
+#social-icons .music {
+  color: #fc3c44;
+}
+#social-icons .music:hover {
+  color: #fc3c44;
+}
+#social-icons .twitter {
+  color: #1DA1F2;
+}
+#social-icons .twitter:hover {
+  color: #1DA1F2;
+}
+#social-icons .instagram {
+  color: #833AB4;
+}
+#social-icons .instagram:hover {
+  color: #C13584;
+}
+
+#connect-links {
+  list-style-type: none;
+}
+
+#tagline {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#tabnav-container {
+  text-align: center;
+}
+
+#tabnav {
+  display: inline-block;
+  text-align: center;
+}
+#tabnav .tabnav-items {
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+#tabnav .tabnav-items .tabnav-item {
+  display: inline-block;
+  margin-left: 40px;
+}
+#tabnav .tabnav-items .tabnav-item:first-child {
+  margin-left: 0;
+}
+#tabnav .tabnav-items .tabnav-link {
+  color: #838383;
+}
+#tabnav .tabnav-items .tabnav-link:hover {
+  text-decoration: none;
+}
+#tabnav .tabnav-items .tabnav-link.active {
+  color: #151515;
+  transition: all 0.25s ease-in-out;
+}
+#tabnav .tabnav-bar {
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background: #e7e7e7;
+  border-radius: 10px;
+}
+#tabnav .indicator {
+  width: 50px;
+  height: 4px;
+  border-radius: 10px;
+  background: black;
+  transition: transform 0.25s ease-in-out;
+}
+
+#description-container {
+  position: relative;
+}
+#description-container .description {
+  position: absolute;
+  opacity: 1;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+#description-container .description.hidden {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: none;
+}
+
+.short ul {
+  list-style-type: none;
+}
+
+/* DARK MODE */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode .toggle-active {
+  color: white;
+}
+.dark-mode .toggle-inactive:hover {
+  color: lightgray;
+}
+.dark-mode .github {
+  color: white;
+}
+.dark-mode .github i {
+  color: white;
+}
+.dark-mode .github:hover {
+  color: white;
+}
+.dark-mode .instagram {
+  color: #C13584;
+}
+.dark-mode .instagram i {
+  color: #C13584;
+}
+.dark-mode .instagram i:hover {
+  color: #833AB4;
+}
+.dark-mode .instagram:hover {
+  color: #833AB4;
+}
+.dark-mode #tabnav .tabnav-link {
+  color: grey;
+}
+.dark-mode #tabnav .tabnav-link:hover {
+  text-decoration: none;
+}
+.dark-mode #tabnav .tabnav-link.active {
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+.dark-mode #tabnav .tabnav-bar {
+  background: #323036;
+}
+.dark-mode #tabnav .indicator {
+  background: #787382;
+}
+.dark-mode #profile-picture-container {
+  border-color: #333333;
+}
+
+/*# sourceMappingURL=style.css.map */
