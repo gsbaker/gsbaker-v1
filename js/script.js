@@ -53,7 +53,7 @@ var numImages = 6;
 function nextImage() {
     var e;
     // remove showMe class from current image
-    e = document.getElementById("slide-img-" + curImage);
+    e = document.getElementById("slide-memoji-" + curImage);
     removeClass(e, "showMe");
 
     // compute next image
@@ -63,7 +63,7 @@ function nextImage() {
     }
 
     // add showMe class to next image
-    e = document.getElementById("slide-img-" + curImage);
+    e = document.getElementById("slide-memoji-" + curImage);
     addClass(e, "showMe");
 }
 

@@ -1,12 +1,40 @@
 $font-family-base: 'Helvetica Neue', sans-serif, 'Helvetica', sans-serif, 'Arial', sans-serif;
 $body-bg: #fff;
 $body-color: #000;
-$primary: #0F91D2;
+$primary: #4169e1;
 
 body {
   background-color: $body-bg;
   font-family: $font-family-base;
   color: $body-color;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h3 {
+  color: grey;
+}
+
+#links {
+  padding: 0;
+  list-style-type: none;
+  li {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#gallery {
+  img {
+    max-width: 500px;
+    max-height: 500px;
+  }
 }
 
 p, li {
@@ -15,6 +43,7 @@ p, li {
 
 a {
   text-decoration: none;
+  color: $primary;
 }
 
 blockquote {

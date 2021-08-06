@@ -3,11 +3,32 @@ body {
   font-family: "Helvetica Neue", sans-serif, "Helvetica", sans-serif, "Arial", sans-serif;
   color: #000; }
 
+h1 {
+  font-size: 45px; }
+
+h3 {
+  color: grey; }
+
+#links {
+  padding: 0;
+  list-style-type: none; }
+  #links li {
+    font-size: 25px;
+    font-weight: 500; }
+
+a:hover {
+  cursor: pointer; }
+
+#gallery img {
+  max-width: 500px;
+  max-height: 500px; }
+
 p, li {
   font-size: 20px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #4169e1; }
 
 blockquote {
   display: block;
