@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay George Baker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Pay George Baker</h1>
+        <div class="container-sm">
+            <img src="img/george-baker.jpeg" alt="" id="profile-picture">
+        </div>
+        <div class="mt-4">
+            <h2>Account Number</h2>
+            <img src="img/account-number.png" alt="account number" class="img-fluid img-thumbnail">
+            <div class="mt-2">
+                <button type="button" class="btn btn-lg btn-dark" onclick="copyAccountNumber()">Copy to clipboard</button>
+            </div>
+
+        </div>
+        <div class="mt-4">
+            <h2>Sort Code</h2>
+            <img src="img/sort-code.png" alt="sort code" class="img-fluid img-thumbnail">
+            <div class="mt-2">
+                <button type="button" class="btn btn-lg btn-dark" onclick="copySortCode()">Copy to clipboard</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
