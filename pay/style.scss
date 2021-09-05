@@ -1,5 +1,27 @@
+body {
+  font-family: "Helvetica Neue", sans-serif, "Helvetica", sans-serif, "Arial", sans-serif;
+}
+
 #profile-picture {
   max-width: 200px;
   width: 80%;
   border-radius: 100%;
+}
+
+.number-image {
+  max-width: 200px;
+  width: 80%;
+}
+
+.btn {
+  border-radius: 15px;
+}
+
+.btn-outline-success {
+  &:hover {
+    background-color: white;
+    color: rgb(25, 135, 84);
+    cursor: default;
+  }
+
 }
