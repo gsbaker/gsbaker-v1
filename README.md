@@ -1,10 +1,10 @@
 # George Baker
 
-👋 Hi, I’m George
-💼 available to hire as a graduate software engineer
-🎓 computer science
-👀 photography, music, design, technology, tennis, football
-🌱 Ruby on Rails 
+- 👋 Hi, I’m George
+- 💼 available to hire as a graduate software engineer
+- 🎓 computer science
+- 👀 photography, music, design, technology, tennis, football
+- 🌱 Ruby on Rails 
 
 ## Favourite Projects
 - [gsbaker/hangman](https://github.com/gsbaker/hangman)
